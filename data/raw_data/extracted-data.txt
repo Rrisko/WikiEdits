@@ -1,0 +1,25 @@
+1.
+
+articles=[
+            "Kyiv",
+            "Kievan_Rus'",
+            "Stepan_Bandera",
+            "Bohdan_Khmelnytsky",
+            "Cossacks",
+            "Ukrainian_language",
+            "Holodomor",
+            "Borscht",
+            "Symon_Petliura",
+        ],
+langs=["en", "de", "ru", "uk"],
+timeStart=datetime(2007, 1, 1, 0, 0, 0),
+timeEnd=datetime(2024, 4, 30, 23, 59, 59)
+
+--running now
+
+2. future runs:
+
+- Israel-Gaza topics
+- US civil war
+- austria related things ?
+- China idks
