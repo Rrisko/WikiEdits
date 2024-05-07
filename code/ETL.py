@@ -185,15 +185,18 @@ if __name__ == "__main__":
 
     ETL(
         articles=[
-            "Kyiv",
-            "Kievan_Rus'",
-            "Stepan_Bandera",
-            "Bohdan_Khmelnytsky",
-            "Cossacks",
-            "Ukrainian_language",
-            "Borscht",
-            "Symon_Petliura",
+            "Nakba",
+            "Mandatory_Palestine",
+            "1948_Arab-Israeli_War",
+            "David_Ben-Gurion",
+            "Yasser_Arafat",
+            "Six-Day_War",
+            "Yom_Kippur_War",
+            "Hummus",
+            "Falafel",
+            "Shawarma",
+            "First_Intifada",
         ],
-        langs=["en", "de", "ru", "uk"],
+        langs=["en", "de", "ar"],
         timeEnd=datetime(2007, 1, 1, 0, 0, 0),
     )
