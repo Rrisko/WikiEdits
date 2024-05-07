@@ -4,7 +4,8 @@ import requests as re
 import json
 import pandas as pd
 from datetime import *
-import time
+import time as tm
+from collections import Counter
 
 
 def get_num_edits(
@@ -15,11 +16,15 @@ def get_num_edits(
 ) -> int:
     """Gets raw number of edits of an article in the time range"""
 
+    articleTitle = articleTitle.replace(" ", "_")
+
     revisionIds = [
         get_revision_id(articleTitle, lang, timeStart, "newer"),
         get_revision_id(articleTitle, lang, timeEnd, "older"),
     ]
-    articleTitle = articleTitle.replace(" ", "_")
+
+    if not all(revisionIds):
+        return 0
 
     query_num_edits = "https://api.wikimedia.org/core/v1/wikipedia/{lang}/page/{title}/history/counts/edits?from={fromRevision}&to={untilRevision}".format(
         lang=lang,
@@ -51,7 +56,7 @@ def get_article_name(
 
     response = re.get(query_langs).json()
 
-    return [d for d in response if d.get("code") == LangTwo][0]["title"]
+    return [d for d in response if d["code"] == LangTwo][0]["title"]
 
 
 def get_revision_id(
@@ -69,7 +74,18 @@ def get_revision_id(
         lang=lang, title=articleTitle, direction=direction, start=datetimeStr
     )
     response = re.get(query).json()
-    revision_id = response["continue"]["rvcontinue"].split("|", 1)[1]
+
+    try:
+        revision_id = response["continue"]["rvcontinue"].split("|", 1)[1]
+    except KeyError as e:
+        if next(iter(response)) == "batchcomplete":
+            return None
+        else:
+
+            print("Sleeping!")
+            print(query)
+            tm.sleep(690)
+            get_revision_id(articleTitle, lang, time, direction)
 
     return revision_id
 
@@ -86,7 +102,7 @@ def get_num_edits_range(
     first_datetime = datetime(timeStart.year, timeStart.month, 1, 0, 0, 0)
 
     while first_datetime < timeEnd:
-        time.sleep(10)
+        tm.sleep(3)
         next_month = first_datetime.month % 12 + 1
         next_year = first_datetime.year + (1 if next_month == 1 else 0)
         second_datetime = datetime(next_year, next_month, 1, 0, 0, 0) - timedelta(
@@ -103,12 +119,65 @@ def get_num_edits_range(
         num_edits[k] = n_edits
 
         first_datetime = second_datetime + timedelta(seconds=1)
+        print(k)
 
     return num_edits
 
 
+def get_revisions_query(query: str, timeStop: datetime, initial_list=None):
+
+    tm.sleep(3)
+    if initial_list == None:
+        output_list = []
+    else:
+        output_list = initial_list
+
+    response = re.get(query).json()
+    # try:
+    #    code = response["httpCode"]
+    #    if code == "404":
+    #        return None
+    #   if code == "429":
+    #        tm.sleep(690)
+    #      get_revisions_query(query)
+
+    revisions = response["revisions"]
+    for d in revisions:
+        ts = d["timestamp"]
+
+        output_list.append(datetime.strptime(ts, "%Y-%m-%dT%H:%M:%SZ"))
+
+    oldest = output_list[-1]
+    if oldest < timeStop:
+        return output_list
+
+    if "older" in list(response.keys()):
+        return get_revisions_query(response["older"], timeStop, output_list)
+    else:
+        return output_list
+
+
+def get_revisions(
+    articleTitle: str, lang: str = "en", timeStop: datetime = datetime(2020, 1, 1)
+):
+
+    query = "https://api.wikimedia.org/core/v1/wikipedia/{lang}/page/{articleTitle}/history".format(
+        lang=lang, articleTitle=articleTitle
+    )
+    output_list = get_revisions_query(query, timeStop)
+    return output_list
+
+
+def get_revisions_by_month(
+    articleTitle: str, lang: str = "en", timeStop: datetime = datetime(2020, 1, 1)
+):
+
+    revisions = get_revisions(articleTitle, lang, timeStop)
+    revisions = [dt.strftime("%Y-%m") for dt in revisions]
+    return dict(Counter(revisions))
+
+
 if __name__ == "__main__":
 
-    print(get_article_name("Vienna"))
-    print(get_num_edits("Vienna"))
-    print(get_num_edits_range("Vienna"))
+    a = get_article_name("Holodomor", "en", "uk")
+    print(get_revisions_by_month("Borscht", lang="en", timeStop=datetime(2023, 11, 1)))
