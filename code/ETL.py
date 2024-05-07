@@ -184,7 +184,16 @@ def ETL(articles: list, langs: list, timeEnd: datetime):
 if __name__ == "__main__":
 
     ETL(
-        articles=["Holodomor"],
+        articles=[
+            "Kyiv",
+            "Kievan_Rus'",
+            "Stepan_Bandera",
+            "Bohdan_Khmelnytsky",
+            "Cossacks",
+            "Ukrainian_language",
+            "Borscht",
+            "Symon_Petliura",
+        ],
         langs=["en", "de", "ru", "uk"],
         timeEnd=datetime(2007, 1, 1, 0, 0, 0),
     )
