@@ -23,7 +23,7 @@ def pull_data(articles: list, langs: list, timeEnd: datetime):
                 except:
 
                     try:
-                        s_response = re.get(sample_query).json()
+                        s_response = req.get(sample_query).json()
                         if s_response["httpCode"] == 429:
                             print("Sleeping!")
                             time.sleep(3600)
@@ -45,7 +45,7 @@ def pull_data(articles: list, langs: list, timeEnd: datetime):
             except:
 
                 try:
-                    s_response = re.get(sample_query).json()
+                    s_response = req.get(sample_query).json()
                     if s_response["httpCode"] == 429:
                         print("Sleeping!")
                         time.sleep(3600)
@@ -153,6 +153,8 @@ def append_table(filepath: str, table2: pd.DataFrame):
         print("IDK what happened")
         return
 
+    concat_table.drop_duplicates()
+
     duplicates = concat_table.duplicated(
         subset=["Article", "Language", "Month"], keep=False
     )
@@ -181,22 +183,47 @@ def ETL(articles: list, langs: list, timeEnd: datetime):
     return
 
 
+def get_protection_status(articles: list, langs: list):
+
+    total = len(articles) * len(langs)
+    counter = 1
+    output_list = []
+    for a in articles:
+
+        for l in langs:
+            print("Progress: starting {c}/{t}".format(c=str(counter), t=str(total)))
+            print(a)
+            print(l)
+            p = get_protection(a, l)
+            output_list.extend(p)
+            counter += 1
+
+    return pd.DataFrame(output_list)
+
+
+def write_protection_status(articles: list, langs: list):
+
+    filepath = "data/all_data/protections.csv"
+    table1 = get_protection_status(articles, langs)
+    table2 = pd.read_csv(filepath)
+    concat_table = pd.concat([table1, table2], axis=0)
+    concat_table.drop_duplicates()
+
+    concat_table.to_csv(filepath)
+    print("success!")
+
+
 if __name__ == "__main__":
 
-    ETL(
+    write_protection_status(
         articles=[
-            "Nakba",
-            "Mandatory_Palestine",
-            "1948_Arab-Israeli_War",
-            "David_Ben-Gurion",
-            "Yasser_Arafat",
-            "Six-Day_War",
-            "Yom_Kippur_War",
-            "Hummus",
-            "Falafel",
-            "Shawarma",
-            "First_Intifada",
+            "Slovak_National_Uprising",
+            "Jozef_Tiso",
+            "Slovak_Republic_(1939-1945)",
+            "Slovak_People%27s_Party",
+            "Ján_Vojtaššák",
+            "Alexander_Mach",
+            "Andrej_Hlinka",
         ],
-        langs=["en", "de", "ar"],
-        timeEnd=datetime(2007, 1, 1, 0, 0, 0),
+        langs=["en", "sk"],
     )

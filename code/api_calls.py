@@ -1,6 +1,6 @@
 ## Here functions for pulling metadata from wikipedia are defined
-
-import requests as re
+import re
+import requests as req
 import json
 import pandas as pd
 from datetime import *
@@ -33,7 +33,7 @@ def get_num_edits(
         untilRevision=revisionIds[1],
     )
 
-    response = re.get(query_num_edits).json()
+    response = req.get(query_num_edits).json()
 
     if response["limit"] is True:
         print(articleTitle + " " + timeStart + " " + timeEnd + " " + lang)
@@ -54,7 +54,7 @@ def get_article_name(
         lang=LangOne, title=articleTitle
     )
 
-    response = re.get(query_langs).json()
+    response = req.get(query_langs).json()
 
     return [d for d in response if d["code"] == LangTwo][0]["title"]
 
@@ -73,7 +73,7 @@ def get_revision_id(
     query = "https://{lang}.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&titles={title}&rvlimit=1&rvprop=content&rvdir={direction}&rvstart={start}".format(
         lang=lang, title=articleTitle, direction=direction, start=datetimeStr
     )
-    response = re.get(query).json()
+    response = req.get(query).json()
 
     try:
         revision_id = response["continue"]["rvcontinue"].split("|", 1)[1]
@@ -132,7 +132,8 @@ def get_revisions_query(query: str, timeStop: datetime, initial_list=None):
     else:
         output_list = initial_list
 
-    response = re.get(query).json()
+    response = req.get(query).json()
+
     # try:
     #    code = response["httpCode"]
     #    if code == "404":
@@ -164,6 +165,7 @@ def get_revisions(
     query = "https://api.wikimedia.org/core/v1/wikipedia/{lang}/page/{articleTitle}/history".format(
         lang=lang, articleTitle=articleTitle
     )
+
     output_list = get_revisions_query(query, timeStop)
     return output_list
 
@@ -172,12 +174,88 @@ def get_revisions_by_month(
     articleTitle: str, lang: str = "en", timeStop: datetime = datetime(2020, 1, 1)
 ):
 
+    articleTitle = articleTitle.replace(" ", "_")
     revisions = get_revisions(articleTitle, lang, timeStop)
     revisions = [dt.strftime("%Y-%m") for dt in revisions]
     return dict(Counter(revisions))
 
 
+def convert_log_to_datetime(log_str: str) -> datetime:
+
+    p = r"\(([^\)]+)\)"
+    match = re.search(p, log_str).group(1)
+    if match == "indefinite":
+        return datetime(2029, 12, 31, 23, 59, 59)
+
+    date_string = match[8:-5]
+
+    date_dt = datetime.strptime(date_string, "%H:%M, %d %B %Y")
+
+    return date_dt
+
+
+def get_protection(article: str, lang: str = "en"):
+
+    output_list = []
+
+    if lang != "en":
+        try:
+            articleTitle = get_article_name(article, "en", lang)
+        except:
+            return output_list
+    else:
+        articleTitle = article
+
+    articleTitle = articleTitle.replace(" ", "_")
+
+    query = "https://{lang}.wikipedia.org/w/api.php?action=query&list=logevents&letype=protect&letitle={articleTitle}&leend=2007-12-31T23:59:59&format=json".format(
+        lang=lang, articleTitle=articleTitle
+    )
+
+    response = req.get(query).json()
+
+    try:
+        protections = response["query"]
+
+        if protections == []:
+            return output_list
+        for log in protections["logevents"]:
+
+            protection_timestamp = datetime.strptime(
+                log["timestamp"], "%Y-%m-%dT%H:%M:%SZ"
+            )
+            if lang == "en":
+                protection_limit = convert_log_to_datetime(log["params"]["description"])
+            else:
+                protection_limit = log["params"]["details"][0]["expiry"]
+
+                if protection_limit == "infinite":
+                    protection_limit = datetime(2029, 12, 31, 23, 59, 59)
+
+                else:
+                    protection_limit = datetime.strptime(
+                        protection_limit, "%Y-%m-%dT%H:%M:%SZ"
+                    )
+
+            output_list.append(
+                {
+                    "article": article,
+                    "language": lang,
+                    "start": protection_timestamp,
+                    "end": protection_limit,
+                }
+            )
+
+        return output_list
+
+    except:
+
+        return output_list
+
+
 if __name__ == "__main__":
 
-    a = get_article_name("Holodomor", "en", "uk")
-    print(get_revisions_by_month("Borscht", lang="en", timeStop=datetime(2023, 11, 1)))
+    a = get_article_name("Israel", "en", "sk")
+    # print(a)
+    # print(get_revisions_by_month(a, lang="sk", timeStop=datetime(2023, 11, 1)))
+    print(get_protection("Shawarma", "en"))
