@@ -176,6 +176,7 @@ def ETL(articles: list, langs: list, timeEnd: datetime):
     try:
         final_data = clean_data(flattened_data)
         append_table("data/all_data/cleanWiki.csv", final_data)
+        write_protection_status(articles, langs)
         print("All good!")
     except:
         print("Failed data load")

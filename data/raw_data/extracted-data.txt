@@ -17,6 +17,69 @@ timeEnd=datetime(2024, 4, 30, 23, 59, 59)
 
 --running now
 
+ETL(
+        articles=[
+            "Slovak_National_Uprising",
+            "Jozef_Tiso",
+            "Slovak_Republic_(1939-1945)",
+            "Slovak_People%27s_Party",
+            "Ján_Vojtaššák",
+            "Alexander_Mach",
+            "Andrej_Hlinka",
+        ],
+        langs=["sk"],
+        timeEnd=datetime(2007, 1, 1, 0, 0, 0),
+    )
+
+    ETL(
+        articles=[
+            "Nakba",
+            "Mandatory_Palestine",
+            "1948_Arab-Israeli_War",
+            "David_Ben-Gurion",
+            "Yasser_Arafat",
+            "Six-Day_War",
+            "Yom_Kippur_War",
+            "Hummus",
+            "Falafel",
+            "Shawarma",
+            "First_Intifada",
+        ],
+        langs=["ar", "de"],
+        timeEnd=datetime(2007, 1, 1, 0, 0, 0),
+    )
+
+    ETL(
+        articles=[
+            "Kyiv",
+            "Kievan_Rus'",
+            "Stepan_Bandera",
+            "Bohdan_Khmelnytsky",
+            "Cossacks",
+            "Ukrainian_language",
+            "Holodomor",
+            "Borscht",
+            "Symon_Petliura",
+        ],
+        langs=["uk", "ru", "de"],
+        timeEnd=datetime(2007, 1, 1, 0, 0, 0),
+    )
+
+    ETL(
+        articles=[
+            "Benito_Mussolini",
+            "Fall_of_the_Fascist_regime_in_Italy",
+            "Italian_Social_Republic",
+            "Rodolfo_Graziani",
+            "Ardeatine_massacre",
+            "Sant%27Anna_di_Stazzema_massacre",
+            "Istrian-Dalmatian_exodus",
+            "Foibe_massacres",
+        ],
+        langs=["it"],
+        timeEnd=datetime(2007, 1, 1, 0, 0, 0),
+    )
+    
 2. future runs:
 
 - Israel-Gaza topics
