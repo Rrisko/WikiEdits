@@ -79,7 +79,22 @@ ETL(
         langs=["it"],
         timeEnd=datetime(2007, 1, 1, 0, 0, 0),
     )
-    
+
+    articles=[
+            "Flight_and_expulsion_of_Germans_(1944–1950)",
+            "Expulsion_of_Germans_from_Czechoslovakia",
+            "Ústí_massacre",
+            "Sudetenland",
+            "Brno_death_march",
+            "Beneš_decrees",
+            "Sudetendeutsche_Landsmannschaft",
+            "German_Expellees",
+            "Recovered_Territories",
+            "Flight_and_expulsion_of_Germans_from_Poland_during_and_after_World_War_II",
+            "Oder–Neisse_line",
+        ],
+        langs=["en", "de", "cz", "pl"]
+
 2. future runs:
 
 - Israel-Gaza topics

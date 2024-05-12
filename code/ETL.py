@@ -1,12 +1,12 @@
 from api_calls import *
 import time
 
-sample_query = (
-    "https://api.wikimedia.org/core/v1/wikipedia/en/page/Earth/links/language"
-)
 
-
-def pull_data(articles: list, langs: list, timeEnd: datetime):
+def pull_data(articles: list, langs: list, timeEnd: datetime, f: str = "") -> dict:
+    """
+    Calls get_revisions_by_month on each article and language combination,
+    collects outputs in output_dict, which is both returned and written in memory
+    """
 
     num_requests = len(articles) * len(langs)
     progress = 0
@@ -21,44 +21,17 @@ def pull_data(articles: list, langs: list, timeEnd: datetime):
                 try:
                     articleTitle = get_article_name(article, "en", language)
                 except:
-
-                    try:
-                        s_response = req.get(sample_query).json()
-                        if s_response["httpCode"] == 429:
-                            print("Sleeping!")
-                            time.sleep(3600)
-                            articleTitle = get_article_name(article, "en", language)
-                        else:
-                            v = {}
-
-                    except:
-                        v = {}
+                    v = {}
 
             else:
                 articleTitle = article
+
             try:
                 v = get_revisions_by_month(
-                    articleTitle=articleTitle,
-                    timeStop=timeEnd,
-                    lang=language,
+                    articleTitle=articleTitle, timeStop=timeEnd, lang=language, f=""
                 )
             except:
-
-                try:
-                    s_response = req.get(sample_query).json()
-                    if s_response["httpCode"] == 429:
-                        print("Sleeping!")
-                        time.sleep(3600)
-                        v = get_revisions_by_month(
-                            articleTitle=articleTitle,
-                            timeStop=timeEnd,
-                            lang=language,
-                        )
-
-                    else:
-                        v = {}
-                except:
-                    v = {}
+                v = {}
 
             l[language] = v
 
@@ -77,12 +50,13 @@ def pull_data(articles: list, langs: list, timeEnd: datetime):
 
 
 def flatten_dict(input_dict: dict) -> pd.DataFrame:
+    """Converts dictionary to a flat table, which is bouth outputed and written in memory"""
 
     output_list = []
     for a, v in input_dict.items():
         for l, w in v.items():
 
-            if w == {}:
+            if w == {}:  # no revisions
                 output_list.append(
                     {"Article": a, "Language": l, "Month": None, "Count": None}
                 )
@@ -101,7 +75,9 @@ def flatten_dict(input_dict: dict) -> pd.DataFrame:
 
 
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
-    # Define expected column names and their data types
+    """Ensures revisions data is clean, if yes, the whole table is returned"""
+
+    # expected columns and datatypes
     expected_columns = ["Article", "Language", "Month", "Count"]
     expected_types = {
         "Article": str,
@@ -138,6 +114,7 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def append_table(filepath: str, table2: pd.DataFrame):
+    """Checks if table2 is clean, if yes, it is appended to existing table in memory"""
 
     try:
         table1 = pd.read_csv(filepath)
@@ -164,18 +141,23 @@ def append_table(filepath: str, table2: pd.DataFrame):
     else:
         print("No duplicates found.")
 
-    concat_table.to_csv(filepath)
+    concat_table.to_csv(filepath, index=False)
     return
 
 
-def ETL(articles: list, langs: list, timeEnd: datetime):
+def ETL(articles: list, langs: list, timeEnd: datetime, f: str = ""):
 
-    raw_data = pull_data(articles, langs, timeEnd)
+    if f == "reverted":
+        filepath = "data/all_data/cleanWiki.csv"
+    elif f == "reverted":
+        filepath = "data/all_data/cleanWiki_reverted.csv"
+
+    raw_data = pull_data(articles, langs, timeEnd, f=f)
     flattened_data = flatten_dict(raw_data)
 
     try:
         final_data = clean_data(flattened_data)
-        append_table("data/all_data/cleanWiki.csv", final_data)
+        append_table(filepath, final_data)
         write_protection_status(articles, langs)
         print("All good!")
     except:
@@ -210,21 +192,23 @@ def write_protection_status(articles: list, langs: list):
     concat_table = pd.concat([table1, table2], axis=0)
     concat_table.drop_duplicates()
 
-    concat_table.to_csv(filepath)
+    concat_table.to_csv(filepath, index=False)
     print("success!")
 
 
 if __name__ == "__main__":
 
-    write_protection_status(
+    ETL_reverted(
         articles=[
-            "Slovak_National_Uprising",
-            "Jozef_Tiso",
-            "Slovak_Republic_(1939-1945)",
-            "Slovak_People%27s_Party",
-            "Ján_Vojtaššák",
-            "Alexander_Mach",
-            "Andrej_Hlinka",
+            "Benito_Mussolini",
+            "Fall_of_the_Fascist_regime_in_Italy",
+            "Italian_Social_Republic",
+            "Rodolfo_Graziani",
+            "Ardeatine_massacre",
+            "Sant%27Anna_di_Stazzema_massacre",
+            "Istrian-Dalmatian_exodus",
+            "Foibe_massacres",
         ],
-        langs=["en", "sk"],
+        langs=["it", "en"],
+        timeEnd=datetime(2007, 1, 1, 0, 0, 0),
     )
