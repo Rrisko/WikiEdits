@@ -28,7 +28,7 @@ def pull_data(articles: list, langs: list, timeEnd: datetime, f: str = "") -> di
 
             try:
                 v = get_revisions_by_month(
-                    articleTitle=articleTitle, timeStop=timeEnd, lang=language, f=""
+                    articleTitle=articleTitle, timeStop=timeEnd, lang=language, f=f
                 )
             except:
                 v = {}
@@ -147,10 +147,13 @@ def append_table(filepath: str, table2: pd.DataFrame):
 
 def ETL(articles: list, langs: list, timeEnd: datetime, f: str = ""):
 
-    if f == "reverted":
+    if f == "":
         filepath = "data/all_data/cleanWiki.csv"
     elif f == "reverted":
         filepath = "data/all_data/cleanWiki_reverted.csv"
+    else:
+        print("f must be either empty string or 'reverted'")
+        return
 
     raw_data = pull_data(articles, langs, timeEnd, f=f)
     flattened_data = flatten_dict(raw_data)
@@ -158,7 +161,7 @@ def ETL(articles: list, langs: list, timeEnd: datetime, f: str = ""):
     try:
         final_data = clean_data(flattened_data)
         append_table(filepath, final_data)
-        write_protection_status(articles, langs)
+        # write_protection_status(articles, langs)
         print("All good!")
     except:
         print("Failed data load")
@@ -196,9 +199,15 @@ def write_protection_status(articles: list, langs: list):
     print("success!")
 
 
+def ETL_both(articles: list, langs: list, timeEnd: datetime):
+
+    ETL(articles, langs, timeEnd, f="")
+    ETL(articles, langs, timeEnd, f="reverted")
+
+
 if __name__ == "__main__":
 
-    ETL_reverted(
+    ETL(
         articles=[
             "Benito_Mussolini",
             "Fall_of_the_Fascist_regime_in_Italy",
@@ -210,5 +219,71 @@ if __name__ == "__main__":
             "Foibe_massacres",
         ],
         langs=["it", "en"],
+        timeEnd=datetime(2007, 1, 1, 0, 0, 0),
+        f="reverted",
+    )
+
+    ETL_both(
+        articles=[
+            "Kyiv",
+            "Kievan_Rus'",
+            "Stepan_Bandera",
+            "Bohdan_Khmelnytsky",
+            "Cossacks",
+            "Ukrainian_language",
+            "Holodomor",
+            "Borscht",
+            "Symon_Petliura",
+        ],
+        langs=["en", "uk", "ru", "de"],
+        timeEnd=datetime(2007, 1, 1, 0, 0, 0),
+    )
+
+    ETL_both(
+        articles=[
+            "Nakba",
+            "Mandatory_Palestine",
+            "1948_Arab-Israeli_War",
+            "David_Ben-Gurion",
+            "Yasser_Arafat",
+            "Six-Day_War",
+            "Yom_Kippur_War",
+            "Hummus",
+            "Falafel",
+            "Shawarma",
+            "First_Intifada",
+        ],
+        langs=["en", "ar", "de"],
+        timeEnd=datetime(2007, 1, 1, 0, 0, 0),
+    )
+
+    ETL_both(
+        articles=[
+            "Flight_and_expulsion_of_Germans_(1944–1950)",
+            "Expulsion_of_Germans_from_Czechoslovakia",
+            "Ústí_massacre",
+            "Sudetenland",
+            "Brno_death_march",
+            "Beneš_decrees",
+            "Sudetendeutsche_Landsmannschaft",
+            "German_Expellees",
+            "Recovered_Territories",
+            "Flight_and_expulsion_of_Germans_from_Poland_during_and_after_World_War_II",
+            "Oder–Neisse_line",
+        ],
+        langs=["en", "de", "cz", "pl"],
+        timeEnd=datetime(2007, 1, 1, 0, 0, 0),
+    )
+    ETL_both(
+        articles=[
+            "Slovak_National_Uprising",
+            "Jozef_Tiso",
+            "Slovak_Republic_(1939-1945)",
+            "Slovak_People%27s_Party",
+            "Ján_Vojtaššák",
+            "Alexander_Mach",
+            "Andrej_Hlinka",
+        ],
+        langs=["en", "sk"],
         timeEnd=datetime(2007, 1, 1, 0, 0, 0),
     )
