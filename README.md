@@ -20,10 +20,15 @@ Following files are located in folder `code`:
 
 ## Examples
 
+**Foibe massacres** refer to mass killings and ethnic cleansing in the current territory along the borders of Italy, Slovenia and Croatia. Perpetrators were mostly aligned with Yugoslav Partisan movement and victims were mostly ethnic Italians. The topic is controversial due to questions of responsibility, collective guilt, reparations, etc. The Italian government designated February 10th as the day of rememberance and it is also around this date when edits (blue) and reverts (green) spike.
+
+![image](https://github.com/Rrisko/WikiEdits/assets/115427248/01bd266d-4a0d-4382-8e9d-6afb07afd48a)
+
 **Stepan Bandera** was leader of Ukrainian nationalists during 1930s and 1940s. His legacy is controversial, while some highlight the struggles against foreign powers on Ukrainian territory - Soviet Union, Poland and Germany, others see him as a war criminal due to ethnic cleansing targeting mostly ethnic Jews and Poles or collaboration with Nazi Germany. The spike of edits right after Russian full-scale invasion of Ukraine in 2022 is clearly noticeable
 
 ![image](https://github.com/Rrisko/WikiEdits/assets/115427248/0a907658-84b8-4864-b48e-8806a4d1a5e5)
 
-**Foibe massacres** refer to mass killings and ethnic cleansing in the current territory along the borders of Italy, Slovenia and Croatia. Perpetrators were mostly aligned with Yugoslav Partisan movement and victims were mostly ethnic Italians. The topic is controversial due to questions of responsibility, collective guilt, reparations, etc. The Italian government designated February 10th as the day of rememberance and it is also around this date when edits (blue) and reverts (green) spike.
+Not even **borscht** was able to escape the consequences of 2022 invasion. The arguments about the origins (Ukrainian/Russian/general Eastern European) resulted in large increase of edits and reverts.
 
-![image](https://github.com/Rrisko/WikiEdits/assets/115427248/01bd266d-4a0d-4382-8e9d-6afb07afd48a)
+![image](https://github.com/Rrisko/WikiEdits/assets/115427248/66a7d260-732c-48d4-bc09-5081f100851f)
+
