@@ -28,7 +28,7 @@ Following files are located in folder `code`:
 
 ![image](https://github.com/Rrisko/WikiEdits/assets/115427248/0a907658-84b8-4864-b48e-8806a4d1a5e5)
 
-Not even **borscht** was able to escape the consequences of 2022 invasion. The arguments about the origins (Ukrainian/Russian/general Eastern European) resulted in large increase of edits and reverts.
+Not even **borscht** was able to escape the consequences of 2022 invasion. The arguments about the origins of the dish (Ukrainian/Russian/general Eastern European) resulted in large increase of edits and reverts.
 
 ![image](https://github.com/Rrisko/WikiEdits/assets/115427248/66a7d260-732c-48d4-bc09-5081f100851f)
 
