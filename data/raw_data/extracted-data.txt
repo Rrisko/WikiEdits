@@ -95,6 +95,38 @@ ETL(
         ],
         langs=["en", "de", "cz", "pl"]
 
+ETL_both(
+        articles=[
+            "Kolach_(bread)",
+            "Paska_(bread)",
+            "Pampushka",
+            "Syrniki",
+            "Rusyns",
+            "Vyshyvanka",
+            "Ukrainian_Soviet_Socialist_Republic",
+            "Pereiaslav_Agreement",
+            "West_Ukrainian_People's_Republic",
+            "Massacres_of_Poles_in_Volhynia_and_Eastern_Galicia",
+            "Orange_Revolution",
+            "Ukrainian_War_of_Independence",
+            "Principality_of_Kiev",
+            "Kyiv_Pechersk_Lavra",
+            "Golden_Gate,_Kyiv",
+            "Bakhchysarai_Palace",
+            "Khreshchatyk",
+            "Kamianets-Podilskyi_Castle",
+            "Saint_Sophia_Cathedral,_Kyiv",
+            "Kobzar",
+            "Hryhorii_Skovoroda",
+            "Lesya_Ukrainka",
+            "Rus'_people",
+            "Zaporozhian_Cossacks",
+            "Khmelnytsky_Uprising",
+        ],
+        langs=["en", "de", "ru", "uk"],
+        timeEnd=datetime(2007, 1, 1, 0, 0, 0),
+    )
+
 2. future runs:
 
 - Israel-Gaza topics
