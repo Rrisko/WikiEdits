@@ -33,7 +33,36 @@ def get_revisions_query(query: str, timeStop: datetime, initial_list=None) -> li
     Returns list of timestamps when revisions on an article where made
     """
 
-    tm.sleep(3)  # to avoid http 429 code too many requests
+    tm.sleep(2)  # to avoid http 429 code too many requests
+
+    if initial_list == None:
+        output_list = []
+    else:
+        output_list = initial_list
+
+    response = req.get(query).json()
+
+    revisions = response["revisions"]
+    for d in revisions:
+        ts = d["timestamp"]
+
+        output_list.append(datetime.strptime(ts, "%Y-%m-%dT%H:%M:%SZ"))
+
+    oldest = output_list[-1]
+    if oldest < timeStop:
+        return output_list
+
+    if "older" in list(response.keys()):
+        return get_revisions_query(response["older"], timeStop, output_list)
+    else:
+        return output_list
+
+def get_revisions_query_detailed(query: str, timeStop: datetime, initial_list=None) -> list:
+    """
+    Returns list of timestamps when revisions on an article where made
+    """
+
+    tm.sleep(2)  # to avoid http 429 code too many requests
 
     if initial_list == None:
         output_list = []
@@ -324,7 +353,7 @@ def get_protection(article: str, lang: str = "en") -> list:
                     )
 
                 else:
-                    continue
+                    next
 
         output_list.append(
             {
@@ -338,10 +367,38 @@ def get_protection(article: str, lang: str = "en") -> list:
     return output_list
 
 
+def get_user_edits(user: str, lang: str, prev: str = None):
+
+    uccontinue = ""
+
+    if prev is not None:
+        uccontinue += "uccontinue={prev}&".format(prev=prev)
+
+    query = "https://{lang}.wikipedia.org/w/api.php?action=query&list=usercontribs&ucuser={user}&uclimit=500&{uccontinue}format=json".format(
+        lang=lang, user=user, uccontinue=uccontinue
+    )
+
+    response = req.get(query).json()
+    contribs = response["query"]["usercontribs"]
+
+    try:
+        prev = response["continue"]["uccontinue"]
+    except:
+        prev = ""
+    
+    if prev == "":
+        return contribs
+    
+    else:
+        contribs.extend(get_user_edits(user, lang, prev))
+        return contribs
+
+
 if __name__ == "__main__":
 
     # a = get_article_name("Israel", "en", "sk")
     # print(a)
     # print(get_revisions_by_month(a, lang="sk", timeStop=datetime(2023, 11, 1)))
     # print(get_protection("Shawarma", "en"))
-    print(get_protection("Stonewall_Jackson", "en"))
+    print(get_user_edits("Serapolous", "en"))
+
