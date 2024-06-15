@@ -9,6 +9,24 @@ from collections import Counter
 import locale
 from api_calls import *
 
+def get_article_name(
+    articleTitle: str, LangOne: str = "en", LangTwo: str = "de"
+) -> str:
+    """
+    Returns article's name in LangTwo -
+    i.e. get_article_name("Vienna", "en", "de") returns "Wien"
+    """
+
+    articleTitle = articleTitle.replace(" ", "_")
+
+    query_langs = "https://api.wikimedia.org/core/v1/wikipedia/{lang}/page/{title}/links/language".format(
+        lang=LangOne, title=articleTitle
+    )
+
+    response = req.get(query_langs).json()
+
+    return [d for d in response if d["code"] == LangTwo][0]["title"]
+
 def get_revisions_detailed(
     article : str,
     lang: str = "en",
@@ -166,11 +184,346 @@ def etl_edits_users_detailed(articles : list, langs : list):
     
     print(failed_runs)
     return output_df
+
+def pull_protections(article : str, lang : str):
+
+    if lang != 'en':
+        try:
+            article = get_article_name(article, "en", lang)
+        except:
+            return None
+    
+    query = 'https://{lang}.wikipedia.org/w/api.php?action=query&list=logevents&letype=protect&letitle={article}&format=json&lelimit=500&leprop=title|type|user|timestamp|comment|details'.format(
+        lang=lang, article=article
+    )
+
+    response = req.get(query).json()
+
+    try:
+        logevents = response['query']['logevents']
+        return logevents
+    except:
+        print(response)
+        return None
+
+def pull_multiple_protections(articles : list, langs : list):
+
+    output_dict = {}
+
+    for a in articles:
+        output_dict[a] = {}
+
+        for l in langs:
+
+            try:
+                output_dict[a][l] = pull_protections(a,l)
+            except:
+                print(pull_protections(a,l))
+                output_dict[a][l] = {}
+
+        print(a)
+    
+    return output_dict
+
+def try_except_extraction(desired_value):
+
+    try:
+        return desired_value
+    except:
+        return None
+    
+def transform_protections(input_list : list, lang : str):
+
+    output_list = []
+
+    # when there are no protection logs
+    if input_list is None:
+        return output_list
+    if input_list == []:
+        return output_list
+    
+    for log in input_list:
+
+        transformed_log = {}
+        transformed_log['language'] = lang
+        transformed_log['title'] = log['title']
+        transformed_log['timestamp'] = datetime.strptime(log["timestamp"], "%Y-%m-%dT%H:%M:%SZ")
+        try:
+            transformed_log['user'] = log['user']
+        except:
+            print(log)
+            transformed_log['user'] = None
+        transformed_log['action'] = log['action']
+        transformed_log['comment'] = log['comment']
+        
+        try:
+            transformed_log['type'] = [d['type'] for d in log['params']['details']]
+        except:
+            transformed_log['type'] = ""
+        
+        try:
+            transformed_log['level'] = [d['level'] for d in log['params']['details']]
+        except:
+            transformed_log['level'] = ""
+        
+        transformed_log['expiry'] = extract_expiry(log, lang)
+
+        output_list.append(transformed_log)
+
+    return pd.DataFrame(output_list)
+
+def transform_multiple_protections(input_dict : dict):
+
+    for a, d in input_dict.items():
+        for l, log in d.items():
+
             
 
+            df_log = transform_protections(log, l)
+
+            print(a)
+            print(l)
+            print('###')
+            print(df_log)
+
+            if isinstance(df_log, pd.DataFrame):
+                
+                df_log['article'] = a
+
+                try:
+
+                    output_df = pd.concat([output_df, df_log], ignore_index=True)
+                except:
+                    output_df = df_log
+    
+    return output_df
+
+def extract_expiry(log : dict, lang : str):
+
+    # easiest way:
+    try:
+        expiry_str = [d['expiry'] for d in log['parmas']['details']]
+        expiry = [convert_log_to_datetime(e, lang, True) for e in expiry_str]
+    except:
+
+        if log['params'] != {} and 'description' in log['params'].keys():
+            expiry_str = log['params']['description']
+            
+        elif 'comment' in log.keys():
+            expiry_str = log['comment']
+        else:
+            print(log)
+            return None
+        
+        try:
+            expiry = convert_log_to_datetime(expiry_str, lang, False)
+        except:
+            print(expiry_str)
+            expiry=None
+    
+    return expiry
+    
 
 
-if __name__ == "__main__":
+infinite_options = [
+    "indefinite",
+    "unbeschränkt",
+    "безстроково",
+    "غير محدد",
+    "бессрочно",
+    "na neurčito",
+    "do odvolání",
+    "na zawsze",
+    "infinito",
+    "infinite"
+]
+
+russian_genitive_months = {
+    "января": "январь",
+    "февраля": "февраль",
+    "марта": "март",
+    "апреля": "апрель",
+    "мая": "май",
+    "июня": "июнь",
+    "июля": "июль",
+    "августа": "август",
+    "сентября": "сентябрь",
+    "октября": "октябрь",
+    "ноября": "ноябрь",
+    "декабря": "декабрь",
+}
+
+ukrainian_genitive_months = {
+    "січня": "Січень",
+    "лютого": "Лютий",
+    "березня": "Березень",
+    "квітня": "Квітень",
+    "травня": "Травень",
+    "червня": "Червень",
+    "липня": "Липень",
+    "серпня": "Серпень",
+    "вересня": "Вересень",
+    "жовтня": "Жовтень",
+    "листопада": "Листопад",
+    "грудня": "Грудень",
+}
+
+arabic_to_english_months = {
+    "يناير": "January",
+    "فبراير": "February",
+    "مارس": "March",
+    "أبريل": "April",
+    "مايو": "May",
+    "يونيو": "June",
+    "يوليو": "July",
+    "أغسطس": "August",
+    "سبتمبر": "September",
+    "أكتوبر": "October",
+    "نوفمبر": "November",
+    "ديسمبر": "December",
+}
+
+
+def convert_log_to_datetime(log_str: str, lang : str = "en", from_details : bool = False) -> datetime:
+    
+    """
+    Helper function to retrieve datetime limits from protection logs
+    """
+
+    if from_details: # converts ['params']['details']
+        if log_str == "infinite":
+            return datetime(2029, 12, 31, 23, 59, 59)
+
+        else:
+            try:
+                return datetime.strptime(
+                    log_str, "%Y-%m-%dT%H:%M:%SZ"
+                )
+            except:
+                print(log_str)
+                return None
+        
+    format_time = "%H:%M, %d %B %Y"
+
+    if lang == "en":
+        locale.setlocale(locale.LC_ALL, "en_US")
+        log_str = log_str.replace("expires ", "")
+
+    elif lang == "de":
+        locale.setlocale(locale.LC_ALL, "de_DE")
+        log_str = log_str.replace("bis ", "")
+        log_str = log_str.replace(" Uhr", "")
+
+        format_time = "%d. %B %Y, %H:%M"
+
+    elif lang == "ru":
+        locale.setlocale(locale.LC_ALL, "ru_RU")
+        log_str = log_str.replace("истекает ", "")
+
+        log_str = re.sub(
+            r"\b" + r"|\b".join(russian_genitive_months) + r"\b",
+            lambda m: russian_genitive_months.get(m.group(), m.group()),
+            log_str,
+        )
+
+    elif lang == "uk":
+        locale.setlocale(locale.LC_ALL, "uk_UA")
+        log_str = log_str.replace("закінчується ", "")
+
+        log_str = re.sub(
+            r"\b" + r"|\b".join(ukrainian_genitive_months) + r"\b",
+            lambda m: ukrainian_genitive_months.get(m.group(), m.group()),
+            log_str,
+        )
+
+    elif lang == "ar":
+        locale.setlocale(locale.LC_ALL, "ar")
+        log_str = log_str.replace("تنتهي في ", "")
+        log_str = log_str.replace("،", ",")
+        log_str = re.sub(
+            r"\b" + r"|\b".join(arabic_to_english_months) + r"\b",
+            lambda m: arabic_to_english_months.get(m.group(), m.group()),
+            log_str,
+        )
+        locale.setlocale(locale.LC_ALL, "en_US")
+        format_time = "%H:%M, %d %b %Y"
+
+    elif lang == "sk":
+        locale.setlocale(locale.LC_ALL, "sk")
+        log_str = log_str.replace("vyprší o ", "")
+        format_time = "%H:%M, %d. %B %Y"
+
+    elif lang == "pl":
+        locale.setlocale(locale.LC_ALL, "pl")
+        log_str = log_str.replace("wygasa ", "")
+        format_time = "%H:%M, %d %b %Y"
+
+    elif lang == "cs":
+        locale.setlocale(locale.LC_ALL, "cs")
+        log_str = log_str.replace("vyprší v ", "")
+        format_time = "%d. %m. %Y, %H:%M"
+
+    elif lang == "it":
+        locale.setlocale(locale.LC_ALL, "it")
+        log_str = log_str.replace("scade il ", "")
+        log_str = log_str.replace("scade ", "")
+        log_str = log_str.replace("alle ", "")
+        format_time = "%d %b %Y %H:%M"
+
+    p = r"\(([^\)]+)\)"
+    match = re.search(p, log_str).group(1)
+
+    if (
+        match == "indefinite"
+        or match == "unbeschränkt"
+        or match == "безстроково"
+        or match == "غير محدد"
+        or match == "бессрочно"
+        or match == "na neurčito"
+        or match == "do odvolání"
+        or match == "na zawsze"
+        or match == "infinito"
+    ):
+        return datetime(2029, 12, 31, 23, 59, 59)
+
+    match = match.replace(" (UTC", "")
+
+    date_string = match  # [8:-5]  # remove expires and UTC substrings
+
+    format_times = ["%H:%M, %d %B %Y", format_time, "%H:%M, %d %b %Y"]
+    for f in format_times:
+        try:
+            date_dt = datetime.strptime(date_string, f)
+            break
+        except:
+            next
+
+    locale.setlocale(locale.LC_ALL, "en_US")
+
+    return date_dt
+
+
+def etl_protections(articles: list, langs: list, filename : str = ""):
+
+    raw_data = pull_multiple_protections(articles, langs)
+
+    with open("data/raw_data/raw_protections_{f}_{d}.json".format(
+        f = filename, d = datetime.now().strftime("%Y-%m-%d-%H-%M")), "w") as json_file:
+        
+        json.dump(raw_data, json_file, indent=4)
+    
+    transformed_data = transform_multiple_protections(raw_data)
+
+    transformed_data.to_csv('data/all_data/protections_{f}_{d}.csv'.format(
+        f = filename, 
+        d = datetime.now().strftime("%Y-%m-%d-%H-%M"))
+    )
+
+    return transformed_data
+
+
+
+if "__na1me__" == "__main__":
     #print(join_users_edits('Hebrew_language', 'de'))
     
 
@@ -238,8 +591,6 @@ if __name__ == "__main__":
 
     etl_edits_users_detailed(['Holodomor'], ['ru'])
 
-if 1==2:
-
     israel_palestine_articles = [
         "Nakba","Mandatory_Palestine","1948_Arab-Israeli_War","David_Ben-Gurion","Yasser_Arafat","Six-Day_War","Yom_Kippur_War","Hummus","Falafel","Shawarma","First_Intifada",
         "United_Nations_Partition_Plan_for_Palestine", "Intercommunal_conflict_in_Mandatory_Palestine", "Lehi_(militant_group)", "Irgun", "Ze'ev_Jabotinsky",
@@ -251,7 +602,7 @@ if 1==2:
 
     israel_palestine_langs = ['en', 'de', 'ar']
 
-    etl_edits_users_detailed(israel_palestine_articles, israel_palestine_langs)
+    etl_protections(israel_palestine_articles, israel_palestine_langs, "Israel_Palestine")
 
     us_civil_war_articles = [
         "Ulysses_S._Grant","Sherman's_March_to_the_Sea","William_Tecumseh_Sherman","Union_Army","Confederate_States_Army","Robert_E._Lee","Joseph_E._Johnston","Alexander_H._Stephens","James_Longstreet",
@@ -264,7 +615,12 @@ if 1==2:
 
     us_civil_war_langs = ['en', 'de']
     
-    etl_edits_users_detailed(us_civil_war_articles, us_civil_war_langs)
+    etl_protections(us_civil_war_articles, us_civil_war_langs, "Us_civil_war")
+
+
+if __name__ == "__main__":
+
+
 
     ukraine_articles = [
         "Kyiv","Kievan_Rus'","Stepan_Bandera","Bohdan_Khmelnytsky","Cossacks","Ukrainian_language","Holodomor","Borscht","Symon_Petliura",
@@ -276,4 +632,4 @@ if 1==2:
 
     ukraine_langs = ['en', 'de', 'uk', 'ru']
 
-    etl_edits_users_detailed(ukraine_articles, ukraine_langs)
+    etl_protections(ukraine_articles, ukraine_langs, "Ukraine")

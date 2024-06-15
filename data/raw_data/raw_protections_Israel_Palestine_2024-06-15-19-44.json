@@ -1,0 +1,4592 @@
+{
+    "Nakba": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Nakba",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "El C",
+                "timestamp": "2021-04-14T23:45:44Z",
+                "comment": "[[WP:A/I/PIA|New editors are prohibited from editing this Arab\u2013Israeli conflict related page]]"
+            },
+            {
+                "ns": 0,
+                "title": "Nakba",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 21:54, 11 December 2013 (UTC))\u200e[move=autoconfirmed] (expires 21:54, 11 December 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NawlinWiki",
+                "timestamp": "2013-09-11T21:54:59Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Nakba",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 14:22, 11 September 2013 (UTC)) \u200e[move=autoconfirmed] (expires 14:22, 11 September 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NawlinWiki",
+                "timestamp": "2013-06-11T14:22:59Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Nakba",
+                "params": {
+                    "description": "[edit=autoconfirmed] (bis 29. Juli 2009, 16:24 Uhr (UTC)) [move=autoconfirmed] (bis 29. Juli 2009, 16:24 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Wahrerwattwurm",
+                "timestamp": "2009-07-22T16:24:40Z",
+                "comment": "Diskuseite statt Editwar"
+            }
+        ],
+        "ar": []
+    },
+    "Mandatory_Palestine": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Mandatory Palestine",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Acroterion",
+                "timestamp": "2016-04-17T11:41:57Z",
+                "comment": "per arbitration remedies for Israel-Palestine topics"
+            },
+            {
+                "ns": 0,
+                "title": "Mandatory Palestine",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 23:13, 2 March 2016 (UTC))\u200e[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "HJ Mitchell",
+                "timestamp": "2015-09-02T23:13:42Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Mandatory Palestine",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 13:16, 23 August 2015 (UTC))\u200e[move=autoconfirmed] (expires 13:16, 23 August 2015 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Materialscientist",
+                "timestamp": "2015-08-20T13:16:19Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Mandatory Palestine",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 15:37, 26 March 2015 (UTC))\u200e[move=autoconfirmed] (expires 15:37, 26 March 2015 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "JBW",
+                "timestamp": "2015-02-26T15:37:52Z",
+                "comment": "Long-term disruptive editing and block-evasion, on a number of pages, using numerous IP addresses, including open proxies."
+            },
+            {
+                "ns": 0,
+                "title": "Mandatory Palestine",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 15:15, 13 November 2013 (UTC)) \u200e[move=autoconfirmed] (expires 15:15, 13 November 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NawlinWiki",
+                "timestamp": "2013-08-13T15:15:51Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Mandatory Palestine",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 16:06, 20 March 2013 (UTC)) \u200e[move=autoconfirmed] (expires 16:06, 20 March 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NawlinWiki",
+                "timestamp": "2013-02-20T16:06:58Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "V\u00f6lkerbundsmandat f\u00fcr Pal\u00e4stina",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 1. September 2018, 03:46 Uhr (UTC))\u200e[move=autoconfirmed] (bis 1. September 2018, 03:46 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-09-01T03:46:40Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-09-01T03:46:40Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ot",
+                "timestamp": "2018-08-01T03:46:40Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "V\u00f6lkerbundsmandat f\u00fcr Pal\u00e4stina",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 28. Juli 2018, 16:00 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-07-28T16:00:22Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Artregor",
+                "timestamp": "2018-07-27T16:00:22Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            }
+        ],
+        "ar": []
+    },
+    "1948_Arab-Israeli_War": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Banno",
+                "timestamp": "2007-01-26T21:03:04Z",
+                "comment": "Upsurge in poor IP edits [edit=autoconfirmed:move=autoconfirmed] (expires 21:03, February 2, 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Aaron Schulz",
+                "timestamp": "2006-03-04T18:18:37Z",
+                "comment": "Sorry, but this is too long, maybe the editors got bored and left; we can always unprotected anyway"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Woohookitty",
+                "timestamp": "2006-03-04T02:35:51Z",
+                "comment": "things still are not resolved. reprotecting [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Tony Sidaway",
+                "timestamp": "2006-03-04T01:44:09Z",
+                "comment": "No discussion of disputes in the past week"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Holly Cheng",
+                "timestamp": "2006-02-08T21:56:44Z",
+                "comment": "edit war [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Woohookitty",
+                "timestamp": "2006-01-27T03:46:19Z",
+                "comment": "unprotecting"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Anonymous editor",
+                "timestamp": "2006-01-22T22:16:35Z",
+                "comment": "protected from edit war [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Dominic",
+                "timestamp": "2006-01-09T02:06:21Z",
+                "comment": "more than a week, and arbitration is going nowhere"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Woohookitty",
+                "timestamp": "2005-12-28T12:46:00Z",
+                "comment": "reprotecting. not working [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Woohookitty",
+                "timestamp": "2005-12-28T12:45:54Z",
+                "comment": "reprotecting. not working"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Kyorosuke",
+                "timestamp": "2005-12-27T23:29:36Z",
+                "comment": "Let's try this again"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "El C",
+                "timestamp": "2005-12-25T08:39:06Z",
+                "comment": "[[WP:RFPP]] (Notice how the duration in which the article is open (i.e. not protected) are becoming more and more scarce - from three days, down to two) [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Kyorosuke",
+                "timestamp": "2005-12-22T23:23:48Z",
+                "comment": "Compromise has been worked out- let's see if this works"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Kyorosuke",
+                "timestamp": "2005-12-19T05:18:52Z",
+                "comment": "More editwarring- I'm attempting to mediate this dispute"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Jayjg",
+                "timestamp": "2005-12-16T17:07:54Z",
+                "comment": "one of the sides appears to have abandoned the article/Wikipedia"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jayjg",
+                "timestamp": "2005-12-11T18:18:27Z",
+                "comment": "edit war"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Zero0000",
+                "timestamp": "2005-11-22T00:19:58Z",
+                "comment": "on request"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab-Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Zero0000",
+                "timestamp": "2005-11-20T11:51:52Z",
+                "comment": "let's have a rest"
+            }
+        ],
+        "de": null,
+        "ar": null
+    },
+    "David_Ben-Gurion": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "David Ben-Gurion",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Samsara",
+                "timestamp": "2016-12-25T10:55:26Z",
+                "comment": "[[WP:ARBPIA3#500/30|New editors are prohibited from editing this Arab-Israeli conflict related page]]: via RfPP"
+            },
+            {
+                "ns": 0,
+                "title": "David Ben-Gurion",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 00:48, 29 June 2012 (UTC)) \u200e[move=autoconfirmed] (expires 00:48, 29 June 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Elockid",
+                "timestamp": "2012-06-22T00:48:13Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "David Ben-Gurion",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Mattflaschen",
+                "timestamp": "2007-02-16T23:55:07Z",
+                "comment": "too long"
+            },
+            {
+                "ns": 0,
+                "title": "David Ben-Gurion",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jayjg",
+                "timestamp": "2006-12-24T04:57:52Z",
+                "comment": "revert sockpuppet [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "David Ben-Gurion",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Aaron Schulz",
+                "timestamp": "2006-12-14T00:13:10Z",
+                "comment": "Page protected for a while; hopefully protection is no longer necessary."
+            },
+            {
+                "ns": 0,
+                "title": "David Ben-Gurion",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jayjg",
+                "timestamp": "2006-11-28T18:53:12Z",
+                "comment": "IP vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "David Ben-Gurion",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "David Ben Gurion"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Rbrausse",
+                "timestamp": "2010-08-03T09:07:02Z",
+                "comment": "hat \u201e[[David Ben Gurion]]\u201c nach \u201e[[David Ben-Gurion]]\u201c verschoben: verbreitetere Schreibweise, siehe Disk"
+            }
+        ],
+        "ar": []
+    },
+    "Yasser_Arafat": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "CambridgeBayWeather",
+                "timestamp": "2016-12-25T21:06:14Z",
+                "comment": "[[WP:30/500|Arbitration enforcement]]"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (expires 12:11, 25 December 2017 (UTC))\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "2017-12-25T12:11:52Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "CambridgeBayWeather",
+                "timestamp": "2016-12-25T12:11:52Z",
+                "comment": "[[WP:30/500|Arbitration enforcement]]"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Graeme Bartlett",
+                "timestamp": "2011-05-11T11:03:56Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]: turn off pending changes"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {
+                    "description": "[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Amalthea",
+                "timestamp": "2010-06-21T19:16:11Z",
+                "comment": "[[Wikipedia:Pending changes]] trial"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 01:57, 8 September 2010 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "YellowMonkey",
+                "timestamp": "2010-06-08T01:57:34Z",
+                "comment": "entrenched vandalism"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {
+                    "description": "[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "PeterSymonds",
+                "timestamp": "2009-02-06T16:11:58Z",
+                "comment": "[[WP:MOVP|Highly visible page]]"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "El C",
+                "timestamp": "2008-04-07T06:30:09Z",
+                "comment": "vandalism from multiple ips [edit=autoconfirmed:move=autoconfirmed] (expires 18:30, 7 April 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "AuburnPilot",
+                "timestamp": "2007-12-08T23:17:11Z",
+                "comment": "on Main Page as Today's Featured Article - 12 December 2007 [move=sysop] (expires 00:00, 13 December 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Nlu",
+                "timestamp": "2006-11-18T22:51:57Z",
+                "comment": "Roving IP vandalism/edit warring [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Xaosflux",
+                "timestamp": "2006-03-14T03:13:53Z",
+                "comment": "unprotect, spp should be remporary"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jayjg",
+                "timestamp": "2006-03-08T17:26:29Z",
+                "comment": "Alberuni editing again [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Michael Snow",
+                "timestamp": "2005-01-01T19:53:36Z",
+                "comment": "Happy New Year!"
+            },
+            {
+                "ns": 0,
+                "title": "Yasser Arafat",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Ugen64",
+                "timestamp": "2004-12-31T00:23:30Z",
+                "comment": "sigh, revert war"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Jassir Arafat",
+                "params": {
+                    "description": "\u200e[edit=sysop] (bis 7. Mai 2020, 18:44 Uhr (UTC))\u200e[move=sysop] (bis 7. Mai 2020, 18:44 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "sysop",
+                            "expiry": "2020-05-07T18:44:56Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "sysop",
+                            "expiry": "2020-05-07T18:44:56Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Zollernalb",
+                "timestamp": "2020-04-30T18:44:57Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jassir Arafat",
+                "params": {
+                    "description": "\u200e[edit=editeditorprotected] (bis 1. Januar 2020, 20:43 Uhr (UTC))\u200e[move=editeditorprotected] (bis 1. Januar 2020, 20:43 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "editeditorprotected",
+                            "expiry": "2020-01-01T20:43:28Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "editeditorprotected",
+                            "expiry": "2020-01-01T20:43:28Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Rmcharb",
+                "timestamp": "2019-12-25T20:43:29Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jassir Arafat",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 18. April 2019, 22:26 Uhr (UTC))\u200e[move=autoconfirmed] (bis 18. April 2019, 22:26 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-04-18T22:26:04Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-04-18T22:26:04Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Dandelo",
+                "timestamp": "2019-01-18T23:26:05Z",
+                "comment": "Fortsetzung des letzten Editwars"
+            },
+            {
+                "ns": 0,
+                "title": "Jassir Arafat",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 11. November 2018, 14:16 Uhr (UTC))\u200e[move=autoconfirmed] (bis 11. November 2018, 14:16 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-11-11T14:16:10Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-11-11T14:16:10Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Regi51",
+                "timestamp": "2018-10-11T13:16:11Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jassir Arafat",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 7. M\u00e4rz 2017, 18:23 Uhr (UTC))\u200e[move=autoconfirmed] (bis 7. M\u00e4rz 2017, 18:23 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-03-07T18:23:27Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-03-07T18:23:27Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Wahldresdner",
+                "timestamp": "2017-03-06T18:23:27Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jassir Arafat",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Flominator",
+                "timestamp": "2012-07-04T09:55:07Z",
+                "comment": "siehe Disk, das war m.E. kein Vandalismus"
+            },
+            {
+                "ns": 0,
+                "title": "Jassir Arafat",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 4. Juli 2012, 22:11 Uhr (UTC)) \u200e[move=autoconfirmed] (bis 4. Juli 2012, 22:11 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Zollernalb",
+                "timestamp": "2012-07-03T22:11:03Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jassir Arafat",
+                "params": {
+                    "description": "[edit=autoconfirmed] (bis 31. Juli 2009, 16:24 Uhr (UTC)) [move=autoconfirmed] (bis 31. Juli 2009, 16:24 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Leithian",
+                "timestamp": "2009-07-24T16:24:50Z",
+                "comment": "Wiederkehrender [[Wikipedia:Vandalismus|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jassir Arafat",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Voyager",
+                "timestamp": "2007-03-03T15:34:05Z",
+                "comment": "war jetzt lange genug gesperrt"
+            },
+            {
+                "ns": 0,
+                "title": "Jassir Arafat",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jergen",
+                "timestamp": "2006-06-11T18:52:42Z",
+                "comment": "T7-befall [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "ar": [
+            {
+                "ns": 0,
+                "title": "\u064a\u0627\u0633\u0631 \u0639\u0631\u0641\u0627\u062a",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 20:36\u060c 28 \u064a\u0648\u0646\u064a\u0648 2022 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 20:36\u060c 28 \u064a\u0648\u0646\u064a\u0648 2022 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-06-28T20:36:26Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-06-28T20:36:26Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ajwaan",
+                "timestamp": "2022-05-28T20:36:33Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u064a\u0627\u0633\u0631 \u0639\u0631\u0641\u0627\u062a",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 14:35\u060c 23 \u0623\u0628\u0631\u064a\u0644 2022 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 14:35\u060c 23 \u0623\u0628\u0631\u064a\u0644 2022 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-04-23T14:35:04Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-04-23T14:35:04Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ajwaan",
+                "timestamp": "2022-03-23T14:35:11Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u064a\u0627\u0633\u0631 \u0639\u0631\u0641\u0627\u062a",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 04:36\u060c 25 \u0641\u0628\u0631\u0627\u064a\u0631 2022 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 04:36\u060c 25 \u0641\u0628\u0631\u0627\u064a\u0631 2022 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-02-25T04:36:58Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-02-25T04:36:58Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Dr-Taher",
+                "timestamp": "2022-01-25T04:37:06Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u064a\u0627\u0633\u0631 \u0639\u0631\u0641\u0627\u062a",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 11:51\u060c 20 \u064a\u0648\u0646\u064a\u0648 2021 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 11:51\u060c 20 \u064a\u0648\u0646\u064a\u0648 2021 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-06-20T11:51:39Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-06-20T11:51:39Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "\u0641\u064a\u0635\u0644",
+                "timestamp": "2021-05-20T11:51:47Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u064a\u0627\u0633\u0631 \u0639\u0631\u0641\u0627\u062a",
+                "params": {
+                    "description": "[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 20:29\u060c 14 \u064a\u0646\u0627\u064a\u0631 2009 (UTC)) [move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 20:29\u060c 14 \u064a\u0646\u0627\u064a\u0631 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Bassem JARKAS",
+                "timestamp": "2008-12-14T20:29:27Z",
+                "comment": "[[\u0648\u0628:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            }
+        ]
+    },
+    "Six-Day_War": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Renamed user mou89p43twvqcvm8ut9w3",
+                "timestamp": "2016-12-05T09:46:57Z",
+                "comment": "[[WP:30/500|Arbitration enforcement]]; [[WP:ARBPIA3#500/30]]"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "WGFinley",
+                "timestamp": "2010-10-14T14:02:53Z",
+                "comment": "Excessive [[WP:SOCK|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {
+                    "description": "[edit=sysop] (expires 14:17, 17 September 2010 (UTC)) [move=sysop] (expires 14:17, 17 September 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Tariqabjotu",
+                "timestamp": "2010-08-17T14:17:53Z",
+                "comment": "while i admire the courage to do anything other than protect the article, there are just too many editors available; if people can't make any changes to the article without discussion, it might as well be protected"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "WGFinley",
+                "timestamp": "2010-07-31T16:21:00Z",
+                "comment": "[[Wikipedia:Pending changes|Pending changes]] trial"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {
+                    "description": "[edit=sysop] (expires 23:42, 21 July 2010 (UTC)) [move=sysop] (expires 23:42, 21 July 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Tariqabjotu",
+                "timestamp": "2010-07-16T23:42:07Z",
+                "comment": "nothing but edit-warring over the past several days"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 18:40, 4 June 2010 (UTC)) [move=autoconfirmed] (expires 18:40, 4 June 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Elockid",
+                "timestamp": "2010-06-01T18:40:23Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 09:15, 17 February 2009 (UTC)) [move=autoconfirmed] (expires 09:15, 17 February 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ruslik0",
+                "timestamp": "2009-02-10T09:15:58Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Tiptoety",
+                "timestamp": "2008-05-20T19:33:41Z",
+                "comment": "IP vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 19:33, 3 June 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "John Reaves",
+                "timestamp": "2008-03-25T04:30:57Z",
+                "comment": "IP stuff [edit=autoconfirmed:move=autoconfirmed] (expires 04:30, 22 April 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Anonymous Dissident",
+                "timestamp": "2008-01-29T04:29:57Z",
+                "comment": "see my talk page"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Anonymous Dissident",
+                "timestamp": "2008-01-29T02:16:43Z",
+                "comment": "war; sort it out on talk [edit=sysop:move=sysop] (expires 02:16, 1 February 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Tariqabjotu",
+                "timestamp": "2007-06-27T17:57:39Z",
+                "comment": "protected for more than a month"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "JoshuaZ",
+                "timestamp": "2007-05-22T00:14:54Z",
+                "comment": "repeated edit warring [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "SlimVirgin",
+                "timestamp": "2007-02-08T06:01:59Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Six-Day War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SlimVirgin",
+                "timestamp": "2007-01-09T09:38:23Z",
+                "comment": "vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Sechstagekrieg",
+                "params": {
+                    "description": "[edit=autoconfirmed] (bis 6. April 2009, 09:24 Uhr (UTC)) [move=autoconfirmed] (bis 6. April 2009, 09:24 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ra'ike",
+                "timestamp": "2009-03-30T09:24:03Z",
+                "comment": "Wiederkehrender [[Wikipedia:Vandalismus|Vandalismus]]"
+            }
+        ],
+        "ar": []
+    },
+    "Yom_Kippur_War": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "MusikAnimal",
+                "timestamp": "2016-04-07T06:03:11Z",
+                "comment": "[[WP:ARBPIA]]; using new extended confirmed protection level, previously enforced by [[Special:AbuseFilter/698]]"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite)\u200e[move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "EdJohnston",
+                "timestamp": "2015-03-17T12:28:17Z",
+                "comment": "IPs changing the article without waiting for consensus on Talk. This article is subject to [[WP:ARBPIA]]"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {
+                    "description": "\u200e[edit=sysop] (expires 04:34, 13 March 2015 (UTC))\u200e[move=sysop] (expires 04:34, 13 March 2015 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "EdJohnston",
+                "timestamp": "2015-01-13T04:34:48Z",
+                "comment": "[[WP:PP#Content disputes|Edit warring / content dispute]]: Per a complaint at [[WP:AN3]]. See my note on the talk page"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Raul654",
+                "timestamp": "2010-11-09T07:02:03Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {
+                    "description": "[edit=sysop] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Raul654",
+                "timestamp": "2010-11-09T06:23:15Z",
+                "comment": "In use"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Mifter",
+                "timestamp": "2010-06-20T03:52:24Z",
+                "comment": "Configure for [[Wikipedia:Pending changes]] trial"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Raul654",
+                "timestamp": "2009-01-20T23:19:00Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Cenarium",
+                "timestamp": "2009-01-15T18:05:26Z",
+                "comment": "semi-protected for a long time, hopefully no longer necessary"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Raul654",
+                "timestamp": "2008-10-04T20:58:18Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {
+                    "description": "[edit=sysop] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Raul654",
+                "timestamp": "2008-10-04T20:35:11Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Raul654",
+                "timestamp": "2008-07-30T05:36:14Z",
+                "comment": "[edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "MZMcBride",
+                "timestamp": "2008-07-21T15:48:32Z",
+                "comment": "this is a wiki"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Raul654",
+                "timestamp": "2008-07-18T16:13:39Z",
+                "comment": "[edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {},
+                "type": "protect",
+                "action": "modify",
+                "user": "Raul654",
+                "timestamp": "2008-04-29T23:58:18Z",
+                "comment": "[edit=sysop:move=sysop] (expires 02:09, 22 June 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Raul654",
+                "timestamp": "2008-04-22T02:09:17Z",
+                "comment": "[edit=autoconfirmed:move=autoconfirmed] (expires 02:09, 22 June 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {},
+                "type": "protect",
+                "action": "modify",
+                "user": "Raul654",
+                "timestamp": "2008-04-14T05:17:37Z",
+                "comment": "[edit=sysop:move=sysop] (expires 04:41, 20 April 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Raul654",
+                "timestamp": "2008-03-20T04:41:40Z",
+                "comment": "Repeated vandalism by anons [edit=autoconfirmed:move=autoconfirmed] (expires 04:41, 20 April 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Raul654",
+                "timestamp": "2007-09-20T18:12:42Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Yom Kippur War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Raul654",
+                "timestamp": "2007-09-13T03:40:08Z",
+                "comment": "[edit=sysop:move=sysop]"
+            }
+        ],
+        "de": [],
+        "ar": [
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 \u0623\u0643\u062a\u0648\u0628\u0631",
+                "params": {
+                    "description": "\u200f[edit=editeditorprotected] (\u063a\u064a\u0631 \u0645\u062d\u062f\u062f)\u200f[move=editeditorprotected] (\u063a\u064a\u0631 \u0645\u062d\u062f\u062f)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "editeditorprotected",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "editeditorprotected",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Michel Bakni",
+                "timestamp": "2023-05-14T18:22:00Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 \u0623\u0643\u062a\u0648\u0628\u0631",
+                "params": {
+                    "description": "\u200f[edit=editautoreviewprotected] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 15:04\u060c 20 \u0623\u0643\u062a\u0648\u0628\u0631 2022 (UTC))\u200f[move=editautoreviewprotected] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 15:04\u060c 20 \u0623\u0643\u062a\u0648\u0628\u0631 2022 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "editautoreviewprotected",
+                            "expiry": "2022-10-20T15:04:03Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "editautoreviewprotected",
+                            "expiry": "2022-10-20T15:04:03Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "\u062c\u0627\u0631 \u0627\u0644\u0644\u0647",
+                "timestamp": "2022-10-06T15:04:03Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 \u0623\u0643\u062a\u0648\u0628\u0631",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 02:53\u060c 8 \u064a\u0648\u0646\u064a\u0648 2022 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 02:53\u060c 8 \u064a\u0648\u0646\u064a\u0648 2022 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-06-08T02:53:30Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-06-08T02:53:30Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "\u0648\u0633\u0627\u0645",
+                "timestamp": "2022-03-08T02:53:37Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 \u0623\u0643\u062a\u0648\u0628\u0631",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 22:03\u060c 3 \u0645\u0627\u0631\u0633 2022 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 22:03\u060c 3 \u0645\u0627\u0631\u0633 2022 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-03-03T22:03:13Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-03-03T22:03:13Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ajwaan",
+                "timestamp": "2022-01-31T22:03:20Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 \u0623\u0643\u062a\u0648\u0628\u0631",
+                "params": {
+                    "description": "\u200f[edit=review] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 17:26\u060c 6 \u0646\u0648\u0641\u0645\u0628\u0631 2021 (UTC))\u200f[move=review] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 17:26\u060c 6 \u0646\u0648\u0641\u0645\u0628\u0631 2021 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "review",
+                            "expiry": "2021-11-06T17:26:00Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "review",
+                            "expiry": "2021-11-06T17:26:00Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Michel Bakni",
+                "timestamp": "2021-08-06T17:26:08Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 \u0623\u0643\u062a\u0648\u0628\u0631",
+                "params": {
+                    "description": "\u200f[edit=review] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 17:25\u060c 6 \u0646\u0648\u0641\u0645\u0628\u0631 2021 (UTC))\u200f[move=review] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 17:25\u060c 6 \u0646\u0648\u0641\u0645\u0628\u0631 2021 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "review",
+                            "expiry": "2021-11-06T17:25:51Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "review",
+                            "expiry": "2021-11-06T17:25:51Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Michel Bakni",
+                "timestamp": "2021-08-06T17:25:59Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 \u0623\u0643\u062a\u0648\u0628\u0631",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 05:44\u060c 14 \u064a\u0648\u0646\u064a\u0648 2021 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 05:44\u060c 14 \u064a\u0648\u0646\u064a\u0648 2021 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-06-14T05:44:48Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-06-14T05:44:48Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "\u0648\u0633\u0627\u0645",
+                "timestamp": "2021-05-14T05:44:56Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 \u0623\u0643\u062a\u0648\u0628\u0631",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 00:36\u060c 8 \u0646\u0648\u0641\u0645\u0628\u0631 2020 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 00:36\u060c 8 \u0646\u0648\u0641\u0645\u0628\u0631 2020 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-11-08T00:36:02Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-11-08T00:36:02Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "\u0641\u064a\u0635\u0644",
+                "timestamp": "2020-10-08T00:36:09Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 \u0623\u0643\u062a\u0648\u0628\u0631",
+                "params": {
+                    "description": "\u200f[edit=review] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 23:10\u060c 6 \u0623\u0643\u062a\u0648\u0628\u0631 2020 (UTC))\u200f[move=review] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 23:10\u060c 6 \u0623\u0643\u062a\u0648\u0628\u0631 2020 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "review",
+                            "expiry": "2020-10-06T23:10:26Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "review",
+                            "expiry": "2020-10-06T23:10:26Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Michel Bakni",
+                "timestamp": "2020-10-05T23:10:33Z",
+                "comment": "\u0627\u0644\u0630\u0643\u0631\u0649 \u0627\u0644\u0633\u0646\u0648\u064a\u0629"
+            },
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 \u0623\u0643\u062a\u0648\u0628\u0631",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 12:49\u060c 6 \u0646\u0648\u0641\u0645\u0628\u0631 2019 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 12:49\u060c 6 \u0646\u0648\u0641\u0645\u0628\u0631 2019 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-11-06T12:49:22Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-11-06T12:49:22Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ajwaan",
+                "timestamp": "2019-10-06T12:49:31Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 \u0623\u0643\u062a\u0648\u0628\u0631",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 12:38\u060c 21 \u0645\u0627\u064a\u0648 2017 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 12:38\u060c 21 \u0645\u0627\u064a\u0648 2017 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-05-21T12:38:45Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-05-21T12:38:45Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Mervat",
+                "timestamp": "2017-05-14T12:38:55Z",
+                "comment": ""
+            }
+        ]
+    },
+    "Hummus": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite) \u200e[move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Anachronist",
+                "timestamp": "2012-08-31T00:09:23Z",
+                "comment": "Endless unconstructive edits regarding origins from anonymous contributors, resuming each time the block lifts, unlikely to ever abate"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 16:14, 5 January 2012 (UTC)) [move=autoconfirmed] (expires 16:14, 5 January 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Anachronist",
+                "timestamp": "2011-01-05T16:14:20Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]: Edit warring from anonymous contributors; escalated previous protection to 1 year"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {
+                    "description": "[edit=sysop] (expires 21:41, 20 October 2010 (UTC)) [move=sysop] (expires 21:41, 20 October 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Anachronist",
+                "timestamp": "2010-09-22T17:04:30Z",
+                "comment": "[[WP:PPOL#Content disputes|Edit warring / Content dispute]]"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 21:41, 20 October 2010 (UTC)) [move=autoconfirmed] (expires 21:41, 20 October 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Gwen Gale",
+                "timestamp": "2010-04-20T21:41:09Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 16:48, 14 February 2010 (UTC)) [move=autoconfirmed] (expires 16:48, 14 February 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Gwen Gale",
+                "timestamp": "2010-02-11T16:48:11Z",
+                "comment": "[[WP:PPOL#Content disputes|Edit warring / Content dispute]]: IP edit warring"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Gwen Gale",
+                "timestamp": "2010-02-11T16:47:35Z",
+                "comment": "[[WP:PPOL#Content disputes|Edit warring / Content dispute]]: IP edit warring"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {
+                    "description": "[edit=sysop] (expires 11:05, 27 October 2009 (UTC)) [move=sysop] (expires 11:05, 27 October 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Spartaz",
+                "timestamp": "2009-10-26T11:05:04Z",
+                "comment": "[[WP:PPOL#Content disputes|Edit warring / Content dispute]]: more edit warring"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 21:14, 22 October 2009 (UTC)) [move=autoconfirmed] (expires 21:14, 22 October 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Gwen Gale",
+                "timestamp": "2009-04-22T21:14:05Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {
+                    "description": "[edit=sysop] (expires 09:06, 10 December 2008 (UTC)) [move=sysop] (expires 09:06, 10 December 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Spartaz",
+                "timestamp": "2008-12-07T09:06:30Z",
+                "comment": "extending another 3 days consensus still miles away"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {
+                    "description": "[edit=sysop] (expires 23:03, 7 December 2008 (UTC)) [move=sysop] (expires 23:03, 7 December 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Spartaz",
+                "timestamp": "2008-12-04T23:03:57Z",
+                "comment": "extending the protection - consensus looks a long way off"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {
+                    "description": "[edit=sysop] (expires 13:10, 5 December 2008 (UTC)) [move=sysop] (expires 13:10, 5 December 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Spartaz",
+                "timestamp": "2008-12-03T13:10:06Z",
+                "comment": "[[WP:PPOL#Content disputes|Edit warring / Content dispute]]"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Luna Santin",
+                "timestamp": "2008-03-12T04:36:40Z",
+                "comment": "sock attacks [edit=autoconfirmed:move=autoconfirmed] (expires 04:36, 26 March 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Hummus",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Viridae",
+                "timestamp": "2008-02-26T11:33:51Z",
+                "comment": "edit war [edit=sysop:move=sysop] (expires 11:33, 27 February 2008 (UTC))"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Falafel": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Falafel",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Guerillero",
+                "timestamp": "2023-03-23T16:05:39Z",
+                "comment": "[[WP:A/I/PIA|New editors are prohibited from editing this Arab\u2013Israeli conflict related page]]"
+            },
+            {
+                "ns": 0,
+                "title": "Falafel",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 17:11, 29 January 2021 (UTC))\u200e[move=autoconfirmed] (expires 17:11, 29 January 2021 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-01-29T17:11:55Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-01-29T17:11:55Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Materialscientist",
+                "timestamp": "2020-10-29T17:11:55Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "Falafel",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 03:25, 7 June 2020 (UTC))\u200e[move=autoconfirmed] (expires 03:25, 7 June 2020 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-06-07T03:25:43Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-06-07T03:25:43Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "SlimVirgin",
+                "timestamp": "2020-05-24T03:25:43Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]: per RfPP"
+            },
+            {
+                "ns": 0,
+                "title": "Falafel",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 00:22, 5 September 2019 (UTC))\u200e[move=autoconfirmed] (expires 00:22, 5 September 2019 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-09-05T00:22:46Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-09-05T00:22:46Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "El C",
+                "timestamp": "2019-08-22T00:22:46Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Falafel",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 09:40, 18 July 2019 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-07-18T09:40:19Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Scott Burley",
+                "timestamp": "2019-06-18T09:40:20Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "Falafel",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 16:13, 16 November 2018 (UTC))\u200e[move=autoconfirmed] (expires 16:13, 16 November 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-11-16T16:13:10Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-11-16T16:13:10Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Enigmaman",
+                "timestamp": "2018-11-13T16:13:11Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]: discuss your falafel war on the talk page"
+            },
+            {
+                "ns": 0,
+                "title": "Falafel",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 16:18, 22 October 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Mark Arsten",
+                "timestamp": "2013-09-22T16:18:59Z",
+                "comment": "disruptive editing"
+            },
+            {
+                "ns": 0,
+                "title": "Falafel",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Alison",
+                "timestamp": "2008-03-04T15:33:49Z",
+                "comment": "Constant disruptive edit-warring [edit=sysop:move=sysop] (expires 15:33, 18 March 2008 (UTC))"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Falafel",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 11. November 2018, 10:38 Uhr (UTC))\u200e[move=autoconfirmed] (bis 11. November 2018, 10:38 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-11-11T10:38:37Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-11-11T10:38:37Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Rmcharb",
+                "timestamp": "2018-11-04T10:38:37Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            }
+        ],
+        "ar": [
+            {
+                "ns": 0,
+                "title": "\u0641\u0644\u0627\u0641\u0644",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 20:56\u060c 17 \u064a\u0648\u0644\u064a\u0648 2023 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 20:56\u060c 17 \u064a\u0648\u0644\u064a\u0648 2023 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-07-17T20:56:59Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-07-17T20:56:59Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "\u0641\u0627\u0637\u0645\u0629 \u0627\u0644\u0632\u0647\u0631\u0627\u0621",
+                "timestamp": "2023-07-03T20:57:00Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u0641\u0644\u0627\u0641\u0644",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 20:56\u060c 17 \u064a\u0648\u0644\u064a\u0648 2023 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 20:56\u060c 17 \u064a\u0648\u0644\u064a\u0648 2023 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-07-17T20:56:52Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-07-17T20:56:52Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "\u0641\u0627\u0637\u0645\u0629 \u0627\u0644\u0632\u0647\u0631\u0627\u0621",
+                "timestamp": "2023-07-03T20:56:53Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u0641\u0644\u0627\u0641\u0644",
+                "params": {
+                    "description": "\u200f[edit=autoreview] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 17:49\u060c 2 \u064a\u0648\u0644\u064a\u0648 2019 (UTC))\u200f[move=autoreview] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 17:49\u060c 2 \u064a\u0648\u0644\u064a\u0648 2019 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoreview",
+                            "expiry": "2019-07-02T17:49:40Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoreview",
+                            "expiry": "2019-07-02T17:49:40Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Memelord0",
+                "timestamp": "2019-06-18T17:49:41Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u0641\u0644\u0627\u0641\u0644",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Lord Anubis",
+                "timestamp": "2007-12-28T14:40:59Z",
+                "comment": "\u0625\u0632\u0627\u0644\u0629 \u062d\u0645\u0627\u064a\u0629- 6 \u0623\u0634\u0647\u0631 \u0645\u062d\u0645\u064a\u0629"
+            },
+            {
+                "ns": 0,
+                "title": "\u0641\u0644\u0627\u0641\u0644",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "TheEgyptian",
+                "timestamp": "2007-07-09T00:49:07Z",
+                "comment": "\u062a\u062e\u0631\u064a\u0628 \u0645\u0633\u062a\u0645\u0631 [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ]
+    },
+    "Shawarma": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Shawarma",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 03:14, 21 July 2023 (UTC))\u200e[move=autoconfirmed] (expires 03:14, 21 July 2023 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-07-21T03:14:07Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-07-21T03:14:07Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Daniel Case",
+                "timestamp": "2023-04-21T03:14:07Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]: per RFPP"
+            },
+            {
+                "ns": 0,
+                "title": "Shawarma",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 01:28, 7 November 2017 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-11-07T01:28:41Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "MusikAnimal",
+                "timestamp": "2017-10-24T01:28:41Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]] / [[WP:DE|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "Shawarma",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 18:52, 8 June 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Jc37",
+                "timestamp": "2012-05-08T18:52:53Z",
+                "comment": "linked in [[The Avengers (2012 film)]]"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Schawarma",
+                "params": {
+                    "description": "\u200e[edit=editeditorprotected] (bis 3. April 2024, 07:18 Uhr (UTC))\u200e[move=editeditorprotected] (bis 3. April 2024, 07:18 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "editeditorprotected",
+                            "expiry": "2024-04-03T07:18:43Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "editeditorprotected",
+                            "expiry": "2024-04-03T07:18:43Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Crazy1880",
+                "timestamp": "2023-04-03T07:18:43Z",
+                "comment": "Auf Anfrage WP:A/A"
+            }
+        ],
+        "ar": []
+    },
+    "First_Intifada": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "First Intifada",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Renamed user mou89p43twvqcvm8ut9w3",
+                "timestamp": "2016-10-17T03:57:46Z",
+                "comment": "[[WP:30/500|Arbitration enforcement]]; [[WP:ARBPIA3#500/30]]"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "United_Nations_Partition_Plan_for_Palestine": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "United Nations Partition Plan for Palestine",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Maile66",
+                "timestamp": "2017-05-03T12:17:31Z",
+                "comment": "[[WP:ARBPIA3#500/30|New editors are prohibited from editing this Arab-Israeli conflict related page]]"
+            },
+            {
+                "ns": 0,
+                "title": "United Nations Partition Plan for Palestine",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (expires 12:39, 7 March 2017 (UTC))\u200e[move=extendedconfirmed] (expires 12:39, 7 March 2017 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "2017-03-07T12:39:06Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "2017-03-07T12:39:06Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ged UK",
+                "timestamp": "2016-09-07T12:39:06Z",
+                "comment": "[[WP:ARBPIA3#500/30|New editors are prohibited from editing this Arab-Israeli conflict related page]]"
+            },
+            {
+                "ns": 0,
+                "title": "United Nations Partition Plan for Palestine",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 17:43, 14 March 2013 (UTC)) \u200e[move=autoconfirmed] (expires 17:43, 14 March 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NawlinWiki",
+                "timestamp": "2013-02-14T17:43:05Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "United Nations Partition Plan for Palestine",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 03:02, 23 May 2010 (UTC)) [move=autoconfirmed] (expires 03:02, 23 May 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Timotheus Canens",
+                "timestamp": "2010-05-09T03:02:50Z",
+                "comment": "Excessive [[WP:SOCK|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "United Nations Partition Plan for Palestine",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 17:18, 22 December 2009 (UTC)) [move=autoconfirmed] (expires 17:18, 22 December 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Seddon",
+                "timestamp": "2009-12-15T17:18:22Z",
+                "comment": "[[WP:PPOL#Content disputes|Edit warring / Content dispute]]: IP indirectly points out the clear concensus. hoping this will stem the disruption"
+            },
+            {
+                "ns": 0,
+                "title": "United Nations Partition Plan for Palestine",
+                "params": {
+                    "description": "[edit=sysop] (expires 01:02, 1 September 2009 (UTC)) [move=sysop] (expires 01:02, 1 September 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Cirt",
+                "timestamp": "2009-08-29T01:02:53Z",
+                "comment": "[[WP:PPOL#Content disputes|Edit warring / Content dispute]]"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Intercommunal_conflict_in_Mandatory_Palestine": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Intercommunal conflict in Mandatory Palestine",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "El C",
+                "timestamp": "2017-03-19T23:12:34Z",
+                "comment": "[[WP:ARBPIA3#500/30|New editors are prohibited from editing this Arab-Israeli conflict related page]]"
+            },
+            {
+                "ns": 0,
+                "title": "Intercommunal conflict in Mandatory Palestine",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (expires 12:43, 7 December 2016 (UTC))\u200e[move=extendedconfirmed] (expires 12:43, 7 December 2016 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "2016-12-07T12:43:20Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "2016-12-07T12:43:20Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ged UK",
+                "timestamp": "2016-09-07T12:43:20Z",
+                "comment": "[[WP:ARBPIA3#500/30|New editors are prohibited from editing this Arab-Israeli conflict related page]]"
+            }
+        ],
+        "de": null,
+        "ar": []
+    },
+    "Lehi_(militant_group)": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Lehi (militant group)",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "Lehi (group)"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Samee",
+                "timestamp": "2018-01-16T18:07:31Z",
+                "comment": "[[Lehi (group)]] moved to [[Lehi (militant group)]]: Requested at [[WP:RM]]"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Lechi",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 23. Mai 2019, 12:17 Uhr (UTC))\u200e[move=autoconfirmed] (bis 23. Mai 2019, 12:17 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-05-23T12:17:01Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-05-23T12:17:01Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "He3nry",
+                "timestamp": "2018-11-23T13:17:01Z",
+                "comment": "aktueller Anlass, siehe Versionsgeschichte"
+            },
+            {
+                "ns": 0,
+                "title": "Lechi",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 11. Oktober 2018, 20:13 Uhr (UTC))\u200e[move=autoconfirmed] (bis 11. Oktober 2018, 20:13 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-10-11T20:13:20Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-10-11T20:13:20Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Wahldresdner",
+                "timestamp": "2018-09-11T20:13:20Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Lechi",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 27. August 2018, 12:35 Uhr (UTC))\u200e[move=autoconfirmed] (bis 27. August 2018, 12:35 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-08-27T12:35:03Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-08-27T12:35:03Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Seewolf",
+                "timestamp": "2018-07-27T12:35:03Z",
+                "comment": "Wenig hilfreiche Bearbeitungen durch Sperrumgeher"
+            },
+            {
+                "ns": 0,
+                "title": "Lechi",
+                "params": {
+                    "description": "\u200e[edit=sysop] (bis 18. Dezember 2016, 15:39 Uhr (UTC))\u200e[move=sysop] (bis 18. Dezember 2016, 15:39 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "sysop",
+                            "expiry": "2016-12-18T15:39:35Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "sysop",
+                            "expiry": "2016-12-18T15:39:35Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "He3nry",
+                "timestamp": "2016-12-11T15:39:35Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            }
+        ],
+        "ar": []
+    },
+    "Irgun": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Irgun",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Samsara",
+                "timestamp": "2017-09-26T21:36:36Z",
+                "comment": "[[WP:ARBPIA3#500/30|New editors are prohibited from editing this Arab-Israeli conflict related page]]: via RfPP"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 20:46, 27 August 2014 (UTC))\u200e[move=autoconfirmed] (expires 20:46, 27 August 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NawlinWiki",
+                "timestamp": "2013-08-27T20:46:04Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 18:28, 26 February 2013 (UTC)) \u200e[move=autoconfirmed] (expires 18:28, 26 February 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Reaper Eternal",
+                "timestamp": "2013-01-26T18:28:35Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun",
+                "params": {
+                    "description": "[edit=sysop] (expires 02:22, 18 December 2011 (UTC)) [move=sysop] (expires 02:22, 18 December 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "WGFinley",
+                "timestamp": "2011-12-11T02:22:18Z",
+                "comment": "[[WP:PP#Content disputes|Edit warring / Content dispute]]"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 10:38, 11 February 2011 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NawlinWiki",
+                "timestamp": "2011-02-10T03:38:53Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Sandstein",
+                "timestamp": "2008-07-20T08:05:15Z",
+                "comment": "edit warring by anonymous editor(s) as reported on [[WP:AN3]] [edit=autoconfirmed:move=autoconfirmed] (expires 08:05, 23 July 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Majorly",
+                "timestamp": "2007-05-14T07:46:15Z",
+                "comment": "Page protected for a while; hopefully no longer necessary"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Cbrown1023",
+                "timestamp": "2007-05-02T23:07:28Z",
+                "comment": "Users engaging in edit warring. [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Khoikhoi",
+                "timestamp": "2007-01-13T02:24:13Z",
+                "comment": "time"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Khoikhoi",
+                "timestamp": "2006-12-24T06:37:35Z",
+                "comment": "banned user [[User:Wik|Wik]] editing [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Irgun Zwai Leumi",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 26. Oktober 2019, 21:39 Uhr (UTC))\u200e[move=autoconfirmed] (bis 26. Oktober 2019, 21:39 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-10-26T21:39:47Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-10-26T21:39:47Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Dandelo",
+                "timestamp": "2019-10-12T21:39:48Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun Zwai Leumi",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 8. September 2019, 12:25 Uhr (UTC))\u200e[move=autoconfirmed] (bis 8. September 2019, 12:25 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-09-08T12:25:27Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-09-08T12:25:27Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Dandelo",
+                "timestamp": "2019-09-01T12:25:27Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun Zwai Leumi",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 8. September 2019, 12:25 Uhr (UTC))\u200e[move=autoconfirmed] (bis 8. September 2019, 12:25 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-09-08T12:25:22Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-09-08T12:25:22Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Rmcharb",
+                "timestamp": "2019-09-01T12:25:22Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun Zwai Leumi",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 24. April 2019, 13:11 Uhr (UTC))\u200e[move=autoconfirmed] (bis 24. April 2019, 13:11 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-04-24T13:11:23Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-04-24T13:11:23Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Werner von Basil",
+                "timestamp": "2019-01-24T14:11:24Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun Zwai Leumi",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 20. Januar 2019, 11:28 Uhr (UTC))\u200e[move=autoconfirmed] (bis 20. Januar 2019, 11:28 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-01-20T11:28:59Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-01-20T11:28:59Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Regi51",
+                "timestamp": "2018-12-20T11:28:59Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun Zwai Leumi",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 30. November 2018, 14:27 Uhr (UTC))\u200e[move=autoconfirmed] (bis 30. November 2018, 14:27 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-11-30T14:27:48Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-11-30T14:27:48Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Cymothoa exigua",
+                "timestamp": "2018-11-23T14:27:49Z",
+                "comment": "[[WP:WAR|Edit-War]]: Bitte ggf. auf Diskussionsseite kl\u00e4ren"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun Zwai Leumi",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 26. Oktober 2018, 17:08 Uhr (UTC))\u200e[move=autoconfirmed] (bis 26. Oktober 2018, 17:08 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-10-26T17:08:00Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-10-26T17:08:00Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Regi51",
+                "timestamp": "2018-07-26T17:08:01Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Irgun Zwai Leumi",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 26. Juli 2018, 15:52 Uhr (UTC))\u200e[move=autoconfirmed] (bis 26. Juli 2018, 15:52 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-07-26T15:52:57Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-07-26T15:52:57Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "WAH",
+                "timestamp": "2018-07-26T14:52:58Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            }
+        ],
+        "ar": []
+    },
+    "Ze'ev_Jabotinsky": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Ze'ev Jabotinsky",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Yamla",
+                "timestamp": "2024-05-02T23:28:14Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Ze'ev Jabotinsky",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Doug Weller",
+                "timestamp": "2024-05-02T19:34:55Z",
+                "comment": "I don\u2019t think I should have done this. I\u2019m too involved."
+            },
+            {
+                "ns": 0,
+                "title": "Ze'ev Jabotinsky",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 09:42, 2 June 2024 (UTC))\u200e[move=autoconfirmed] (expires 09:42, 2 June 2024 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2024-06-02T09:42:26Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2024-06-02T09:42:26Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Doug Weller",
+                "timestamp": "2024-05-02T09:42:26Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "Ze'ev Jabotinsky",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 00:27, 30 December 2019 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-12-30T00:27:08Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Berean Hunter",
+                "timestamp": "2019-11-30T00:27:08Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Haganah": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Haganah",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Acalamari",
+                "timestamp": "2007-12-21T20:29:52Z",
+                "comment": "Same reason as last time [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Haganah",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "KnowledgeOfSelf",
+                "timestamp": "2007-12-13T23:43:40Z",
+                "comment": "sock attacks [edit=autoconfirmed:move=autoconfirmed] (expires 23:43, December 20, 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Haganah",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Herbythyme",
+                "timestamp": "2007-11-28T14:52:51Z",
+                "comment": "Too many reverts, discuss changes if necessary [edit=autoconfirmed:move=autoconfirmed] (expires 14:52, 30 November 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Haganah",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "El C",
+                "timestamp": "2007-11-13T21:10:28Z",
+                "comment": "you can always try polite communication... or, you can continue to do the opposite and get nowhere [edit=autoconfirmed:move=autoconfirmed] (expires 21:10, 16 November 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Haganah",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Pax:Vobiscum",
+                "timestamp": "2007-10-18T15:58:48Z",
+                "comment": "disruptive IP edits [edit=autoconfirmed:move=autoconfirmed] (expires 15:58, 1 November 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Haganah",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "El C",
+                "timestamp": "2007-10-12T03:36:54Z",
+                "comment": "shifting ip reverting to much older version (missing inter-languagelink, etc.) without comment (unless ugly cabal in all uppercase counts as a comment \u2014  remember, I said *unless*) [edit=autoconfirmed:move=autoconfirmed] (expires 03:36, 13 October 2007"
+            },
+            {
+                "ns": 0,
+                "title": "Haganah",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jossi",
+                "timestamp": "2007-09-29T17:23:26Z",
+                "comment": "anaon vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 17:23, October 6, 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Haganah",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "SlimVirgin",
+                "timestamp": "2006-05-06T05:10:49Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Haganah",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SlimVirgin",
+                "timestamp": "2006-05-02T04:03:34Z",
+                "comment": "[edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Hagana",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "T\u00f6njes",
+                "timestamp": "2008-01-18T11:46:57Z",
+                "comment": "[edit=autoconfirmed:move=autoconfirmed] (bis 11:46, 25. Jan. 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Hagana",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Dundak",
+                "timestamp": "2007-10-28T12:37:51Z",
+                "comment": "IP-Vandalismus [edit=autoconfirmed:move=autoconfirmed] (bis 12:37, 11. Nov. 2007 (UTC))"
+            }
+        ],
+        "ar": []
+    },
+    "1947\u20131948_civil_war_in_Mandatory_Palestine": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "1947\u20131948 civil war in Mandatory Palestine",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "1947\u20131948 Civil War in Mandatory Palestine"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Srnec",
+                "timestamp": "2019-02-28T15:56:59Z",
+                "comment": "[[1947\u20131948 Civil War in Mandatory Palestine]] moved to [[1947\u20131948 civil war in Mandatory Palestine]]: this is a descriptive title, so lower case"
+            }
+        ],
+        "de": null,
+        "ar": []
+    },
+    "1948_Arab\u2013Israeli_War": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=sysop] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "sysop",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Airplaneman",
+                "timestamp": "2016-08-07T03:27:31Z",
+                "comment": "whoops"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Airplaneman",
+                "timestamp": "2016-08-07T03:26:14Z",
+                "comment": "[[WP:30/500|Arbitration enforcement]]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite) \u200e[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "HJ Mitchell",
+                "timestamp": "2013-05-20T18:03:44Z",
+                "comment": "Requested at RfUP and it has been fully protected since February; everyone take a deep breath"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {
+                    "description": "\u200e[edit=sysop] (indefinite) \u200e[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "King of Hearts",
+                "timestamp": "2013-02-21T10:11:06Z",
+                "comment": "I won't wheel war to restore PC2 while our discussion is ongoing, but it was agreed that the only alternative to PC2 was full protection."
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite) \u200e[move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "King of Hearts",
+                "timestamp": "2013-01-11T05:17:54Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {
+                    "description": "\u200e[edit=sysop] (expires 19:55, 10 February 2013 (UTC)) \u200e[move=sysop] (expires 19:55, 10 February 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Scottywong",
+                "timestamp": "2013-01-10T19:55:53Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 19:55, 10 January 2014 (UTC)) \u200e[move=autoconfirmed] (expires 19:55, 10 January 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Scottywong",
+                "timestamp": "2013-01-10T19:55:26Z",
+                "comment": "revert PC2 protection, I wasn't aware it wasn't allowed to be used"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Scottywong",
+                "timestamp": "2013-01-10T19:30:42Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 22:00, 6 January 2014 (UTC)) \u200e[move=autoconfirmed] (expires 22:00, 6 January 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Favonian",
+                "timestamp": "2013-01-06T22:00:12Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 15:04, 5 January 2013 (UTC)) \u200e[move=autoconfirmed] (expires 15:04, 5 January 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Elockid",
+                "timestamp": "2012-10-05T15:04:59Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 11:18, 24 August 2012 (UTC)) \u200e[move=autoconfirmed] (expires 11:18, 24 August 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ged UK",
+                "timestamp": "2012-07-24T11:18:37Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Arab\u2013Israeli War",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 20:04, 16 July 2012 (UTC)) \u200e[move=autoconfirmed] (expires 20:04, 16 July 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Elockid",
+                "timestamp": "2012-07-09T20:04:45Z",
+                "comment": "Socking from multiple sources"
+            }
+        ],
+        "de": null,
+        "ar": [
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 1948",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 19:37\u060c 7 \u0641\u0628\u0631\u0627\u064a\u0631 2024 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 19:37\u060c 7 \u0641\u0628\u0631\u0627\u064a\u0631 2024 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2024-02-07T19:37:28Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2024-02-07T19:37:28Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "\u0623\u062d\u0645\u062f \u0646\u0627\u062c\u064a",
+                "timestamp": "2023-11-07T19:37:36Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631."
+            },
+            {
+                "ns": 0,
+                "title": "\u062d\u0631\u0628 1948",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 20:17\u060c 22 \u0645\u0627\u064a\u0648 2022 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 20:17\u060c 22 \u0645\u0627\u064a\u0648 2022 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-05-22T20:17:50Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-05-22T20:17:50Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "\u0639\u0644\u0627\u0621",
+                "timestamp": "2022-05-21T20:18:00Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            }
+        ]
+    },
+    "Yitzhak_Rabin": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Yitzhak Rabin",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ymblanter",
+                "timestamp": "2016-12-25T08:51:47Z",
+                "comment": "[[WP:ARBPIA3#500/30|New editors are prohibited from editing this Arab-Israeli conflict related page]]: RFPP request"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Palmach": {
+        "en": [],
+        "de": [],
+        "ar": []
+    },
+    "Moshe_Dayan": {
+        "en": [],
+        "de": [],
+        "ar": []
+    },
+    "Jewish_exodus_from_the_Muslim_world": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Jewish exodus from the Muslim world",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "Jewish exodus from the Muslim World"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Iskandar323",
+                "timestamp": "2022-05-24T15:06:20Z",
+                "comment": "[[Jewish exodus from the Muslim World]] moved to [[Jewish exodus from the Muslim world]]: lower case"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Vertreibung von Juden aus arabischen und islamischen L\u00e4ndern",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 8. September 2019, 13:01 Uhr (UTC))\u200e[move=autoconfirmed] (bis 8. September 2019, 13:01 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-09-08T13:01:57Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-09-08T13:01:57Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Rmcharb",
+                "timestamp": "2019-09-01T13:01:57Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            }
+        ],
+        "ar": []
+    },
+    "1936\u20131939_Arab_revolt_in_Palestine": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "1936\u20131939 Arab revolt in Palestine",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "1936\u201339 Arab revolt in Palestine"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Galatz",
+                "timestamp": "2017-04-06T15:54:32Z",
+                "comment": "[[1936\u201339 Arab revolt in Palestine]] moved to [[1936\u20131939 Arab revolt in Palestine]]: Moving to conform with [[MOS:DATERANGE]] changes"
+            },
+            {
+                "ns": 0,
+                "title": "1936\u20131939 Arab revolt in Palestine",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 00:45, 22 July 2012 (UTC)) \u200e[move=autoconfirmed] (expires 00:45, 22 July 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Elockid",
+                "timestamp": "2012-06-22T00:45:59Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Amin_al-Husseini": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Amin al-Husseini",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NeilN",
+                "timestamp": "2015-11-22T19:28:07Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]] [[WP:ARBPIA3]]"
+            },
+            {
+                "ns": 0,
+                "title": "Amin al-Husseini",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "Zxcvbnm"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Anthony Appleyard",
+                "timestamp": "2015-10-22T11:01:50Z",
+                "comment": "[[Zxcvbnm]] moved to [[Amin al-Husseini]]: finish swopping 2 names"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Mohammed Amin al-Husseini",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 19. November 2023, 20:23 Uhr (UTC))\u200e[move=autoconfirmed] (bis 19. November 2023, 20:23 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-11-19T20:23:59Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-11-19T20:23:59Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Drahreg01",
+                "timestamp": "2023-11-12T20:23:59Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Mohammed Amin al-Husseini",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Wo st 01",
+                "timestamp": "2008-05-20T15:04:11Z",
+                "comment": "Einigung \u00fcber Inhalte auf der Diskussion"
+            },
+            {
+                "ns": 0,
+                "title": "Mohammed Amin al-Husseini",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Wo st 01",
+                "timestamp": "2008-05-16T16:05:05Z",
+                "comment": "Wiederholtes, [[WP:Q|unbelegtes]] Entfernen von Inhalten [edit=autoconfirmed:move=autoconfirmed] (bis 16:05, 23. Mai 2008 (UTC))"
+            }
+        ],
+        "ar": []
+    },
+    "1948_Palestinian_expulsion_and_flight": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "1948 Palestinian expulsion and flight",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "1948 Palestinian exodus"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Galobtter",
+                "timestamp": "2023-03-17T22:40:19Z",
+                "comment": "[[1948 Palestinian exodus]] moved to [[1948 Palestinian expulsion and flight]]: Per [[Talk:1948 Palestinian exodus#Requested move 6 January 2023]]"
+            },
+            {
+                "ns": 0,
+                "title": "1948 Palestinian expulsion and flight",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "1948 Palestinian exodus"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "UtherSRG",
+                "timestamp": "2022-10-02T14:17:01Z",
+                "comment": "[[1948 Palestinian exodus]] moved to [[1948 Palestinian expulsion and flight]]: per RM"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "List_of_towns_and_villages_depopulated_during_the_1947\u20131949_Palestine_war": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "List of towns and villages depopulated during the 1947\u20131949 Palestine war",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=sysop] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "sysop",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Primefac",
+                "timestamp": "2021-08-13T00:42:04Z",
+                "comment": "[[WP:MOVP|Move warring]]"
+            },
+            {
+                "ns": 0,
+                "title": "List of towns and villages depopulated during the 1947\u20131949 Palestine war",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "Depopulated Palestinian locations in Israel"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Number 57",
+                "timestamp": "2021-08-12T21:16:26Z",
+                "comment": "[[Depopulated Palestinian locations in Israel]] moved to [[List of towns and villages depopulated during the 1947\u20131949 Palestine war]]: Not a settled title \u2013 literally only been there a month. Needs an RM."
+            },
+            {
+                "ns": 0,
+                "title": "List of towns and villages depopulated during the 1947\u20131949 Palestine war",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "Depopulated Palestinian locations in Israel"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Number 57",
+                "timestamp": "2021-08-12T20:32:09Z",
+                "comment": "[[Depopulated Palestinian locations in Israel]] moved to [[List of towns and villages depopulated during the 1947\u20131949 Palestine war]]: Restore clearer and more NPOV title"
+            },
+            {
+                "ns": 0,
+                "title": "List of towns and villages depopulated during the 1947\u20131949 Palestine war",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "List of towns and villages depopulated during the 1948 Palestinian exodus"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Selfstudier",
+                "timestamp": "2021-04-18T14:12:51Z",
+                "comment": "[[List of towns and villages depopulated during the 1948 Palestinian exodus]] moved to [[List of towns and villages depopulated during the 1947\u20131949 Palestine war]]: Not only in 1948, article is mainly about properties not refugees"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Plan_Dalet": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Plan Dalet",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ad Orientem",
+                "timestamp": "2017-01-10T01:19:28Z",
+                "comment": "[[WP:30/500|Arbitration enforcement]]"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Abd_al-Qadir_al-Husayni": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Abd al-Qadir al-Husayni",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 22:06, 19 February 2014 (UTC))\u200e[move=autoconfirmed] (expires 22:06, 19 February 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NawlinWiki",
+                "timestamp": "2013-11-19T22:06:03Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Abd al-Qadir al-Husaini",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 8. September 2019, 12:24 Uhr (UTC))\u200e[move=autoconfirmed] (bis 8. September 2019, 12:24 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-09-08T12:24:12Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-09-08T12:24:12Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Dandelo",
+                "timestamp": "2019-09-01T12:24:12Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            }
+        ],
+        "ar": []
+    },
+    "1929_Hebron_massacre": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "1929 Hebron massacre",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Oshwah",
+                "timestamp": "2019-04-29T20:40:37Z",
+                "comment": "Arbitration enforcement - see [[WP:ARBPIA3#500/30]]."
+            },
+            {
+                "ns": 0,
+                "title": "1929 Hebron massacre",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 20:00, 7 August 2014 (UTC))\u200e[move=autoconfirmed] (expires 20:00, 7 August 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NawlinWiki",
+                "timestamp": "2014-07-24T20:00:31Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock-puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "1929 Hebron massacre",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Penwhale",
+                "timestamp": "2007-10-16T20:55:51Z",
+                "comment": "revert warring [edit=sysop:move=sysop] (expires 20:55, 23 October 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "1929 Hebron massacre",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Thatcher",
+                "timestamp": "2007-04-16T16:34:27Z",
+                "comment": "change to 3 days, long enough for the editors to talk through their disagreement if they are capable of doing so at all [edit=sysop:move=sysop] (expires 16:34, 19 April 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "1929 Hebron massacre",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Thatcher",
+                "timestamp": "2007-04-16T16:23:53Z",
+                "comment": "prolonged edit warring over the term \"ethnic cleansing\" [edit=sysop:move=sysop] (expires 16:23, 23 April 2007 (UTC))"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Causes_of_the_1948_Palestinian_expulsion_and_flight": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Causes of the 1948 Palestinian expulsion and flight",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "Causes of the 1948 expulsion and flight of Palestinians"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Freedom4U",
+                "timestamp": "2023-04-29T04:50:31Z",
+                "comment": "[[Causes of the 1948 expulsion and flight of Palestinians]] moved to [[Causes of the 1948 Palestinian expulsion and flight]]: Matching main article - see talk page"
+            }
+        ],
+        "de": null,
+        "ar": []
+    },
+    "Deir_Yassin_massacre": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=sysop] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "sysop",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Ymblanter",
+                "timestamp": "2016-04-13T18:00:09Z",
+                "comment": "[[WP:ARBPIA3#500/30|New editors are prohibited from editing this Arab-Israeli conflict related page]]: RFPP request"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 03:41, 25 October 2015 (UTC))\u200e[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "NawlinWiki",
+                "timestamp": "2014-10-25T03:41:03Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 20:44, 27 August 2014 (UTC))\u200e[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "NawlinWiki",
+                "timestamp": "2013-08-27T20:44:53Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 03:53, 18 February 2013 (UTC)) \u200e[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "NawlinWiki",
+                "timestamp": "2013-01-18T03:53:19Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {
+                    "oldtitle_ns": 9,
+                    "oldtitle_title": "MediaWiki talk:Deir Yassin incident"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Graham87",
+                "timestamp": "2010-10-20T14:43:14Z",
+                "comment": "[[MediaWiki talk:Deir Yassin incident]] moved to [[Deir Yassin massacre]]: revert"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {
+                    "description": "[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Vanished user 19794758563875",
+                "timestamp": "2010-08-13T13:59:17Z",
+                "comment": "issue seems resolved."
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {
+                    "description": "[edit=sysop] (expires 16:53, 26 August 2010 (UTC)) [move=sysop] (expires 16:53, 26 August 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Vanished user 19794758563875",
+                "timestamp": "2010-08-12T16:53:11Z",
+                "comment": "[[WP:PPOL#Content disputes|Edit warring / Content dispute]]"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {
+                    "description": "[edit=sysop] (expires 19:01, 13 June 2010 (UTC)) [move=sysop] (expires 19:01, 13 June 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Tcncv",
+                "timestamp": "2010-05-30T19:01:30Z",
+                "comment": "[[WP:PPOL#Content disputes|Edit warring / Content dispute]]"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {
+                    "description": "[edit=sysop] (expires 22:47, 29 May 2010 (UTC)) [move=sysop] (expires 22:47, 29 May 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Elockid",
+                "timestamp": "2010-05-24T22:47:16Z",
+                "comment": "[[WP:PPOL#Content disputes|Edit warring / Content dispute]]"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "J.delanoy",
+                "timestamp": "2008-07-30T01:45:23Z",
+                "comment": "As I said before, the page has been at \"massacre\" for 6 years. Please talk it out before moving. [move=sysop] (expires 01:45, 20 August 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Yonatan",
+                "timestamp": "2007-09-19T12:57:39Z",
+                "comment": "i don't see any debate, article has been locked for way too long"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "MacGyverMagic",
+                "timestamp": "2007-04-27T18:54:23Z",
+                "comment": "protected until heavy revert war is sorted out on talk [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Centrx",
+                "timestamp": "2006-11-29T05:34:03Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Steel",
+                "timestamp": "2006-11-11T23:39:45Z",
+                "comment": "Edit warring [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "ChrisO~enwiki",
+                "timestamp": "2006-07-18T13:52:33Z",
+                "comment": "Unprotecting for now"
+            },
+            {
+                "ns": 0,
+                "title": "Deir Yassin massacre",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "ChrisO~enwiki",
+                "timestamp": "2006-07-18T10:52:41Z",
+                "comment": "Temporarily move-protected until dispute can be resolved [move=sysop]"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Massaker von Deir Yasin",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 20. M\u00e4rz 2019, 20:33 Uhr (UTC))\u200e[move=autoconfirmed] (bis 20. M\u00e4rz 2019, 20:33 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-03-20T20:33:17Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-03-20T20:33:17Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Wahldresdner",
+                "timestamp": "2018-12-20T20:33:17Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Massaker von Deir Yasin",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 14. Dezember 2018, 21:40 Uhr (UTC))\u200e[move=autoconfirmed] (bis 14. Dezember 2018, 21:40 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-12-14T21:40:39Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-12-14T21:40:39Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Felistoria",
+                "timestamp": "2018-09-14T20:40:40Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Massaker von Deir Yasin",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 27. August 2018, 13:39 Uhr (UTC))\u200e[move=autoconfirmed] (bis 27. August 2018, 13:39 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-08-27T13:39:59Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-08-27T13:39:59Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Regi51",
+                "timestamp": "2018-07-27T13:39:59Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Massaker von Deir Yasin",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "D",
+                "timestamp": "2006-08-13T02:41:15Z",
+                "comment": "vorbei?"
+            },
+            {
+                "ns": 0,
+                "title": "Massaker von Deir Yasin",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "D",
+                "timestamp": "2006-08-10T08:27:20Z",
+                "comment": "editwar [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "ar": []
+    },
+    "Menachem_Begin": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Menachem Begin",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Samsara",
+                "timestamp": "2016-12-30T13:53:41Z",
+                "comment": "[[WP:ARBPIA3#500/30|New editors are prohibited from editing this Arab-Israeli conflict related page]]"
+            },
+            {
+                "ns": 0,
+                "title": "Menachem Begin",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 02:02, 27 May 2015 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Malik Shabazz",
+                "timestamp": "2015-05-20T02:02:13Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Menachem Begin",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 02:04, 18 May 2012 (UTC)) \u200e[move=autoconfirmed] (expires 02:04, 18 May 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "EdJohnston",
+                "timestamp": "2012-04-18T02:04:05Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]: [[WP:AN3#User:212.121.210.45 reported by User:AnkhMorpork (Result: Semi)]]"
+            },
+            {
+                "ns": 0,
+                "title": "Menachem Begin",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 11:59, 11 January 2009 (UTC)) [move=autoconfirmed] (expires 11:59, 11 January 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "VirtualSteve",
+                "timestamp": "2009-01-04T11:59:31Z",
+                "comment": "[[WP:PPOL#Content disputes|Edit warring / Content dispute]]"
+            },
+            {
+                "ns": 0,
+                "title": "Menachem Begin",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 15:59, 24 October 2008 (UTC)) [move=autoconfirmed] (expires 15:59, 24 October 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Ioeth",
+                "timestamp": "2008-10-17T15:59:29Z",
+                "comment": "to change duration to 1 week from indefinite"
+            },
+            {
+                "ns": 0,
+                "title": "Menachem Begin",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ioeth",
+                "timestamp": "2008-10-17T15:58:27Z",
+                "comment": ": Semi-protection. (using [[WP:TW|Twinkle]])"
+            },
+            {
+                "ns": 0,
+                "title": "Menachem Begin",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "The-G-Unit-Boss",
+                "timestamp": "2008-07-21T22:01:26Z",
+                "comment": "IP Warring [edit=autoconfirmed:move=autoconfirmed] (expires 22:01, 28 July 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Menachem Begin",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "ChrisO~enwiki",
+                "timestamp": "2007-06-12T22:16:05Z",
+                "comment": "Unprotecting - why has this been semi-protected for 6 months?"
+            },
+            {
+                "ns": 0,
+                "title": "Menachem Begin",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jayjg",
+                "timestamp": "2006-12-24T05:05:44Z",
+                "comment": "revert sockpuppet [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Kfar_Etzion_massacre": {
+        "en": [],
+        "de": null,
+        "ar": []
+    },
+    "Hebrew_language": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Hebrew language",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (expires 21:17, 31 December 2024 (UTC))\u200e[move=extendedconfirmed] (expires 21:17, 31 December 2024 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "2024-12-31T21:17:08Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "2024-12-31T21:17:08Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Daniel Quinlan",
+                "timestamp": "2023-12-31T21:17:08Z",
+                "comment": "[[WP:CTOP|Contentious topics]] enforcement for [[WP:CT/A-I]]; requested at [[WP:RfPP]]"
+            },
+            {
+                "ns": 0,
+                "title": "Hebrew language",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 15:56, 7 March 2021 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-03-07T15:56:53Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Newslinger",
+                "timestamp": "2021-02-28T15:56:53Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]; requested at [[WP:RfPP]]"
+            },
+            {
+                "ns": 0,
+                "title": "Hebrew language",
+                "params": {
+                    "description": "[Edit=Block new and unregistered users] (expires 20:28, 19 February 2013 (UTC)) [Move=Block new and unregistered users] (expires 20:28, 19 February 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Favonian",
+                "timestamp": "2013-02-05T20:28:22Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Hebrew language",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 18:16, 31 December 2009 (UTC)) [move=autoconfirmed] (expires 18:16, 31 December 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Tedder",
+                "timestamp": "2009-12-28T18:16:25Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Hebrew language",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Luna Santin",
+                "timestamp": "2008-08-12T01:05:10Z",
+                "comment": "vandalism spreading from a few other pages... trying semi for a bit [edit=autoconfirmed:move=autoconfirmed] (expires 03:05, 12 August 2008 (UTC))"
+            }
+        ],
+        "de": [],
+        "ar": [
+            {
+                "ns": 0,
+                "title": "\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0628\u0631\u064a\u0629",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 18:20\u060c 15 \u062f\u064a\u0633\u0645\u0628\u0631 2023 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 18:20\u060c 15 \u062f\u064a\u0633\u0645\u0628\u0631 2023 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-12-15T18:20:06Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-12-15T18:20:06Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "\u0641\u0627\u0637\u0645\u0629 \u0627\u0644\u0632\u0647\u0631\u0627\u0621",
+                "timestamp": "2023-11-15T18:20:08Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631."
+            },
+            {
+                "ns": 0,
+                "title": "\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0628\u0631\u064a\u0629",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 15:49\u060c 9 \u0646\u0648\u0641\u0645\u0628\u0631 2023 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 15:49\u060c 9 \u0646\u0648\u0641\u0645\u0628\u0631 2023 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-11-09T15:49:45Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-11-09T15:49:45Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "\u0641\u0627\u0637\u0645\u0629 \u0627\u0644\u0632\u0647\u0631\u0627\u0621",
+                "timestamp": "2023-10-09T15:49:47Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631."
+            },
+            {
+                "ns": 0,
+                "title": "\u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0639\u0628\u0631\u064a\u0629",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 21:42\u060c 17 \u064a\u0648\u0646\u064a\u0648 2021 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 21:42\u060c 17 \u064a\u0648\u0646\u064a\u0648 2021 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-06-17T21:42:07Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-06-17T21:42:07Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "\u0635\u0627\u0644\u062d",
+                "timestamp": "2021-05-17T21:42:09Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            }
+        ]
+    },
+    "Suez_Crisis": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Suez Crisis",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "1956 War"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Lithopsian",
+                "timestamp": "2023-02-14T18:06:53Z",
+                "comment": "[[1956 War]] moved to [[Suez Crisis]]: revert oer [[WP:COMMONNAME]], at best it needs discussing first"
+            },
+            {
+                "ns": 0,
+                "title": "Suez Crisis",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Oshwah",
+                "timestamp": "2017-07-08T11:35:04Z",
+                "comment": "[[WP:30/500|Arbitration enforcement]]"
+            },
+            {
+                "ns": 0,
+                "title": "Suez Crisis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Reaper Eternal",
+                "timestamp": "2011-12-13T17:26:37Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]: more IP edit warfare on Israeli-Palestine-related articles"
+            },
+            {
+                "ns": 0,
+                "title": "Suez Crisis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 12:52, 12 November 2011 (UTC)) [move=autoconfirmed] (expires 12:52, 12 November 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Vsmith",
+                "timestamp": "2011-11-05T12:52:47Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]: anon edit warring"
+            },
+            {
+                "ns": 0,
+                "title": "Suez Crisis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 21:43, 9 June 2011 (UTC)) [move=autoconfirmed] (expires 21:43, 9 June 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Dabomb87",
+                "timestamp": "2011-05-19T21:43:11Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Suez Crisis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 18:00, 22 April 2011 (UTC)) [move=autoconfirmed] (expires 18:00, 22 April 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Anachronist",
+                "timestamp": "2011-04-12T18:00:31Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]: Apparent IP block evasion"
+            },
+            {
+                "ns": 0,
+                "title": "Suez Crisis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 16:21, 8 April 2011 (UTC)) [move=autoconfirmed] (expires 16:21, 8 April 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Mifter",
+                "timestamp": "2011-04-03T16:21:03Z",
+                "comment": "Semi-protection. using [[WP:TWINKLE|TW]]"
+            },
+            {
+                "ns": 0,
+                "title": "Suez Crisis",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Viajero",
+                "timestamp": "2005-04-12T13:47:14Z",
+                "comment": "five days long enough"
+            },
+            {
+                "ns": 0,
+                "title": "Suez Crisis",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Viajero",
+                "timestamp": "2005-04-07T15:51:44Z",
+                "comment": "repeated vandalism by anon user; requested by user jayjg on RfPP"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Egypt\u2013Israel_peace_treaty": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Egypt\u2013Israel peace treaty",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "Egypt\u2013Israel peace Treaty"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Continentaleurope",
+                "timestamp": "2020-08-15T19:31:04Z",
+                "comment": "[[Egypt\u2013Israel peace Treaty]] moved to [[Egypt\u2013Israel peace treaty]]"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Palestinian_Arabic": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Palestinian Arabic",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 15:48, 26 February 2014 (UTC)) \u200e[move=autoconfirmed] (expires 15:48, 26 February 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NawlinWiki",
+                "timestamp": "2013-08-26T15:48:53Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Palestinian Arabic",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 04:41, 27 January 2012 (UTC)) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "AmandaNP",
+                "timestamp": "2011-12-27T04:41:36Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Palestinian Arabic",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 08:40, 16 December 2011 (UTC)) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Fastily",
+                "timestamp": "2011-12-09T08:40:30Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Palestinian Arabic",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Caknuck",
+                "timestamp": "2007-09-30T18:35:37Z",
+                "comment": "Protecting against vandalism from anon users [edit=autoconfirmed:move=autoconfirmed] (expires 18:35, 2 October 2007 (UTC))"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Culture_of_Palestine": {
+        "en": [],
+        "de": null,
+        "ar": []
+    },
+    "Palestinian_cuisine": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Palestinian cuisine",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Joe Roe",
+                "timestamp": "2021-07-07T16:11:01Z",
+                "comment": "[[WP:30/500|Arbitration enforcement]] ([[WP:A/I/PIA]])."
+            },
+            {
+                "ns": 0,
+                "title": "Palestinian cuisine",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 02:25, 11 June 2016 (UTC))\u200e[move=autoconfirmed] (expires 02:25, 11 June 2016 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2016-06-11T02:25:24Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2016-06-11T02:25:24Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Elockid",
+                "timestamp": "2016-06-08T02:25:24Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            }
+        ],
+        "de": [],
+        "ar": []
+    },
+    "Samih_al-Qasim": {
+        "en": [],
+        "de": null,
+        "ar": []
+    },
+    "Mahmoud_Darwish": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Mahmoud Darwish",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 19:04, 4 November 2010 (UTC)) [move=autoconfirmed] (expires 19:04, 4 November 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Courcelles",
+                "timestamp": "2010-11-01T19:04:41Z",
+                "comment": "Semi-protection: vandalism. using [[WP:TW|TW]]"
+            }
+        ],
+        "de": [],
+        "ar": [
+            {
+                "ns": 0,
+                "title": "\u0645\u062d\u0645\u0648\u062f \u062f\u0631\u0648\u064a\u0634",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 03:01\u060c 11 \u0645\u0627\u0631\u0633 2020 (UTC))\u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 03:01\u060c 11 \u0645\u0627\u0631\u0633 2020 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-03-11T03:01:58Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-03-11T03:01:58Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ajwaan",
+                "timestamp": "2020-02-26T03:02:00Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            },
+            {
+                "ns": 0,
+                "title": "\u0645\u062d\u0645\u0648\u062f \u062f\u0631\u0648\u064a\u0634",
+                "params": {
+                    "description": "\u200f[edit=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 14:21\u060c 2 \u0623\u063a\u0633\u0637\u0633 2012 (UTC)) \u200f[move=autoconfirmed] (\u062a\u0646\u062a\u0647\u064a \u0641\u064a 14:21\u060c 2 \u0623\u063a\u0633\u0637\u0633 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Antime",
+                "timestamp": "2012-07-02T14:21:34Z",
+                "comment": "[[\u0648\u064a\u0643\u064a\u0628\u064a\u062f\u064a\u0627:\u062a\u062e\u0631\u064a\u0628|\u062a\u062e\u0631\u064a\u0628]] \u0645\u062a\u0643\u0631\u0631"
+            }
+        ]
+    },
+    "Origin_of_the_Palestinians": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Origin of the Palestinians",
+                "params": {
+                    "description": "\u200e[edit=extendedconfirmed] (indefinite)\u200e[move=extendedconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "extendedconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Daniel Quinlan",
+                "timestamp": "2023-10-15T18:45:30Z",
+                "comment": "[[WP:CTOP|Contentious topics]] enforcement for [[WP:CT/A-I]]; requested at [[WP:RfPP]]"
+            }
+        ],
+        "de": null,
+        "ar": []
+    }
+}
