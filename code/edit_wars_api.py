@@ -172,6 +172,87 @@ def etl_edits_users_detailed(articles : list, langs : list):
 
 if __name__ == "__main__":
     #print(join_users_edits('Hebrew_language', 'de'))
+    
+
+    articles = ['Reconstruction_era',
+                'Nikolai_Gogol',
+                'Taras_Shevchenko',
+                'Organisation_of_Ukrainian_Nationalists',
+                'Pierogi',
+                'Kolach_(bread)',
+                'Paska_(bread)'
+    ]
+
+    etl_edits_users_detailed(articles, ['en'])
+
+    articles = ['United_Daughters_of_the_Confederacy',
+        'Origins_of_the_American_Civil_War',
+        'United_Confederate_Veterans',
+        'Confederate_History_Month',
+        'Robert_E._Lee_Day',
+        "States'_rights",
+        'Historiographic_issues_about_the_American_Civil_War',
+        'Pampushka',
+        'Ukrainian_War_of_Independence',
+        '1948_Arab-Israeli_War',
+        'Intercommunal_conflict_in_Mandatory_Palestine',
+        '1947–1948_civil_war_in_Mandatory_Palestine',
+        '1948_Arab–Israeli_War',
+        'Causes_of_the_1948_Palestinian_expulsion_and_flight',
+        'Kfar_Etzion_massacre',
+        'Culture_of_Palestine',
+        'Samih_al-Qasim',
+        'Origin_of_the_Palestinians']
+
+    etl_edits_users_detailed(articles, ['de'])
+
+    articles = ['United_Daughters_of_the_Confederacy',
+        'Origins_of_the_American_Civil_War',
+        'United_Confederate_Veterans',
+        'Confederate_History_Month',
+        'Robert_E._Lee_Day',
+        "States'_rights",
+        'Historiographic_issues_about_the_American_Civil_War',
+        'Pampushka',
+        'Ukrainian_War_of_Independence',
+        '1948_Arab-Israeli_War',
+        'Intercommunal_conflict_in_Mandatory_Palestine',
+        '1947–1948_civil_war_in_Mandatory_Palestine',
+        '1948_Arab–Israeli_War',
+        'Causes_of_the_1948_Palestinian_expulsion_and_flight',
+        'Kfar_Etzion_massacre',
+        'Culture_of_Palestine',
+        'Samih_al-Qasim',
+        'Origin_of_the_Palestinians']
+
+    etl_edits_users_detailed(articles, ['de'])
+
+    articles = ['1948_Arab-Israeli_War',
+        'Culture_of_Palestine',
+        'Palestinian_cuisine',
+        'Samih_al-Qasim',
+        'Mahmoud_Darwish',
+        'Origin_of_the_Palestinians']
+    
+    etl_edits_users_detailed(articles, ['ar'])
+
+    etl_edits_users_detailed(['Holodomor'], ['ru'])
+
+if 1==2:
+
+    israel_palestine_articles = [
+        "Nakba","Mandatory_Palestine","1948_Arab-Israeli_War","David_Ben-Gurion","Yasser_Arafat","Six-Day_War","Yom_Kippur_War","Hummus","Falafel","Shawarma","First_Intifada",
+        "United_Nations_Partition_Plan_for_Palestine", "Intercommunal_conflict_in_Mandatory_Palestine", "Lehi_(militant_group)", "Irgun", "Ze'ev_Jabotinsky",
+        "Haganah", "1947–1948_civil_war_in_Mandatory_Palestine", "1948_Arab–Israeli_War", "Yitzhak_Rabin", "Palmach", "Moshe_Dayan", "Jewish_exodus_from_the_Muslim_world", 
+        "1936–1939_Arab_revolt_in_Palestine", "Amin_al-Husseini", "1948_Palestinian_expulsion_and_flight", "List_of_towns_and_villages_depopulated_during_the_1947–1949_Palestine_war", "Plan_Dalet", 
+        "Abd_al-Qadir_al-Husayni", "1929_Hebron_massacre", "Causes_of_the_1948_Palestinian_expulsion_and_flight", "Deir_Yassin_massacre", "Menachem_Begin", "Kfar_Etzion_massacre", "Hebrew_language", 
+        "Suez_Crisis", "Six-Day_War", "Egypt–Israel_peace_treaty", "Palestinian_Arabic", "Culture_of_Palestine", "Palestinian_cuisine", "Samih_al-Qasim", "Mahmoud_Darwish", "Origin_of_the_Palestinians"
+    ]
+
+    israel_palestine_langs = ['en', 'de', 'ar']
+
+    etl_edits_users_detailed(israel_palestine_articles, israel_palestine_langs)
+
     us_civil_war_articles = [
         "Ulysses_S._Grant","Sherman's_March_to_the_Sea","William_Tecumseh_Sherman","Union_Army","Confederate_States_Army","Robert_E._Lee","Joseph_E._Johnston","Alexander_H._Stephens","James_Longstreet",
         "United_Daughters_of_the_Confederacy","Army_of_Northern_Virginia","Jefferson_Davis","Origins_of_the_American_Civil_War","Confederate_States_of_America","Abraham_Lincoln","Battle_of_Gettysburg", 
@@ -196,16 +277,3 @@ if __name__ == "__main__":
     ukraine_langs = ['en', 'de', 'uk', 'ru']
 
     etl_edits_users_detailed(ukraine_articles, ukraine_langs)
-
-    israel_palestine_articles = [
-        "Nakba","Mandatory_Palestine","1948_Arab-Israeli_War","David_Ben-Gurion","Yasser_Arafat","Six-Day_War","Yom_Kippur_War","Hummus","Falafel","Shawarma","First_Intifada",
-        "United_Nations_Partition_Plan_for_Palestine", "Intercommunal_conflict_in_Mandatory_Palestine", "Lehi_(militant_group)", "Irgun", "Ze'ev_Jabotinsky",
-        "Haganah", "1947–1948_civil_war_in_Mandatory_Palestine", "1948_Arab–Israeli_War", "Yitzhak_Rabin", "Palmach", "Moshe_Dayan", "Jewish_exodus_from_the_Muslim_world", 
-        "1936–1939_Arab_revolt_in_Palestine", "Amin_al-Husseini", "1948_Palestinian_expulsion_and_flight", "List_of_towns_and_villages_depopulated_during_the_1947–1949_Palestine_war", "Plan_Dalet", 
-        "Abd_al-Qadir_al-Husayni", "1929_Hebron_massacre", "Causes_of_the_1948_Palestinian_expulsion_and_flight", "Deir_Yassin_massacre", "Menachem_Begin", "Kfar_Etzion_massacre", "Hebrew_language", 
-        "Suez_Crisis", "Six-Day_War", "Egypt–Israel_peace_treaty", "Palestinian_Arabic", "Culture_of_Palestine", "Palestinian_cuisine", "Samih_al-Qasim", "Mahmoud_Darwish", "Origin_of_the_Palestinians"
-    ]
-
-    israel_palestine_langs = ['en', 'de', 'ar']
-
-    etl_edits_users_detailed(israel_palestine_articles, israel_palestine_langs)
