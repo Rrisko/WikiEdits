@@ -110,3 +110,8 @@ plot_monthly_jerk(monthly_stats, "2015-01-01", use_squared=True)
 
 # analyze_article_deltas(ip_df, "Nakba", "en")
 analyze_article_deltas(ip_df, "1948_Palestinian_expulsion_and_flight", "en")
+
+# %%
+from protection_analysis import get_protections_for_article
+
+get_protections_for_article('1948_Palestinian_expulsion_and_flight', 'en')
