@@ -4,12 +4,21 @@ import pandas as pd
 ip_df = pd.read_csv("../data/detailed_data/detailedEdits_2024-06-14-11-41.csv")
 
 # %%
+################################################################################
+##################   DELTA ANALYSIS   ########################################## 
+################################################################################
+from tqdm import tqdm
+from protection_analysis import get_protections_for_article
+
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-def add_edit_delta(df: pd.DataFrame, article: str, lang: str):
+# Turn off pandas SettingWithCopyWarning
+pd.set_option('mode.chained_assignment', None)
+
+def get_edit_delta_df(df: pd.DataFrame, article: str, lang: str):
     """filters for an article and language, sorts by timestamp and adds
     edit_delta, sign_delta, sign_change
     """
@@ -28,7 +37,7 @@ def add_edit_delta(df: pd.DataFrame, article: str, lang: str):
     return df
 
 
-def calculate_monthly_jerk(df: pd.DataFrame):
+def get_monthly_jerk(df: pd.DataFrame):
     """assumes the df already has
     * edit_delta
     * is filtered for one article and language
@@ -46,6 +55,17 @@ def calculate_monthly_jerk(df: pd.DataFrame):
     monthly_stats['month_year'] = monthly_stats['month_year'].dt.to_timestamp()
     monthly_stats['rel_changes_squared'] = monthly_stats['relative_sign_changes'] ** 2
     return monthly_stats
+
+
+def get_overall_jerk(df: pd.DataFrame, start="", end=""):
+    """returns overall jerk for arbitrary specified time period
+    * edit_delta
+    * is filtered for one article and language
+    """
+    # filter if time period specified
+    if start: df = df[(df['timestamp'] > start)]
+    if end: df = df[(df['timestamp'] < end)]
+    return df['sign_change'].sum() / len(df)
 
 
 def plot_monthly_jerk(df: pd.DataFrame, start_time="", use_squared=False):
@@ -82,16 +102,42 @@ def plot_edit_delta(df: pd.DataFrame):
     plt.tight_layout()
     plt.show()
 
+
 def analyze_article_deltas(df: pd.DataFrame, article: str, lang: str):
     """Overall analysis of an article's edit deltas
     """
-    filtered_df = add_edit_delta(df, article, lang)
+    filtered_df = get_edit_delta_df(df, article, lang)
     plot_edit_delta(filtered_df)
-    monthly_stats = calculate_monthly_jerk(filtered_df)
+    monthly_stats = get_monthly_jerk(filtered_df)
     plot_monthly_jerk(monthly_stats)
 
 
+def get_article_edit_metadata(df: pd.DataFrame):
+    """Returns the earliest edit and num of overall edits for an article df
+    * Must be a df filtered for article and language
+    """
+    earliest_edit = df['timestamp'].min()
+    num_edits = len(df)
+    return {'earliest_edit': earliest_edit, 'num_edits': num_edits}
+
+
+def get_all_articles_jerk(article_list, df):
+    """Overall analysis of an article's edit deltas
+    """
+    results = []
+    for article in tqdm(article_list):
+        df_article = get_edit_delta_df(df, article, "en")
+        metadata = get_article_edit_metadata(df_article)
+        oj = get_overall_jerk(df_article)
+        results.append({'article': article, 'overall_jerk': oj} | metadata)
+    
+    results_df = pd.DataFrame(results)
+    results_df = results_df.sort_values('overall_jerk', ascending=False)
+    return results_df
+
+
 # %%
+
 israel_palestine_articles = [
         "Nakba","Mandatory_Palestine","1948_Arab-Israeli_War","David_Ben-Gurion","Yasser_Arafat","Six-Day_War","Yom_Kippur_War","Hummus","Falafel","Shawarma","First_Intifada",
         "United_Nations_Partition_Plan_for_Palestine", "Intercommunal_conflict_in_Mandatory_Palestine", "Lehi_(militant_group)", "Irgun", "Ze'ev_Jabotinsky",
@@ -102,7 +148,7 @@ israel_palestine_articles = [
 ]
 
 """ Example usage of the functions
-df48 = add_edit_delta(ip_df, "1948_Palestinian_expulsion_and_flight", "en")
+df48 = get_edit_delta_df(ip_df, "1948_Palestinian_expulsion_and_flight", "en")
 plot_edit_delta(df48)
 monthly_stats = calculate_monthly_jerk(df48)
 plot_monthly_jerk(monthly_stats, "2015-01-01", use_squared=True)
@@ -110,3 +156,39 @@ plot_monthly_jerk(monthly_stats, "2015-01-01", use_squared=True)
 
 # analyze_article_deltas(ip_df, "Nakba", "en")
 analyze_article_deltas(ip_df, "1948_Palestinian_expulsion_and_flight", "en")
+get_protections_for_article('1948_Palestinian_expulsion_and_flight', 'en')
+
+# %%
+
+jerk_df = get_all_articles_jerk(israel_palestine_articles, ip_df)
+jerk_df
+
+# %%
+################################################################################
+##################   USER DATA METRICS   #######################################
+################################################################################
+def add_user_data_metrics_to_df(df: pd.DataFrame):
+    """Can work with any df with user column
+    """
+    df["is_anon_uname"] = ip_df['user'].str.replace('.', '').str.isnumeric()
+    df["frac_edits_on_this_article"] = df["article_edits"] / df["total_edits"]
+    return df
+
+def get_unique_users_for_article(df: pd.DataFrame) -> pd.DataFrame:
+    """Expects a df filtered for one article and language.
+    Returns a DataFrame with unique users.
+    """
+    return df.drop_duplicates(subset=['user'])
+
+df48 = get_edit_delta_df(ip_df, "1948_Palestinian_expulsion_and_flight", "en")
+df48 = add_user_data_metrics_to_df(df48)
+
+udf48 = get_unique_users_for_article(df48)
+# udf48["frac_edits_on_this_article"].plot(kind="hist", bins=100)
+# print(udf48["frac_edits_on_this_article"].value_counts())
+# print(len(df48[df48["total_edits"]==0]))
+# print(len(df48))
+# df48[df48["total_edits"]!=0]["frac_edits_on_this_article"].plot(kind="hist", bins=100)
+# df48[df48["total_edits"]!=0]["frac_edits_on_this_article"].value_counts()
+# df48[df48["frac_edits_on_this_article"]<=0.2]["frac_edits_on_this_article"].plot(kind="hist", bins=100)
+df48[df48["frac_edits_on_this_article"]<=0.001]["frac_edits_on_this_article"].plot(kind="hist", bins=100)
