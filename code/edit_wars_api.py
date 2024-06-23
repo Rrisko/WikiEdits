@@ -7,7 +7,7 @@ from datetime import *
 import time as tm
 from collections import Counter
 import locale
-from api_calls import *
+#from api_calls import *
 
 def get_article_name(
     articleTitle: str, LangOne: str = "en", LangTwo: str = "de"
@@ -514,16 +514,12 @@ def etl_protections(articles: list, langs: list, filename : str = ""):
     
     transformed_data = transform_multiple_protections(raw_data)
 
-    transformed_data.to_csv('data/all_data/protections_{f}_{d}.csv'.format(
+    transformed_data.to_csv('data/protection_data/protections_{f}_{d}.csv'.format(
         f = filename, 
         d = datetime.now().strftime("%Y-%m-%d-%H-%M"))
     )
 
     return transformed_data
-
-
-
-if "__na1me__" == "__main__":
     #print(join_users_edits('Hebrew_language', 'de'))
     
 
@@ -622,14 +618,10 @@ if __name__ == "__main__":
 
 
 
-    ukraine_articles = [
-        "Kyiv","Kievan_Rus'","Stepan_Bandera","Bohdan_Khmelnytsky","Cossacks","Ukrainian_language","Holodomor","Borscht","Symon_Petliura",
-        "Ukrainian_People's_Republic","Mykhailo_Hrushevsky","Nikolai_Gogol","Taras_Shevchenko","Ukrainian_literature","Ivan_Franko","Ukrainian_Insurgent_Army","Organisation_of_Ukrainian_Nationalists","Pierogi",
-        "Kolach_(bread)", "Paska_(bread)", "Pampushka", "Syrniki", "Rusyns", "Vyshyvanka", "Ukrainian_Soviet_Socialist_Republic", "Pereiaslav_Agreement", "West_Ukrainian_People's_Republic", 
-        "Massacres_of_Poles_in_Volhynia_and_Eastern_Galicia", "Orange_Revolution", "Ukrainian_War_of_Independence", "Principality_of_Kiev", "Kyiv_Pechersk_Lavra","Golden_Gate,_Kyiv", "Bakhchysarai_Palace", 
-        "Khreshchatyk", "Kamianets-Podilskyi_Castle",  "Saint_Sophia_Cathedral,_Kyiv", "Kobzar", "Hryhorii_Skovoroda", "Lesya_Ukrainka", "Rus'_people", "Zaporozhian_Cossacks", "Khmelnytsky_Uprising"
+    sk_articles = [
+        "Bratislava","Zvolen'","Pezinok"
     ]
 
-    ukraine_langs = ['en', 'de', 'uk', 'ru']
-
-    etl_protections(ukraine_articles, ukraine_langs, "Ukraine")
+    sk_langs = ['en', 'de', 'sk']
+    etl_edits_users_detailed(sk_articles, sk_langs)
+    etl_protections(sk_articles, sk_langs, "SK")
