@@ -7,17 +7,14 @@ def clean_protections_df(df: pd.DataFrame):
     return df
 
 
-ip_protections = pd.read_csv('../data/all_data/protections_Israel_Palestine_2024-06-15-19-44.csv')
+ip_protections = pd.read_csv('../data/protection_data/protections_Israel_Palestine_2024-06-15-19-44.csv')
 ip_protections = clean_protections_df(ip_protections)
-ua_protections = pd.read_csv('../data/all_data/protections_Ukraine_2024-06-15-21-39.csv')
+ua_protections = pd.read_csv('../data/protection_data/protections_Ukraine_2024-06-15-21-39.csv')
 ua_protections = clean_protections_df(ua_protections)
-cw_protections = pd.read_csv('../data/all_data/protections_Us_civil_war_2024-06-15-19-46.csv')
+cw_protections = pd.read_csv('../data/protection_data/protections_Us_civil_war_2024-06-15-19-46.csv')
 cw_protections = clean_protections_df(cw_protections)
 
 # %%
-print("type\n", ip_protections.type.value_counts(dropna=False))
-print("\nlevel\n", ip_protections.level.value_counts(dropna=False))
-print("\nlevel\n", ip_protections.action.value_counts(dropna=False))
 ip_protections = pd.read_csv('../data/all_data/protections_Israel_Palestine_2024-06-15-19-44.csv')
 
 # %%
@@ -58,8 +55,3 @@ def get_protections_for_article(article: str, lang: str):
     else:
         raise ValueError(f"Article {article} not found in topic list.")
     return df[(df['article']==article) & (df['language']==lang)]
-
-# %%
-get_protections_for_article('Nakba', 'en')
-# get_protections_for_article('1948_Palestinian_expulsion_and_flight', 'en')
-
