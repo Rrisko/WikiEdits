@@ -2,6 +2,8 @@
 import pandas as pd
 
 ip_df = pd.read_csv("../data/detailed_data/detailedEdits_2024-06-14-11-41.csv")
+ua_df = pd.read_csv("../data/detailed_data/detailedEdits_2024-06-13-22-44.csv")
+cw_df = pd.read_csv("../data/detailed_data/detailedEdits_2024-06-13-11-03.csv")
 
 # %%
 ################################################################################
@@ -80,7 +82,6 @@ def plot_monthly_jerk(df: pd.DataFrame, start_time="", use_squared=False):
         x='month_year',
         y='rel_changes_squared' if use_squared else 'relative_sign_changes',
         data=df,
-        # size='num_sign_changes'
         size='num_edits'
         )
     plt.xlabel('Month-Year')
@@ -93,12 +94,23 @@ def plot_monthly_jerk(df: pd.DataFrame, start_time="", use_squared=False):
 def plot_edit_delta(df: pd.DataFrame):
     """plot edit delta over time and the distribution of edit deltas
     """
-    fig, axs = plt.subplots(2, 1, figsize=(10, 8))
+    fig, axs = plt.subplots(3, 1, figsize=(20, 22))
+    # fig, axs = plt.subplots(3, 1)
     df.plot(x='timestamp', y='edit_delta', title='Edit delta over time', ax=axs[0])
+    # Apply a rolling window of size N (e.g., N=7 for a 7-day window) and calculate the mean for smoothing
+    smoothed_size = df['size'].rolling(window=7).mean()
+    
+    # Plot the smoothed size over time
+    axs[1].plot(df['timestamp'], smoothed_size, label='Smoothed Size')
+    axs[1].set_title('Article Size Over Time (Smoothed)')
+    axs[1].set_xlabel('Timestamp')
+    axs[1].set_ylabel('Size')
+    axs[1].legend()
+
     lb = int(df['edit_delta'].describe()['25%'])
     ub = int(df['edit_delta'].describe()['75%'])
     df[(df['edit_delta'] > lb) & (df['edit_delta'] < ub)
-       ]['edit_delta'].plot(kind="hist", bins=100, title="Edit delta distribution", ax=axs[1])
+       ]['edit_delta'].plot(kind="hist", bins=100, title="Edit delta distribution", ax=axs[2])
     plt.tight_layout()
     plt.show()
 
@@ -164,13 +176,18 @@ jerk_df = get_all_articles_jerk(israel_palestine_articles, ip_df)
 jerk_df
 
 # %%
+analyze_article_deltas(ip_df, "Falafel", "en")
+# %%
 ################################################################################
 ##################   USER DATA METRICS   #######################################
 ################################################################################
 def add_user_data_metrics_to_df(df: pd.DataFrame):
     """Can work with any df with user column
     """
-    df["is_anon_uname"] = ip_df['user'].str.replace('.', '').str.isnumeric()
+    ip_pattern = r'^(\d{1,3}\.){3}\d{1,3}$'
+
+    # Use the regex pattern to identify rows where 'user' is an IP address
+    df["is_anon_uname"] = df['user'].str.match(ip_pattern)
     df["frac_edits_on_this_article"] = df["article_edits"] / df["total_edits"]
     return df
 
@@ -180,10 +197,38 @@ def get_unique_users_for_article(df: pd.DataFrame) -> pd.DataFrame:
     """
     return df.drop_duplicates(subset=['user'])
 
-df48 = get_edit_delta_df(ip_df, "1948_Palestinian_expulsion_and_flight", "en")
-df48 = add_user_data_metrics_to_df(df48)
 
-udf48 = get_unique_users_for_article(df48)
+def piechart_user_types(df: pd.DataFrame, title: str):
+    fig, axs = plt.subplots(1, 2, figsize=(14, 7))  # Adjust for two subplots
+
+    # First Pie Plot: Distribution by total edits
+    plt.sca(axs[0])  # Set current axis to the first subplot
+    plt.title(f"{title} - Total Edits")
+    user_types = df['is_anon_uname'].map({True: 'Anonymous User', False: 'Account User'})
+    user_types.value_counts().plot.pie(autopct='%1.1f%%', labels=['Account User', 'Anonymous User'])
+    print(user_types.value_counts())
+    plt.ylabel('')  # Remove the y-label
+
+    # Second Pie Plot: Distribution by unique users
+    plt.sca(axs[1])  # Set current axis to the second subplot
+    plt.title(f"{title} - Unique Users")
+    unique_users_df = df.drop_duplicates(subset='user')  # Assuming 'user' is the column to identify unique users
+    unique_user_types = unique_users_df['is_anon_uname'].map({True: 'Anonymous User', False: 'Account User'})
+    unique_user_types.value_counts().plot.pie(autopct='%1.1f%%', labels=['Account User', 'Anonymous User'])
+    plt.ylabel('')  # Remove the y-label
+
+
+# for 1948 Palestinian expulsion and flight article
+# df48 = add_user_data_metrics_to_df(get_edit_delta_df(ip_df, "1948_Palestinian_expulsion_and_flight", "en"))
+# udf48 = get_unique_users_for_article(df48)
+# piechart_user_types(udf48, "Israel/Palestine user percentage")
+
+# for all articles
+all_df = pd.concat([ip_df, ua_df, cw_df])
+all_df = add_user_data_metrics_to_df(all_df)
+piechart_user_types(all_df, "All Collected Articles")
+print(all_df["is_anon_uname"].isna().sum())
+
 # udf48["frac_edits_on_this_article"].plot(kind="hist", bins=100)
 # print(udf48["frac_edits_on_this_article"].value_counts())
 # print(len(df48[df48["total_edits"]==0]))
@@ -192,3 +237,34 @@ udf48 = get_unique_users_for_article(df48)
 # df48[df48["total_edits"]!=0]["frac_edits_on_this_article"].value_counts()
 # df48[df48["frac_edits_on_this_article"]<=0.2]["frac_edits_on_this_article"].plot(kind="hist", bins=100)
 df48[df48["frac_edits_on_this_article"]<=0.001]["frac_edits_on_this_article"].plot(kind="hist", bins=100)
+
+#%%
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Assuming 'all_df' is your DataFrame and it contains the columns 'is_anon_uname' and 'frac_edits_on_this_article'
+
+# Filter the DataFrame for anonymous and non-anonymous users
+anon_df = all_df[all_df['is_anon_uname'] == True].drop_duplicates(subset=['user', 'article'])
+non_anon_df = all_df[all_df['is_anon_uname'] == False].drop_duplicates(subset=['user', 'article'])
+non_anon_df["frac_edits_on_this_article"] = non_anon_df["article_edits"] / non_anon_df["total_edits"]
+
+non_anon_df["frac_edits_on_this_article"].plot(kind="box", showfliers=False, title="Fraction of Edits on given Article for Non-Anonymous Users")
+
+# Calculate the mean of total_edits and article_edits
+mean_total_edits = non_anon_df['total_edits'].mean()
+mean_article_edits = non_anon_df['article_edits'].mean()
+
+
+# Values to plot
+means = [mean_total_edits, mean_article_edits]
+labels = ['Mean Total Edits', 'Mean Article Edits']
+
+# Create the bar plot
+plt.figure(figsize=(8, 6))
+plt.bar(labels, means, color=['blue', 'orange'])
+
+plt.title('Mean Total Edits vs Mean Article Edits for Non-Anonymous Users')
+plt.ylabel('Mean Number of Edits')
+
+plt.show()
