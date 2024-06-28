@@ -7,11 +7,13 @@ from datetime import *
 import time as tm
 from collections import Counter
 import locale
-#from api_calls import *
+
+## Universal helper function
 
 def get_article_name(
     articleTitle: str, LangOne: str = "en", LangTwo: str = "de"
-) -> str:
+) -> str :
+    
     """
     Returns article's name in LangTwo -
     i.e. get_article_name("Vienna", "en", "de") returns "Wien"
@@ -27,11 +29,14 @@ def get_article_name(
 
     return [d for d in response if d["code"] == LangTwo][0]["title"]
 
+## Functions to pull and transform revisions
+
 def get_revisions_detailed(
     article : str,
     lang: str = "en",
     prev : str  = None,
-    user : str = None):
+    user : str = None) :
+    
     """
     Based on inputted article and language creates a request, calls get_revisions_query() and returns list of timestamps when revisions on an article where made
     """
@@ -55,7 +60,7 @@ def get_revisions_detailed(
     )
 
     response = req.get(query).json()
-    #print(response)
+
     revisions = response["query"]["pages"]
     revisions = next(iter(revisions.values()))['revisions']
 
@@ -74,16 +79,16 @@ def get_revisions_detailed(
 def count_revisions(articleTitle  : str,
     lang: str = "en",
     prev : str  = None,
-    user : str = None):
+    user : str = None) -> pd.DataFrame :
 
     revisions = get_revisions_detailed(articleTitle,lang, prev, user)
     return len(revisions)
     
 def transform_revisions_detailed(
-        
     articleTitle: str,
     lang: str = "en",
-):
+) -> pd.DataFrame:
+    
     raw_data = get_revisions_detailed(articleTitle, lang)
     df_list = []
     for r in raw_data:
@@ -99,7 +104,11 @@ def transform_revisions_detailed(
 
     return pd.DataFrame(df_list)
 
-def get_user_edits_count(user : str, lang : str):
+## Functions to retrieve and transform user edits
+
+def get_user_edits_count(user : str, lang : str) -> int:
+
+    """Returns count of all edits a user has made on all articles on inputted language version wikipedia"""
 
     query = "https://{lang}.wikipedia.org/w/api.php?action=query&list=users&usprop=editcount&ususers={user}&format=json".format(user=user, lang=lang)
     response = req.get(query).json()
@@ -108,40 +117,20 @@ def get_user_edits_count(user : str, lang : str):
         return response['query']['users'][0]['editcount']
     except:
         return 0
-    
-def transform_user_edits(user : str, lang : str):
 
-    raw_data = get_user_edits(user, lang)
-    
-    df_list = []
-    for r in raw_data:
-
-       
-        r['language'] = lang
-        r['timestamp'] = datetime.strptime(r['timestamp'], "%Y-%m-%dT%H:%M:%SZ")
-        r = {key: value for key, value in r.items() if key in ['user', 'language', 'title', 'timestamp']}
-        df_list.append(r)
-    
-    print(len(df_list))
-    return pd.DataFrame(df_list)
-
-def get_proportion_user_edits(users : list, lang : str, article : str):
+def get_proportion_user_edits(users : list, lang : str, article : str) -> pd.DataFrame:
 
     users_edits = []
-
-    
 
     for user in users:
         
         total_edits = get_user_edits_count(user, lang)
         append_dict = {'user': user, 'article': article, 'language' : lang, 'total_edits' : total_edits}
-        users_edits.append(append_dict)
-        
-        
+        users_edits.append(append_dict)        
 
     return pd.DataFrame(users_edits)
 
-def join_users_edits(article : str, lang : str):
+def join_users_edits(article : str, lang : str) -> pd.DataFrame:
 
     revisions = transform_revisions_detailed(article, lang)
     unique_users = list(revisions['user'].unique())
@@ -153,7 +142,9 @@ def join_users_edits(article : str, lang : str):
 
     return merged_df
 
-def etl_edits_users_detailed(articles : list, langs : list):
+## And here everything is brought together
+
+def etl_edits_users_detailed(articles : list, langs : list) -> pd.DataFrame:
 
     filepath = "data/detailed_data/detailedEdits_{t}.csv".format(t = datetime.now().strftime("%Y-%m-%d-%H-%M"))
 
@@ -185,6 +176,8 @@ def etl_edits_users_detailed(articles : list, langs : list):
     print(failed_runs)
     return output_df
 
+## Functions to pull and transform protection logs
+
 def pull_protections(article : str, lang : str):
 
     if lang != 'en':
@@ -206,7 +199,7 @@ def pull_protections(article : str, lang : str):
         print(response)
         return None
 
-def pull_multiple_protections(articles : list, langs : list):
+def pull_multiple_protections(articles : list, langs : list) -> dict :
 
     output_dict = {}
 
@@ -232,7 +225,7 @@ def try_except_extraction(desired_value):
     except:
         return None
     
-def transform_protections(input_list : list, lang : str):
+def transform_protections(input_list : list, lang : str) -> pd.DataFrame :
 
     output_list = []
 
@@ -323,7 +316,7 @@ def extract_expiry(log : dict, lang : str):
     
     return expiry
     
-
+## Some ad hoc lists and dictionaries
 
 infinite_options = [
     "indefinite",
@@ -503,7 +496,7 @@ def convert_log_to_datetime(log_str: str, lang : str = "en", from_details : bool
     return date_dt
 
 
-def etl_protections(articles: list, langs: list, filename : str = ""):
+def etl_protections(articles: list, langs: list, filename : str = "") -> pd.DataFrame:
 
     raw_data = pull_multiple_protections(articles, langs)
 
@@ -520,106 +513,13 @@ def etl_protections(articles: list, langs: list, filename : str = ""):
     )
 
     return transformed_data
-    #print(join_users_edits('Hebrew_language', 'de'))
-    
-
-    articles = ['Reconstruction_era',
-                'Nikolai_Gogol',
-                'Taras_Shevchenko',
-                'Organisation_of_Ukrainian_Nationalists',
-                'Pierogi',
-                'Kolach_(bread)',
-                'Paska_(bread)'
-    ]
-
-    etl_edits_users_detailed(articles, ['en'])
-
-    articles = ['United_Daughters_of_the_Confederacy',
-        'Origins_of_the_American_Civil_War',
-        'United_Confederate_Veterans',
-        'Confederate_History_Month',
-        'Robert_E._Lee_Day',
-        "States'_rights",
-        'Historiographic_issues_about_the_American_Civil_War',
-        'Pampushka',
-        'Ukrainian_War_of_Independence',
-        '1948_Arab-Israeli_War',
-        'Intercommunal_conflict_in_Mandatory_Palestine',
-        '1947–1948_civil_war_in_Mandatory_Palestine',
-        '1948_Arab–Israeli_War',
-        'Causes_of_the_1948_Palestinian_expulsion_and_flight',
-        'Kfar_Etzion_massacre',
-        'Culture_of_Palestine',
-        'Samih_al-Qasim',
-        'Origin_of_the_Palestinians']
-
-    etl_edits_users_detailed(articles, ['de'])
-
-    articles = ['United_Daughters_of_the_Confederacy',
-        'Origins_of_the_American_Civil_War',
-        'United_Confederate_Veterans',
-        'Confederate_History_Month',
-        'Robert_E._Lee_Day',
-        "States'_rights",
-        'Historiographic_issues_about_the_American_Civil_War',
-        'Pampushka',
-        'Ukrainian_War_of_Independence',
-        '1948_Arab-Israeli_War',
-        'Intercommunal_conflict_in_Mandatory_Palestine',
-        '1947–1948_civil_war_in_Mandatory_Palestine',
-        '1948_Arab–Israeli_War',
-        'Causes_of_the_1948_Palestinian_expulsion_and_flight',
-        'Kfar_Etzion_massacre',
-        'Culture_of_Palestine',
-        'Samih_al-Qasim',
-        'Origin_of_the_Palestinians']
-
-    etl_edits_users_detailed(articles, ['de'])
-
-    articles = ['1948_Arab-Israeli_War',
-        'Culture_of_Palestine',
-        'Palestinian_cuisine',
-        'Samih_al-Qasim',
-        'Mahmoud_Darwish',
-        'Origin_of_the_Palestinians']
-    
-    etl_edits_users_detailed(articles, ['ar'])
-
-    etl_edits_users_detailed(['Holodomor'], ['ru'])
-
-    israel_palestine_articles = [
-        "Nakba","Mandatory_Palestine","1948_Arab-Israeli_War","David_Ben-Gurion","Yasser_Arafat","Six-Day_War","Yom_Kippur_War","Hummus","Falafel","Shawarma","First_Intifada",
-        "United_Nations_Partition_Plan_for_Palestine", "Intercommunal_conflict_in_Mandatory_Palestine", "Lehi_(militant_group)", "Irgun", "Ze'ev_Jabotinsky",
-        "Haganah", "1947–1948_civil_war_in_Mandatory_Palestine", "1948_Arab–Israeli_War", "Yitzhak_Rabin", "Palmach", "Moshe_Dayan", "Jewish_exodus_from_the_Muslim_world", 
-        "1936–1939_Arab_revolt_in_Palestine", "Amin_al-Husseini", "1948_Palestinian_expulsion_and_flight", "List_of_towns_and_villages_depopulated_during_the_1947–1949_Palestine_war", "Plan_Dalet", 
-        "Abd_al-Qadir_al-Husayni", "1929_Hebron_massacre", "Causes_of_the_1948_Palestinian_expulsion_and_flight", "Deir_Yassin_massacre", "Menachem_Begin", "Kfar_Etzion_massacre", "Hebrew_language", 
-        "Suez_Crisis", "Six-Day_War", "Egypt–Israel_peace_treaty", "Palestinian_Arabic", "Culture_of_Palestine", "Palestinian_cuisine", "Samih_al-Qasim", "Mahmoud_Darwish", "Origin_of_the_Palestinians"
-    ]
-
-    israel_palestine_langs = ['en', 'de', 'ar']
-
-    etl_protections(israel_palestine_articles, israel_palestine_langs, "Israel_Palestine")
-
-    us_civil_war_articles = [
-        "Ulysses_S._Grant","Sherman's_March_to_the_Sea","William_Tecumseh_Sherman","Union_Army","Confederate_States_Army","Robert_E._Lee","Joseph_E._Johnston","Alexander_H._Stephens","James_Longstreet",
-        "United_Daughters_of_the_Confederacy","Army_of_Northern_Virginia","Jefferson_Davis","Origins_of_the_American_Civil_War","Confederate_States_of_America","Abraham_Lincoln","Battle_of_Gettysburg", 
-        "Judah_P._Benjamin", "John_C._Breckinridge", "Joseph_Wheeler", "P._G._T._Beauregard", "Franklin_Buchanan", "Nathan_Bedford_Forrest", "Ku_Klux_Klan", "John_C._Frémont", "Joseph_Hooker", "George_Meade", 
-        "Wilmington_massacre", "Red_Shirts_(United_States)", "United_Confederate_Veterans", "Confederate_History_Month", "Robert_E._Lee_Day", "Stonewall_Jackson", "Jim_Crow_laws", "John_Brown_(abolitionist)", 
-        "William_Lloyd_Garrison", "Frederick_Douglass", "Thaddeus_Stevens", "Battle_of_the_Wilderness", "Battle_of_Antietam", "Reconstruction_era", "Emancipation_Proclamation", 
-        "Thirteenth_Amendment_to_the_United_States_Constitution", "Slavery_in_the_United_States", "States'_rights", "Historiographic_issues_about_the_American_Civil_War"
-    ]
-
-    us_civil_war_langs = ['en', 'de']
-    
-    etl_protections(us_civil_war_articles, us_civil_war_langs, "Us_civil_war")
-
 
 if __name__ == "__main__":
 
-
+## would retrieve data for 3x3 articles
 
     sk_articles = [
-        "Bratislava","Zvolen'","Pezinok"
+        "Zvolen", "Brezno", "Prievidza"
     ]
 
     sk_langs = ['en', 'de', 'sk']
