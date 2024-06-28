@@ -21,6 +21,10 @@ However, some articles are under [protection](https://en.wikipedia.org/wiki/Wiki
 
 - calculation and analysis of the metrics for the sample
 
+## Our case study
+
+We selected articles related to three topics: **War in Ukraine**, **War in Gaza**, **US Civil War**, as there is a high chance of *edit wars* or increased attention due to real-world events. As the first two wars are still ongoing, we limited the selection to articles that do not cover current topics, and the edit activity is not expected to be correlated with real-world events for a legitimate reason. Articles related to those topics in our sample are rather related to culture or history.
+
 ## Data
 
 In folder `data`, you can find following files:
