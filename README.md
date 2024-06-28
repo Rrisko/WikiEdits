@@ -7,7 +7,7 @@ Project for course Data Science and Artificial Intelligence II
 
 In general, registered and unregistered users are able to edit articles.
 
-However, some articles are under !(protection)[https://en.wikipedia.org/wiki/Wikipedia:Protection_policy] which places a limitation on who is allowed to make changes.
+However, some articles are under [protection](https://en.wikipedia.org/wiki/Wikipedia:Protection_policy) which places a limitation on who is allowed to make changes.
 
 ## What we did
 
