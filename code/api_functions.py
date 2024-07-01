@@ -35,7 +35,7 @@ def get_revisions_detailed(
     article : str,
     lang: str = "en",
     prev : str  = None,
-    user : str = None) :
+    user : str = None) -> list : 
     
     """
     Based on inputted article and language creates a request, calls get_revisions_query() and returns list of timestamps when revisions on an article where made
@@ -76,22 +76,26 @@ def get_revisions_detailed(
         revisions.extend(get_revisions_detailed(article, lang, prev))
         return revisions
     
-def count_revisions(articleTitle  : str,
+def count_revisions(articleTitle : str,
     lang: str = "en",
     prev : str  = None,
-    user : str = None) -> pd.DataFrame :
+    user : str = None) -> int :
+
+    """Returns count of revisions on the inputted article."""
 
     revisions = get_revisions_detailed(articleTitle,lang, prev, user)
     return len(revisions)
     
 def transform_revisions_detailed(
-    articleTitle: str,
-    lang: str = "en",
+    articleTitle : str,
+    lang : str,
+    revisions_raw : list,
 ) -> pd.DataFrame:
     
-    raw_data = get_revisions_detailed(articleTitle, lang)
+    """Transforms the revisions history for an article"""
+    
     df_list = []
-    for r in raw_data:
+    for r in revisions_raw:
 
         r['reverted'] = 1 if 'mw-reverted' in r['tags'] else 0
         r['reversion'] = 1 if ('mw-undo' in r['tags'] )| ('mw-manual-revert' in r['tags']) else 0
@@ -118,63 +122,28 @@ def get_user_edits_count(user : str, lang : str) -> int:
     except:
         return 0
 
-def get_proportion_user_edits(users : list, lang : str, article : str) -> pd.DataFrame:
+def get_users_edits_count(users : list, lang : str) -> pd.DataFrame:
 
+    """Returns count of edits for each user in inputted list by calling get_user_edits_count() repeatedly"""
     users_edits = []
 
     for user in users:
         
         total_edits = get_user_edits_count(user, lang)
-        append_dict = {'user': user, 'article': article, 'language' : lang, 'total_edits' : total_edits}
+        append_dict = {'user': user, 'language' : lang, 'total_edits' : total_edits}
         users_edits.append(append_dict)        
 
     return pd.DataFrame(users_edits)
 
-def join_users_edits(article : str, lang : str) -> pd.DataFrame:
+def join_users_edits(lang : str, revisions : pd.DataFrame) -> pd.DataFrame:
 
-    revisions = transform_revisions_detailed(article, lang)
     unique_users = list(revisions['user'].unique())
 
-    user_edits = get_proportion_user_edits(unique_users, lang, article)
+    user_edits = get_users_edits_count(unique_users, lang)
 
-    merged_df = pd.merge(revisions, user_edits, how = 'left', on = ['user', 'article', 'language'])
-    merged_df['article_edits'] = merged_df.groupby('user')['user'].transform('count')
+    merged_df = pd.merge(revisions, user_edits, how = 'left', on = ['user', 'language'])
 
     return merged_df
-
-## And here everything is brought together
-
-def etl_edits_users_detailed(articles : list, langs : list) -> pd.DataFrame:
-
-    filepath = "data/detailed_data/detailedEdits_{t}.csv".format(t = datetime.now().strftime("%Y-%m-%d-%H-%M"))
-
-    output_df = pd.DataFrame(columns=['user', 'timestamp', 'size', 'reverted', 'reversion', 'article', 'language', 'total_edits', 'article_edits'])
-    
-    ct = 0
-    tt = len(articles) * len(langs)
-    failed_runs = []
-    for l in langs:
-        for a in articles:
-            
-            print("Progress {run}/{total}".format(run = ct, total = tt))
-
-            try:
-                append_df = join_users_edits(a, l)
-                print("Successfully fetched data {l}/{a}".format(l=l, a=a))
-                output_df = pd.concat([output_df, append_df], ignore_index=True)
-                print("Appended dataframe")
-                output_df.to_csv(filepath)
-                tm.sleep(10)
-                
-            except:
-                print("Failed fetching data for {l}/{a}".format(l=l, a=a))
-                failed_runs.append((l,a))
-            
-            ct += 1
-            
-    
-    print(failed_runs)
-    return output_df
 
 ## Functions to pull and transform protection logs
 
@@ -268,16 +237,9 @@ def transform_protections(input_list : list, lang : str) -> pd.DataFrame :
 def transform_multiple_protections(input_dict : dict):
 
     for a, d in input_dict.items():
-        for l, log in d.items():
-
-            
+        for l, log in d.items():          
 
             df_log = transform_protections(log, l)
-
-            print(a)
-            print(l)
-            print('###')
-            print(df_log)
 
             if isinstance(df_log, pd.DataFrame):
                 
@@ -496,23 +458,6 @@ def convert_log_to_datetime(log_str: str, lang : str = "en", from_details : bool
     return date_dt
 
 
-def etl_protections(articles: list, langs: list, filename : str = "") -> pd.DataFrame:
-
-    raw_data = pull_multiple_protections(articles, langs)
-
-    with open("data/raw_data/raw_protections_{f}_{d}.json".format(
-        f = filename, d = datetime.now().strftime("%Y-%m-%d-%H-%M")), "w") as json_file:
-        
-        json.dump(raw_data, json_file, indent=4)
-    
-    transformed_data = transform_multiple_protections(raw_data)
-
-    transformed_data.to_csv('data/protection_data/protections_{f}_{d}.csv'.format(
-        f = filename, 
-        d = datetime.now().strftime("%Y-%m-%d-%H-%M"))
-    )
-
-    return transformed_data
 
 if __name__ == "__main__":
 
@@ -521,7 +466,3 @@ if __name__ == "__main__":
     sk_articles = [
         "Zvolen", "Brezno", "Prievidza"
     ]
-
-    sk_langs = ['en', 'de', 'sk']
-    etl_edits_users_detailed(sk_articles, sk_langs)
-    etl_protections(sk_articles, sk_langs, "SK")
