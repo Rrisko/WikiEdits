@@ -102,6 +102,8 @@ def transform_revisions_detailed(
         r['article'] = articleTitle
         r['language'] = lang
         r['timestamp'] = datetime.strptime(r['timestamp'], "%Y-%m-%dT%H:%M:%SZ")
+        if 'userhidden' in r.keys():
+            r['user'] = ""
         r = {key: value for key, value in r.items() if key in ['article', 'language', 'user', 'timestamp', 'size', 'reverted', 'reversion']}
         df_list.append(r)
     
@@ -114,10 +116,10 @@ def get_user_edits_count(user : str, lang : str) -> int:
 
     """Returns count of all edits a user has made on all articles on inputted language version wikipedia"""
 
-    query = "https://{lang}.wikipedia.org/w/api.php?action=query&list=users&usprop=editcount&ususers={user}&format=json".format(user=user, lang=lang)
-    response = req.get(query).json()
+    query = "https://{lang}.wikipedia.org/w/api.php?action=query&list=users&usprop=editcount&ususers={user}&format=json".format(user=user, lang=lang)    
 
     try:
+        response = req.get(query).json()
         return response['query']['users'][0]['editcount']
     except:
         return 0
@@ -125,11 +127,19 @@ def get_user_edits_count(user : str, lang : str) -> int:
 def get_users_edits_count(users : list, lang : str) -> pd.DataFrame:
 
     """Returns count of edits for each user in inputted list by calling get_user_edits_count() repeatedly"""
+    
     users_edits = []
+    
+    ct=0
 
     for user in users:
-        
+        ct+=1
         total_edits = get_user_edits_count(user, lang)
+
+        if ct % 100 == 0:
+            tm.sleep(20)
+            print("Data for {c}/{t} users extracted".format( c = ct, t = len(users) ))
+
         append_dict = {'user': user, 'language' : lang, 'total_edits' : total_edits}
         users_edits.append(append_dict)        
 
@@ -180,19 +190,9 @@ def pull_multiple_protections(articles : list, langs : list) -> dict :
             try:
                 output_dict[a][l] = pull_protections(a,l)
             except:
-                print(pull_protections(a,l))
                 output_dict[a][l] = {}
-
-        print(a)
     
     return output_dict
-
-def try_except_extraction(desired_value):
-
-    try:
-        return desired_value
-    except:
-        return None
     
 def transform_protections(input_list : list, lang : str) -> pd.DataFrame :
 

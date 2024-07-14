@@ -1,0 +1,4130 @@
+{
+    "Ulysses_S._Grant": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Ulysses S. Grant",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Just Step Sideways",
+                "timestamp": "2010-10-20T18:55:00Z",
+                "comment": "removing PC protection and re-instating previous indef semi"
+            },
+            {
+                "ns": 0,
+                "title": "Ulysses S. Grant",
+                "params": {
+                    "description": "[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Risker",
+                "timestamp": "2010-06-19T16:08:15Z",
+                "comment": "[[Wikipedia:Pending changes]] trial"
+            },
+            {
+                "ns": 0,
+                "title": "Ulysses S. Grant",
+                "params": {
+                    "oldtitle_ns": 9,
+                    "oldtitle_title": "MediaWiki talk:Ulysses S. Grant"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Graham87",
+                "timestamp": "2010-02-24T08:51:01Z",
+                "comment": "[[MediaWiki talk:Ulysses S. Grant]] moved to [[Ulysses S. Grant]]: revert"
+            },
+            {
+                "ns": 0,
+                "title": "Ulysses S. Grant",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "NawlinWiki",
+                "timestamp": "2008-10-11T18:22:18Z",
+                "comment": "[[WP:MOVP|Page-move vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Ulysses S. Grant",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Luk",
+                "timestamp": "2008-10-11T09:41:31Z",
+                "comment": "moved [[.H....A....\u0120....\u0120....E....R ?]] to [[Ulysses S. Grant]]"
+            },
+            {
+                "ns": 0,
+                "title": "Ulysses S. Grant",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Caulde",
+                "timestamp": "2008-06-03T16:10:57Z",
+                "comment": "always needs protection, trying 'sp' for an indefinite period of time: unprotect after a reasonable time period [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ulysses S. Grant",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "PeterSymonds",
+                "timestamp": "2008-05-13T19:02:06Z",
+                "comment": "Recent vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 19:02, 15 May 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Ulysses S. Grant",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Nishkid64",
+                "timestamp": "2008-05-12T16:17:11Z",
+                "comment": "Page protected for a while; hopefully protection is no longer necessary"
+            },
+            {
+                "ns": 0,
+                "title": "Ulysses S. Grant",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Caulde",
+                "timestamp": "2008-04-04T17:03:29Z",
+                "comment": "vandalism, multiple anons disrupting page [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ulysses S. Grant",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "MastCell",
+                "timestamp": "2008-01-17T20:58:02Z",
+                "comment": "Vandalism, multiple IP's [edit=autoconfirmed:move=autoconfirmed] (expires 20:58, 7 February 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Ulysses S. Grant",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Tom harrison",
+                "timestamp": "2007-03-19T14:00:31Z",
+                "comment": "vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 14:00, 26 March 2007 (UTC))"
+            }
+        ],
+        "de": []
+    },
+    "Sherman's_March_to_the_Sea": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Sherman's March to the Sea",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 12:21, 28 December 2008 (UTC)) [move=autoconfirmed] (expires 12:21, 28 December 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Thehelpfulone",
+                "timestamp": "2008-12-14T12:21:01Z",
+                "comment": "Semi-protection: vandalism. using [[WP:TWINKLE|Twinkle]]"
+            }
+        ],
+        "de": []
+    },
+    "William_Tecumseh_Sherman": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "William Tecumseh Sherman",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Scott MacDonald",
+                "timestamp": "2010-12-10T19:16:02Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "William Tecumseh Sherman",
+                "params": {
+                    "description": "[move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Mike V",
+                "timestamp": "2010-06-22T02:11:33Z",
+                "comment": "[[Wikipedia:Pending changes|Pending changes]] trial"
+            },
+            {
+                "ns": 0,
+                "title": "William Tecumseh Sherman",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Casliber",
+                "timestamp": "2010-05-26T00:34:26Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]: recurrent target"
+            },
+            {
+                "ns": 0,
+                "title": "William Tecumseh Sherman",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 23:05, 21 April 2010 (UTC)) [move=autoconfirmed] (expires 23:05, 21 April 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Mifter",
+                "timestamp": "2009-10-21T23:05:53Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "William Tecumseh Sherman",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 13:15, 21 July 2009 (UTC)) [move=autoconfirmed] (expires 13:15, 21 July 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Lectonar",
+                "timestamp": "2009-04-21T13:15:28Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]:&#32;until the end of schoolterm"
+            },
+            {
+                "ns": 0,
+                "title": "William Tecumseh Sherman",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 14:38, 20 March 2009 (UTC)) [move=autoconfirmed] (expires 14:38, 20 March 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Xymmax",
+                "timestamp": "2009-03-06T14:38:44Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "William Tecumseh Sherman",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Chaser",
+                "timestamp": "2007-08-05T22:40:19Z",
+                "comment": "today's featured article appearing on main page on 7 August [move=sysop] (expires 00:00, 8 August 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "William Tecumseh Sherman",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Sasquatch",
+                "timestamp": "2007-03-28T19:44:28Z",
+                "comment": "anon-vandalism [edit=autoconfirmed:move=sysop] (expires 23:59, March 28, 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "William Tecumseh Sherman",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Antandrus",
+                "timestamp": "2005-11-16T16:40:42Z",
+                "comment": "vandalism spree over"
+            },
+            {
+                "ns": 0,
+                "title": "William Tecumseh Sherman",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Antandrus",
+                "timestamp": "2005-11-16T06:34:04Z",
+                "comment": "vandalism"
+            }
+        ],
+        "de": []
+    },
+    "Union_Army": {
+        "en": [],
+        "de": []
+    },
+    "Confederate_States_Army": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Confederate States Army",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 10:42, 6 October 2020 (UTC))\u200e[move=autoconfirmed] (expires 10:42, 6 October 2020 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-10-06T10:42:10Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-10-06T10:42:10Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Favonian",
+                "timestamp": "2020-09-06T10:42:10Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]: requested at [[WP:RFPP]]"
+            },
+            {
+                "ns": 0,
+                "title": "Confederate States Army",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 23:52, 28 August 2020 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-08-28T23:52:33Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Johnuniq",
+                "timestamp": "2020-08-21T23:52:33Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]: please discuss on talk"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Confederate States Army",
+                "params": {
+                    "description": "\u200e[edit=sysop] (bis 8. November 2020, 06:22 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "sysop",
+                            "expiry": "2020-11-08T06:22:30Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Squasher",
+                "timestamp": "2020-11-05T06:22:30Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Confederate States Army",
+                "params": {
+                    "description": "\u200e[edit=sysop] (bis 23. April 2013, 22:57 Uhr (UTC)) \u200e[move=sysop] (bis 23. April 2013, 22:57 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ne discere cessa!",
+                "timestamp": "2013-04-22T22:57:15Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            },
+            {
+                "ns": 0,
+                "title": "Confederate States Army",
+                "params": {
+                    "description": "\u200e[edit=sysop] (bis 21. April 2013, 09:48 Uhr (UTC)) \u200e[move=sysop] (bis 21. April 2013, 09:48 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Hephaion",
+                "timestamp": "2013-04-17T09:48:38Z",
+                "comment": "[[WP:WAR|Edit-War]]: Bitte die Disku benutzen"
+            },
+            {
+                "ns": 0,
+                "title": "Confederate States Army",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Otberg",
+                "timestamp": "2013-04-08T07:23:51Z",
+                "comment": "[[WP:EW|Entsperrwunsch]]"
+            },
+            {
+                "ns": 0,
+                "title": "Confederate States Army",
+                "params": {
+                    "description": "\u200e[edit=sysop] (unbeschr\u00e4nkt) \u200e[move=sysop] (unbeschr\u00e4nkt)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Wahrerwattwurm",
+                "timestamp": "2013-03-22T08:32:40Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Confederate States Army",
+                "params": {
+                    "description": "[edit=sysop] (bis 21. November 2011, 13:13 Uhr (UTC)) [move=sysop] (bis 21. November 2011, 13:13 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Thomas Glintzer",
+                "timestamp": "2011-11-18T13:13:38Z",
+                "comment": "[[WP:WAR|Edit-War]]"
+            }
+        ]
+    },
+    "Robert_E._Lee": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Dabomb87",
+                "timestamp": "2010-09-11T17:57:09Z",
+                "comment": "Pending changes trial ended, restoring protection in place before trial"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {
+                    "description": "[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Risker",
+                "timestamp": "2010-06-20T07:10:27Z",
+                "comment": "[[Wikipedia:Pending changes]] trial"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Gonzo fan2007",
+                "timestamp": "2009-01-14T23:22:31Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 15:43, 18 December 2008 (UTC)) [move=autoconfirmed] (expires 15:43, 18 December 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Indubitably",
+                "timestamp": "2008-11-18T15:43:20Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 21:21, 3 November 2008 (UTC)) [move=autoconfirmed] (expires 21:21, 3 November 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Tanthalas39",
+                "timestamp": "2008-10-20T21:21:02Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Allen3",
+                "timestamp": "2008-04-08T02:32:13Z",
+                "comment": "persistent vandalism by anonymous users [edit=autoconfirmed:move=autoconfirmed] (expires 02:32, 8 May 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Alexf",
+                "timestamp": "2008-03-04T17:36:29Z",
+                "comment": "Anon IP vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 17:36, 4 April 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Carlosguitar",
+                "timestamp": "2007-10-30T16:23:21Z",
+                "comment": "High level of vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 16:23, 20 November 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Alison",
+                "timestamp": "2007-05-04T16:59:35Z",
+                "comment": "High level of persistent anon vandalism - resumed after previous prot lifted / requested at [{WP:RPP]] [edit=autoconfirmed:move=autoconfirmed] (expires 16:59, 18 May 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "John Reaves",
+                "timestamp": "2007-04-23T18:23:40Z",
+                "comment": "vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 18:23, April 30, 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Steel",
+                "timestamp": "2006-11-18T18:31:52Z",
+                "comment": "Time..."
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "MONGO",
+                "timestamp": "2006-10-22T16:55:09Z",
+                "comment": "semiprotect due to persistant vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Aaron Schulz",
+                "timestamp": "2006-06-13T21:52:57Z",
+                "comment": "Article locked for a while; hopefully, protection is no longer necessary."
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "MONGO",
+                "timestamp": "2006-05-30T20:48:50Z",
+                "comment": "daily vandalisms...semi-protecting temporarily until it abates [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Aaron Schulz",
+                "timestamp": "2006-05-11T00:43:42Z",
+                "comment": "Its been long enough..."
+            },
+            {
+                "ns": 0,
+                "title": "Robert E. Lee",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "El C",
+                "timestamp": "2006-04-25T19:41:08Z",
+                "comment": "vandalism from multiple ips [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": []
+    },
+    "Joseph_E._Johnston": {
+        "en": [],
+        "de": []
+    },
+    "Alexander_H._Stephens": {
+        "en": [],
+        "de": []
+    },
+    "James_Longstreet": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "James Longstreet",
+                "params": {
+                    "description": "\u200e[move=sysop] (expires 00:00, 12 December 2021 (UTC))",
+                    "details": [
+                        {
+                            "type": "move",
+                            "level": "sysop",
+                            "expiry": "2021-12-12T00:00:00Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "TFA Protector Bot",
+                "timestamp": "2021-11-07T00:00:35Z",
+                "comment": "Upcoming TFA ([[WP:BOT|bot protection]])"
+            }
+        ],
+        "de": []
+    },
+    "United_Daughters_of_the_Confederacy": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "United Daughters of the Confederacy",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 00:24, 26 August 2019 (UTC))\u200e[move=autoconfirmed] (expires 00:24, 26 August 2019 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-08-26T00:24:41Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-08-26T00:24:41Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Acroterion",
+                "timestamp": "2019-08-23T00:24:41Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "United Daughters of the Confederacy",
+                "params": {
+                    "description": "\u200e[edit=sysop] (expires 15:59, 12 December 2018 (UTC))\u200e[move=sysop] (expires 15:59, 12 December 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "sysop",
+                            "expiry": "2018-12-12T15:59:59Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "sysop",
+                            "expiry": "2018-12-12T15:59:59Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "JzG",
+                "timestamp": "2018-12-05T15:59:59Z",
+                "comment": "[[WP:PP#Content disputes|Edit warring / content dispute]]"
+            },
+            {
+                "ns": 0,
+                "title": "United Daughters of the Confederacy",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 01:54, 22 July 2018 (UTC))\u200e[move=autoconfirmed] (expires 01:54, 22 July 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-07-22T01:54:54Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-07-22T01:54:54Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Kudpung",
+                "timestamp": "2018-04-22T01:54:54Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]: and addition  of PoV and unsourced content"
+            },
+            {
+                "ns": 0,
+                "title": "United Daughters of the Confederacy",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 17:39, 6 March 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-03-06T17:39:11Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "CambridgeBayWeather",
+                "timestamp": "2018-02-20T17:39:11Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "United Daughters of the Confederacy",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 03:33, 19 February 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-02-19T03:33:44Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Deepfriedokra",
+                "timestamp": "2018-02-12T03:33:45Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "United Daughters of the Confederacy",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 21:11, 19 November 2017 (UTC))\u200e[move=autoconfirmed] (expires 21:11, 19 November 2017 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-11-19T21:11:57Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-11-19T21:11:57Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Maile66",
+                "timestamp": "2017-08-19T21:11:57Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "United Daughters of the Confederacy",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 05:58, 25 June 2017 (UTC))\u200e[move=autoconfirmed] (expires 05:58, 25 June 2017 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-06-25T05:58:47Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-06-25T05:58:47Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "El C",
+                "timestamp": "2017-06-18T05:58:47Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]: RFPP"
+            },
+            {
+                "ns": 0,
+                "title": "United Daughters of the Confederacy",
+                "params": {
+                    "description": "\u200e[edit=sysop] (expires 22:38, 6 June 2017 (UTC))\u200e[move=sysop] (expires 22:38, 6 June 2017 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "sysop",
+                            "expiry": "2017-06-06T22:38:09Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "sysop",
+                            "expiry": "2017-06-06T22:38:09Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "MelanieN",
+                "timestamp": "2017-06-04T22:38:09Z",
+                "comment": "[[WP:PP#Content disputes|Edit warring / content dispute]]"
+            }
+        ],
+        "de": null
+    },
+    "Army_of_Northern_Virginia": {
+        "en": [],
+        "de": []
+    },
+    "Jefferson_Davis": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite)\u200e[move=autoconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Acroterion",
+                "timestamp": "2020-02-13T03:41:00Z",
+                "comment": "return of disruptive IP immediately after expiration of protection, making the protection indefinite"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 23:22, 12 February 2020 (UTC))\u200e[move=autoconfirmed] (expires 23:22, 12 February 2020 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-02-12T23:22:06Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-02-12T23:22:06Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ponyo",
+                "timestamp": "2019-08-12T23:22:06Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 23:29, 10 August 2019 (UTC))\u200e[move=autoconfirmed] (expires 23:29, 10 August 2019 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-08-10T23:29:50Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-08-10T23:29:50Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Materialscientist",
+                "timestamp": "2019-02-10T23:29:50Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 21:07, 10 February 2019 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-02-10T21:07:39Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Airplaneman",
+                "timestamp": "2019-02-03T21:07:39Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "\u200e[move=sysop] (expires 00:00, 4 June 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "TFA Protector Bot",
+                "timestamp": "2014-05-18T20:00:39Z",
+                "comment": "Upcoming TFA ([[WP:BOT|bot protection]])"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 16:39, 26 May 2013 (UTC)) \u200e[move=autoconfirmed] (expires 16:39, 26 May 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Fvasconcellos",
+                "timestamp": "2013-02-26T16:39:39Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 20:20, 2 September 2010 (UTC)) [move=autoconfirmed] (expires 20:20, 2 September 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Juliancolton",
+                "timestamp": "2010-03-02T20:20:34Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 05:33, 17 December 2009 (UTC)) [move=autoconfirmed] (expires 05:33, 17 December 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Jclemens",
+                "timestamp": "2009-12-03T05:33:35Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 21:40, 28 June 2009 (UTC)) [move=autoconfirmed] (expires 21:40, 28 June 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Jclemens",
+                "timestamp": "2009-05-28T21:40:34Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 04:29, 23 May 2009 (UTC)) [move=autoconfirmed] (expires 04:29, 23 May 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Jclemens",
+                "timestamp": "2009-04-23T04:29:30Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 16:33, 7 February 2009 (UTC)) [move=autoconfirmed] (expires 16:33, 7 February 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Jclemens",
+                "timestamp": "2009-01-07T16:33:23Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 22:33, 10 December 2008 (UTC)) [move=autoconfirmed] (expires 22:33, 10 December 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "SoWhy",
+                "timestamp": "2008-11-10T22:33:48Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 17:27, 27 October 2008 (UTC)) [move=autoconfirmed] (expires 17:27, 27 October 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Tanthalas39",
+                "timestamp": "2008-10-13T17:27:18Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Will Beback",
+                "timestamp": "2008-08-24T01:23:12Z",
+                "comment": "vandal blocked"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Will Beback",
+                "timestamp": "2008-08-21T18:11:56Z",
+                "comment": "Primetime vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 18:11, 25 August 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "PeterSymonds",
+                "timestamp": "2008-08-16T02:01:24Z",
+                "comment": "rm semi, should be fine now"
+            },
+            {
+                "ns": 0,
+                "title": "Jefferson Davis",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Bedford",
+                "timestamp": "2008-06-04T20:57:41Z",
+                "comment": "daily IP vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": []
+    },
+    "Origins_of_the_American_Civil_War": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Origins of the American Civil War",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 03:50, 18 December 2010 (UTC)) [move=autoconfirmed] (expires 03:50, 18 December 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Dabomb87",
+                "timestamp": "2010-12-15T03:50:13Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Origins of the American Civil War",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Neutrality",
+                "timestamp": "2005-01-13T01:20:49Z",
+                "comment": "Edit war over."
+            },
+            {
+                "ns": 0,
+                "title": "Origins of the American Civil War",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Viajero",
+                "timestamp": "2005-01-08T13:43:20Z",
+                "comment": "edit war"
+            }
+        ],
+        "de": null
+    },
+    "Confederate_States_of_America": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Confederate States of America",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite)\u200e[move=autoconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "EdJohnston",
+                "timestamp": "2018-07-16T16:17:55Z",
+                "comment": "Long term problem of edit warring"
+            },
+            {
+                "ns": 0,
+                "title": "Confederate States of America",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 04:57, 7 March 2018 (UTC))\u200e[move=autoconfirmed] (expires 04:57, 7 March 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-03-07T04:57:34Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-03-07T04:57:34Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "EdJohnston",
+                "timestamp": "2017-03-07T04:57:34Z",
+                "comment": "[[WP:PP#Content disputes|Edit warring / content dispute]]"
+            },
+            {
+                "ns": 0,
+                "title": "Confederate States of America",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 17:50, 18 January 2017 (UTC))\u200e[move=autoconfirmed] (expires 17:50, 18 January 2017 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-01-18T17:50:17Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-01-18T17:50:17Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "EdJohnston",
+                "timestamp": "2016-07-18T17:50:17Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "Confederate States of America",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 21:56, 10 October 2015 (UTC))\u200e[move=autoconfirmed] (expires 21:56, 10 October 2015 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "EdJohnston",
+                "timestamp": "2015-08-10T21:56:23Z",
+                "comment": "[[WP:PP#Content disputes|Edit warring / content dispute]]"
+            },
+            {
+                "ns": 0,
+                "title": "Confederate States of America",
+                "params": {
+                    "description": "\u200e[edit=sysop] (expires 13:49, 20 September 2014 (UTC))\u200e[move=sysop] (expires 13:49, 20 September 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Vsmith",
+                "timestamp": "2014-09-17T13:49:30Z",
+                "comment": "[[WP:PP#Content disputes|Edit warring / content dispute]]"
+            },
+            {
+                "ns": 0,
+                "title": "Confederate States of America",
+                "params": {
+                    "description": "[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Kralizec!",
+                "timestamp": "2009-03-07T05:41:21Z",
+                "comment": "[[WP:MOVP|Page-move vandalism]]"
+            }
+        ],
+        "de": []
+    },
+    "Abraham_Lincoln": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "SlimVirgin",
+                "timestamp": "2010-06-25T04:34:14Z",
+                "comment": "restored move protection"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Fastily",
+                "timestamp": "2010-06-25T03:47:23Z",
+                "comment": "apparently pending changes is not working at the moment - feel free to revert me when it is)"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Fastily",
+                "timestamp": "2010-06-25T03:47:15Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Fastily",
+                "timestamp": "2010-06-25T03:46:38Z",
+                "comment": "apparently pending changes is not working at the moment - feel free to revert me when it is"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "MSGJ",
+                "timestamp": "2010-06-22T12:57:45Z",
+                "comment": "[[Wikipedia:Pending changes|Pending changes]] trial"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "oldtitle_ns": 9,
+                    "oldtitle_title": "MediaWiki talk:Abraham Lincoln"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Graham87",
+                "timestamp": "2010-02-23T01:25:22Z",
+                "comment": "[[MediaWiki talk:Abraham Lincoln]] moved to [[Abraham Lincoln]]: revert"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Orangemike",
+                "timestamp": "2010-02-15T22:25:19Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]: no evidence that this will ever stop being a target for vandals; even the talk page is a constant target"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 09:01, 9 August 2010 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Bongwarrior",
+                "timestamp": "2009-08-09T09:01:47Z",
+                "comment": "setting an expiry for the semiprotection"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Bongwarrior",
+                "timestamp": "2009-08-09T04:14:58Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Juliancolton",
+                "timestamp": "2009-07-25T19:01:12Z",
+                "comment": "protected for nearly 2 years; will keep an eye on it"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "modify",
+                "user": "DarkFalls",
+                "timestamp": "2007-10-08T04:05:09Z",
+                "comment": "[edit=autoconfirmed:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Shanes",
+                "timestamp": "2007-04-30T03:00:33Z",
+                "comment": "IP-vandalism all the time [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Durova",
+                "timestamp": "2007-04-12T03:47:30Z",
+                "comment": "IP vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 03:47, 26 April 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Alison",
+                "timestamp": "2007-03-23T17:58:57Z",
+                "comment": "Heavy vandalism from anon editors [edit=autoconfirmed:move=autoconfirmed] (expires 17:58, 6 April 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "CBDunkerson",
+                "timestamp": "2007-03-19T19:09:58Z",
+                "comment": "Excessive anon vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 2007-03-21T19:09:58 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Centrx",
+                "timestamp": "2007-03-19T03:23:59Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Kusma",
+                "timestamp": "2007-02-01T19:25:39Z",
+                "comment": "lots of anon vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Royalguard11",
+                "timestamp": "2007-01-29T19:42:42Z",
+                "comment": "almost 4 months is excessive for sprotection. Trying unprotection"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jpgordon",
+                "timestamp": "2006-10-02T15:47:53Z",
+                "comment": "And we saw what happened. This is pretty boring. [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Joelr31",
+                "timestamp": "2006-09-30T16:35:02Z",
+                "comment": "it's been 21 days...let's what happens"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Winhunter",
+                "timestamp": "2006-09-09T13:15:02Z",
+                "comment": "recent anon vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Aaron Schulz",
+                "timestamp": "2006-08-08T07:42:09Z",
+                "comment": "Page protected for a while; hopefully protection is no longer necessary."
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Deskana",
+                "timestamp": "2006-08-01T18:27:57Z",
+                "comment": "recent vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Aaron Schulz",
+                "timestamp": "2006-06-07T05:55:19Z",
+                "comment": "Article locked for a while; hopefully, protection is no longer necessary."
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jpgordon",
+                "timestamp": "2006-06-02T23:28:31Z",
+                "comment": "sigh. Not long enough I guess. [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Jpgordon",
+                "timestamp": "2006-06-02T22:47:35Z",
+                "comment": "Been protected too long"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Deskana",
+                "timestamp": "2006-05-11T19:38:04Z",
+                "comment": "long vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Splash",
+                "timestamp": "2006-03-22T22:37:53Z",
+                "comment": "long enough for simple vandalism and not getting much vandalism at the time anyway"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Tony Sidaway",
+                "timestamp": "2006-03-16T04:48:50Z",
+                "comment": "Heavy vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Splash",
+                "timestamp": "2006-03-11T17:09:17Z",
+                "comment": "keeping it brief"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jossi",
+                "timestamp": "2006-03-09T20:57:53Z",
+                "comment": "vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Splash",
+                "timestamp": "2006-01-23T02:09:22Z",
+                "comment": "try unprotecting now, been a couple days"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Zoe",
+                "timestamp": "2006-01-20T19:34:25Z",
+                "comment": "multiple anon vandalisms [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Geni",
+                "timestamp": "2005-01-30T18:13:20Z",
+                "comment": "It's ben protect for long enough (hopefully)"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Geni",
+                "timestamp": "2005-01-27T02:02:26Z",
+                "comment": "edit/revert war"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (unbeschr\u00e4nkt)\u200e[move=autoconfirmed] (unbeschr\u00e4nkt)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "JWBE",
+                "timestamp": "2014-12-16T09:22:13Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Inkowik",
+                "timestamp": "2014-11-12T19:47:04Z",
+                "comment": "unn\u00f6tigen separaten Verschiebeschutz aufgehoben"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 16. M\u00e4rz 2014, 14:50 Uhr (UTC))\u200e[move=autoconfirmed] (unbeschr\u00e4nkt)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Andreas Werle",
+                "timestamp": "2014-03-09T14:50:42Z",
+                "comment": "reverts durch IP"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 24. Februar 2014, 17:39 Uhr (UTC))\u200e[move=autoconfirmed] (unbeschr\u00e4nkt)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Ambross07",
+                "timestamp": "2014-02-10T17:39:32Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 22. M\u00e4rz 2013, 18:40 Uhr (UTC)) \u200e[move=autoconfirmed] (unbeschr\u00e4nkt)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Regi51",
+                "timestamp": "2013-02-22T18:40:57Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 19. November 2012, 10:49 Uhr (UTC)) \u200e[move=autoconfirmed] (unbeschr\u00e4nkt)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Pittimann",
+                "timestamp": "2012-10-19T09:49:11Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 24. April 2012, 09:10 Uhr (UTC)) \u200e[move=autoconfirmed] (unbeschr\u00e4nkt)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Hans-J\u00fcrgen H\u00fcbner",
+                "timestamp": "2012-04-17T09:11:03Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 15. April 2012, 01:45 Uhr (UTC)) \u200e[move=autoconfirmed] (bis 15. April 2012, 01:45 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Wo st 01",
+                "timestamp": "2012-04-14T19:45:14Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "[edit=autoconfirmed] (bis 13. Mai 2011, 08:01 Uhr (UTC)) [move=autoconfirmed] (bis 13. Mai 2011, 08:01 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Hans-J\u00fcrgen H\u00fcbner",
+                "timestamp": "2011-04-13T08:02:00Z",
+                "comment": "Wiederkehrender [[Wikipedia:Vandalismus|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Abraham Lincoln",
+                "params": {
+                    "description": "[edit=autoconfirmed] (bis 12. April 2011, 15:29 Uhr (UTC)) [move=autoconfirmed] (bis 12. April 2011, 15:29 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Hans-J\u00fcrgen H\u00fcbner",
+                "timestamp": "2011-03-29T15:29:17Z",
+                "comment": "Wiederkehrender [[Wikipedia:Vandalismus|Vandalismus]]"
+            }
+        ]
+    },
+    "Battle_of_Gettysburg": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Bongwarrior",
+                "timestamp": "2012-02-02T16:38:02Z",
+                "comment": "Excessive [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 00:36, 15 May 2011 (UTC)) [move=autoconfirmed] (expires 00:36, 15 May 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "MLauba",
+                "timestamp": "2011-05-12T00:36:15Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 13:00, 12 October 2010 (UTC)) [move=autoconfirmed] (expires 13:00, 12 October 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "TFOWR",
+                "timestamp": "2010-10-11T13:00:43Z",
+                "comment": "Dammit, stomped over GedUK. Sorry mate..."
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "TFOWR",
+                "timestamp": "2010-10-11T12:57:56Z",
+                "comment": "Semi-protection: vandalism, Requested at [[WP:RFPP]]. My (admittedly uninformed) reading of the logs is that this was previously indefinitely protected, prior to the PC trial. I'm restoring indefinite protection: please do reduce the duration if you feel "
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 12:56, 12 October 2010 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Ged UK",
+                "timestamp": "2010-10-11T12:56:55Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {
+                    "description": "[move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Yamamoto Ichiro",
+                "timestamp": "2010-06-22T17:57:08Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {},
+                "type": "protect",
+                "action": "modify",
+                "user": "NawlinWiki",
+                "timestamp": "2008-07-22T05:18:47Z",
+                "comment": "pagemove vandalism [edit=autoconfirmed:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jmlk17",
+                "timestamp": "2008-03-17T20:57:12Z",
+                "comment": "Far too many issues when unprotected. [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jmlk17",
+                "timestamp": "2008-01-16T21:49:18Z",
+                "comment": "Semi-protection. using [[WP:TWINKLE|TW]] [edit=autoconfirmed:move=autoconfirmed] (expires 21:49, March 16, 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jmlk17",
+                "timestamp": "2007-11-20T06:29:49Z",
+                "comment": "to stop issues with anon vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 06:29, December 20, 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jmlk17",
+                "timestamp": "2007-10-03T10:45:41Z",
+                "comment": "to stop issues with anon vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 10:45, October 17, 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Yamamoto Ichiro",
+                "timestamp": "2007-05-28T23:33:46Z",
+                "comment": "vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 23:33, 28 June 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "WJBscribe",
+                "timestamp": "2007-05-28T23:33:42Z",
+                "comment": "IP vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 23:33, June 28, 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Yamamoto Ichiro",
+                "timestamp": "2007-05-28T23:33:32Z",
+                "comment": "vandalism"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Flcelloguy",
+                "timestamp": "2007-02-01T02:50:50Z",
+                "comment": "Heavy vandalism again [edit=autoconfirmed:move=autoconfirmed] (expires 02:50, February 3, 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Luna Santin",
+                "timestamp": "2007-01-17T23:25:28Z",
+                "comment": "Hopefully no longer needed"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Gettysburg",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Luna Santin",
+                "timestamp": "2007-01-10T03:24:33Z",
+                "comment": "Unusually heavy vandalism, past few days [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": []
+    },
+    "Judah_P._Benjamin": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Judah P. Benjamin",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 17:26, 5 September 2020 (UTC))\u200e[move=autoconfirmed] (expires 17:26, 5 September 2020 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-09-05T17:26:19Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-09-05T17:26:19Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "EdJohnston",
+                "timestamp": "2020-08-05T17:26:19Z",
+                "comment": "[[WP:PP#Content disputes|Edit warring / content dispute]]: Per a complaint at [[WP:AN3]]"
+            },
+            {
+                "ns": 0,
+                "title": "Judah P. Benjamin",
+                "params": {
+                    "description": "\u200e[move=sysop] (expires 00:00, 31 August 2015 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "TFA Protector Bot",
+                "timestamp": "2015-08-11T12:00:24Z",
+                "comment": "Upcoming TFA ([[WP:BOT|bot protection]])"
+            }
+        ],
+        "de": []
+    },
+    "John_C._Breckinridge": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "John C. Breckinridge",
+                "params": {
+                    "description": "\u200e[move=sysop] (expires 00:00, 17 January 2021 (UTC))",
+                    "details": [
+                        {
+                            "type": "move",
+                            "level": "sysop",
+                            "expiry": "2021-01-17T00:00:00Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "TFA Protector Bot",
+                "timestamp": "2020-12-08T22:01:45Z",
+                "comment": "Upcoming TFA ([[WP:BOT|bot protection]])"
+            }
+        ],
+        "de": []
+    },
+    "Joseph_Wheeler": {
+        "en": [],
+        "de": []
+    },
+    "P._G._T._Beauregard": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "P. G. T. Beauregard",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 19:03, 24 May 2017 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2017-05-24T19:03:30Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Clpo13",
+                "timestamp": "2017-05-17T19:03:31Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            }
+        ],
+        "de": []
+    },
+    "Franklin_Buchanan": {
+        "en": [],
+        "de": []
+    },
+    "Nathan_Bedford_Forrest": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Nathan Bedford Forrest",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 23:29, 10 August 2023 (UTC))\u200e[move=autoconfirmed] (expires 23:29, 10 August 2023 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-08-10T23:29:19Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2023-08-10T23:29:19Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Acroterion",
+                "timestamp": "2023-02-10T23:29:19Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "Nathan Bedford Forrest",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 11:03, 11 November 2022 (UTC))\u200e[move=autoconfirmed] (expires 11:03, 11 November 2022 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-11-11T11:03:14Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2022-11-11T11:03:14Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Acroterion",
+                "timestamp": "2022-10-28T11:03:14Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "Nathan Bedford Forrest",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 11:13, 31 October 2021 (UTC))\u200e[move=autoconfirmed] (expires 11:13, 31 October 2021 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-10-31T11:13:36Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-10-31T11:13:36Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Materialscientist",
+                "timestamp": "2020-10-31T11:13:36Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "Nathan Bedford Forrest",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 11:17, 21 September 2020 (UTC))\u200e[move=autoconfirmed] (expires 11:17, 21 September 2020 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-09-21T11:17:46Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-09-21T11:17:46Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Acroterion",
+                "timestamp": "2020-06-21T11:17:46Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "Nathan Bedford Forrest",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 02:29, 4 January 2019 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-01-04T02:29:56Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ad Orientem",
+                "timestamp": "2018-10-04T02:29:56Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "Nathan Bedford Forrest",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 21:13, 12 March 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-03-12T21:13:02Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Deepfriedokra",
+                "timestamp": "2017-12-12T21:13:02Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Nathan Bedford Forrest",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 15:08, 6 February 2009 (UTC)) [move=autoconfirmed] (expires 15:08, 6 February 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Barneca",
+                "timestamp": "2009-02-05T15:08:08Z",
+                "comment": "vandal on dynamic IP"
+            }
+        ],
+        "de": []
+    },
+    "Ku_Klux_Klan": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Shanes",
+                "timestamp": "2009-02-05T22:01:52Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 22:57, 3 February 2009 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "B",
+                "timestamp": "2009-01-03T22:57:43Z",
+                "comment": "protection expired, obviously still needed"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 13:30, 3 January 2009 (UTC)) [move=autoconfirmed] (expires 13:30, 3 January 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Alex Bakharev",
+                "timestamp": "2008-12-03T13:30:07Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 15:55, 25 November 2008 (UTC)) [move=autoconfirmed] (expires 15:55, 25 November 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Juliancolton",
+                "timestamp": "2008-10-25T15:55:05Z",
+                "comment": "Heavy IP vandalism"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 20:02, 23 October 2008 (UTC)) [move=sysop] (expires 20:02, 23 October 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Cenarium",
+                "timestamp": "2008-10-12T16:31:17Z",
+                "comment": "page-move vandalism target, many revisions"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 20:02, 23 October 2008 (UTC)) [move=autoconfirmed] (expires 20:02, 23 October 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Darwinek",
+                "timestamp": "2008-09-23T20:02:11Z",
+                "comment": "heavy IP vandalism again"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "modify",
+                "user": "NawlinWiki",
+                "timestamp": "2008-08-25T19:26:46Z",
+                "comment": "add moveprotection [edit=autoconfirmed:move=sysop] (expires 19:22, 17 September 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "PeaceNT",
+                "timestamp": "2008-07-17T19:22:23Z",
+                "comment": "Heavy IP vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 19:22, 17 September 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Darwinek",
+                "timestamp": "2008-05-07T16:17:14Z",
+                "comment": "tireless IP vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 00:00, 11 July 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Moreschi",
+                "timestamp": "2008-04-22T21:04:41Z",
+                "comment": "Vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 21:04, 6 May 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Seicer",
+                "timestamp": "2008-04-21T12:41:16Z",
+                "comment": "Main source of vio. blocked indef."
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "modify",
+                "user": "Seicer",
+                "timestamp": "2008-04-06T05:27:04Z",
+                "comment": "Full protection: Dispute. using [[WP:TW|TW]] [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "modify",
+                "user": "Luna Santin",
+                "timestamp": "2008-03-31T06:56:53Z",
+                "comment": "semi and move prot [edit=autoconfirmed:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "modify",
+                "user": "Luna Santin",
+                "timestamp": "2008-03-31T06:56:33Z",
+                "comment": "back down to semi [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "modify",
+                "user": "Luna Santin",
+                "timestamp": "2008-03-31T01:34:29Z",
+                "comment": "bumping up to full prot, for a moment -- feel free to remind me about this [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "modify",
+                "user": "Jmlk17",
+                "timestamp": "2007-10-03T10:55:41Z",
+                "comment": "moved protected [edit=autoconfirmed:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Centrx",
+                "timestamp": "2007-04-16T02:24:02Z",
+                "comment": "Vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Centrx",
+                "timestamp": "2007-04-15T04:43:23Z",
+                "comment": "Try unprotection"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Centrx",
+                "timestamp": "2006-11-18T21:36:35Z",
+                "comment": "Long-term target of common vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Mattflaschen",
+                "timestamp": "2006-11-05T03:41:01Z",
+                "comment": "too long"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SouthernNights",
+                "timestamp": "2006-10-18T20:26:46Z",
+                "comment": "extreme vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Shanes",
+                "timestamp": "2006-10-03T02:08:06Z",
+                "comment": "try unprot"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SouthernNights",
+                "timestamp": "2006-09-18T20:07:58Z",
+                "comment": "vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Aaron Schulz",
+                "timestamp": "2006-08-26T21:06:56Z",
+                "comment": "Page protected for a while; hopefully protection is no longer necessary."
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SouthernNights",
+                "timestamp": "2006-08-16T13:19:00Z",
+                "comment": "vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Aaron Schulz",
+                "timestamp": "2006-08-04T19:18:20Z",
+                "comment": "Page protected for a while; hopefully protection is no longer necessary."
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SouthernNights",
+                "timestamp": "2006-07-25T13:05:10Z",
+                "comment": "protect because of vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Aaron Schulz",
+                "timestamp": "2006-07-15T23:09:47Z",
+                "comment": "Page protected for a while; hopefully protection is no longer necessary."
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SouthernNights",
+                "timestamp": "2006-07-03T13:23:02Z",
+                "comment": "semiprotecting due to vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Splash",
+                "timestamp": "2006-06-28T15:56:10Z",
+                "comment": "see if it's died down in 2 days; might just have been left over from Main Page recently-featured stuff"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SouthernNights",
+                "timestamp": "2006-06-26T15:24:04Z",
+                "comment": "semiprotect b/c of massive vandalism in recent days [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Raul654",
+                "timestamp": "2006-06-23T00:18:13Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Brian0918",
+                "timestamp": "2006-06-22T00:25:07Z",
+                "comment": "pre-emptive move protection [move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Raul654",
+                "timestamp": "2006-06-21T22:26:44Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SouthernNights",
+                "timestamp": "2006-06-21T13:06:13Z",
+                "comment": "Protecting because of editorial dispute. Raise potential changes on article's talk page [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Aaron Schulz",
+                "timestamp": "2006-06-20T22:08:19Z",
+                "comment": "Article locked for a while; hopefully, protection is no longer necessary."
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SouthernNights",
+                "timestamp": "2006-06-09T00:46:09Z",
+                "comment": "persistent vandalism, which is interfering with discussions on talk page regarding language of article [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Aaron Schulz",
+                "timestamp": "2006-05-26T06:04:55Z",
+                "comment": "Article locked for a while; protection no longer necessary."
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "UninvitedCompany",
+                "timestamp": "2006-05-02T23:59:36Z",
+                "comment": "repeat vandalism apparently due to inbound links from schools in California [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "SouthernNights",
+                "timestamp": "2006-04-11T16:00:27Z",
+                "comment": "removed protection because editorial dispute is over"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Splash",
+                "timestamp": "2006-03-27T21:56:40Z",
+                "comment": "well then, full protect [edit=sysop:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SouthernNights",
+                "timestamp": "2006-03-27T21:49:18Z",
+                "comment": "semiprotected again. This sp was done to aid in an editorial dispute, which is being mediated and resolved on the article's talk page [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Splash",
+                "timestamp": "2006-03-27T21:29:05Z",
+                "comment": "there was no significant vandalism problem"
+            },
+            {
+                "ns": 0,
+                "title": "Ku Klux Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "SouthernNights",
+                "timestamp": "2006-03-25T14:49:36Z",
+                "comment": "semi-protect to assist with editing issues [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Ku-Klux-Klan",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (unbeschr\u00e4nkt)\u200e[move=autoconfirmed] (unbeschr\u00e4nkt)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "WolfgangRieger",
+                "timestamp": "2014-12-09T11:14:05Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku-Klux-Klan",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 15. November 2014, 16:42 Uhr (UTC))\u200e[move=autoconfirmed] (bis 15. November 2014, 16:42 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ambross07",
+                "timestamp": "2014-05-15T15:42:13Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku-Klux-Klan",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 18. Dezember 2013, 16:53 Uhr (UTC))\u200e[move=autoconfirmed] (bis 18. Dezember 2013, 16:53 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ot",
+                "timestamp": "2013-11-18T16:53:34Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku-Klux-Klan",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 6. Juni 2013, 03:44 Uhr (UTC)) \u200e[move=autoconfirmed] (bis 6. Juni 2013, 03:44 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "C\u00fa Faoil",
+                "timestamp": "2013-03-06T04:44:24Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]: von IPs im Moment nichts Sinnvolles"
+            },
+            {
+                "ns": 0,
+                "title": "Ku-Klux-Klan",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 19. August 2012, 13:59 Uhr (UTC)) \u200e[move=autoconfirmed] (bis 19. August 2012, 13:59 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "XenonX3",
+                "timestamp": "2012-07-19T13:59:38Z",
+                "comment": "Wiederholte Missachtung der [[WP:BLG|Belegpflicht]]: + nachweislich falsche \u00c4nderungen von IPs"
+            },
+            {
+                "ns": 0,
+                "title": "Ku-Klux-Klan",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 23. Juni 2012, 21:50 Uhr (UTC)) \u200e[move=autoconfirmed] (bis 23. Juni 2012, 21:50 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Regi51",
+                "timestamp": "2012-03-23T22:50:30Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku-Klux-Klan",
+                "params": {
+                    "description": "[edit=autoconfirmed] (bis 8. M\u00e4rz 2012, 18:08 Uhr (UTC)) [move=autoconfirmed] (bis 8. M\u00e4rz 2012, 18:08 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Pittimann",
+                "timestamp": "2011-12-08T18:08:36Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Ku-Klux-Klan",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Baumfreund-FFM",
+                "timestamp": "2011-11-05T05:26:28Z",
+                "comment": "[[WP:EW|Entsperrwunsch]]: Uraltsperre"
+            },
+            {
+                "ns": 0,
+                "title": "Ku-Klux-Klan",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Stahlkocher",
+                "timestamp": "2006-01-04T12:06:51Z",
+                "comment": "Wiederholter Vandalismus [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ]
+    },
+    "John_C._Fr\u00e9mont": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "John C. Fr\u00e9mont",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 20:36, 5 October 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-10-05T20:36:50Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ad Orientem",
+                "timestamp": "2018-10-03T20:36:50Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            }
+        ],
+        "de": []
+    },
+    "Joseph_Hooker": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Joseph Hooker",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Anonymous Dissident",
+                "timestamp": "2008-03-07T23:10:32Z",
+                "comment": "bombardment [edit=autoconfirmed:move=autoconfirmed] (expires 23:10, 14 March 2008 (UTC))"
+            }
+        ],
+        "de": []
+    },
+    "George_Meade": {
+        "en": [],
+        "de": []
+    },
+    "Wilmington_massacre": {
+        "en": [],
+        "de": []
+    },
+    "Red_Shirts_(United_States)": {
+        "en": [],
+        "de": []
+    },
+    "United_Confederate_Veterans": {
+        "en": [],
+        "de": null
+    },
+    "Confederate_History_Month": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Confederate History Month",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 04:45, 17 April 2010 (UTC)) [move=autoconfirmed] (expires 04:45, 17 April 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Timotheus Canens",
+                "timestamp": "2010-04-10T04:45:41Z",
+                "comment": "Multiple IPs and new users edit-warring"
+            }
+        ],
+        "de": null
+    },
+    "Robert_E._Lee_Day": {
+        "en": [],
+        "de": null
+    },
+    "Stonewall_Jackson": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {
+                    "oldtitle_ns": 0,
+                    "oldtitle_title": "Stonewall Jackson (confederate general)"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Bkonrad",
+                "timestamp": "2024-05-23T11:07:25Z",
+                "comment": "[[Stonewall Jackson (confederate general)]] moved to [[Stonewall Jackson]]: undiscussed move"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "BusterD",
+                "timestamp": "2021-12-13T19:14:38Z",
+                "comment": "Last action was semi-protection for one year and expired in July. Persistent episodes of [[WP:Vandalism|vandalism]] since then suggest that indef semi is the minimum required action, possibly escalating to EC soon"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 02:14, 2 July 2021 (UTC))\u200e[move=autoconfirmed] (expires 02:14, 2 July 2021 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-07-02T02:14:01Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2021-07-02T02:14:01Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Acroterion",
+                "timestamp": "2020-07-02T02:14:01Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 00:21, 28 March 2019 (UTC))\u200e[move=autoconfirmed] (expires 00:21, 28 March 2019 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-03-28T00:21:49Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-03-28T00:21:49Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Materialscientist",
+                "timestamp": "2019-02-28T00:21:49Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 19:32, 16 September 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Connormah",
+                "timestamp": "2012-09-14T19:32:55Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 15:27, 27 June 2011 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Kuru",
+                "timestamp": "2011-05-27T15:27:11Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 17:37, 1 April 2011 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Closedmouth",
+                "timestamp": "2011-03-29T17:37:12Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 19:27, 11 July 2010 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "PeterSymonds",
+                "timestamp": "2010-04-11T19:27:12Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 12:09, 12 June 2009 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Ruslik0",
+                "timestamp": "2009-03-12T12:09:23Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 08:24, 26 February 2009 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Ruslik0",
+                "timestamp": "2009-01-26T08:24:19Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Acalamari",
+                "timestamp": "2008-06-13T15:56:21Z",
+                "comment": "Grawp target [move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "AuburnPilot",
+                "timestamp": "2008-01-11T02:17:49Z",
+                "comment": "IP vandalism do to TV issues [edit=autoconfirmed:move=autoconfirmed] (expires 02:17, 12 January 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Stonewall Jackson",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Singularity",
+                "timestamp": "2007-05-10T18:15:57Z",
+                "comment": "heavy IP vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 18:15, 24 May 2007 (UTC))"
+            }
+        ],
+        "de": []
+    },
+    "Jim_Crow_laws": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Jim Crow laws",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "DMacks",
+                "timestamp": "2008-10-10T03:28:46Z",
+                "comment": "massive IP vandalism as soon as protection expires:/"
+            },
+            {
+                "ns": 0,
+                "title": "Jim Crow laws",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Darwinek",
+                "timestamp": "2008-09-04T22:33:36Z",
+                "comment": "school started again and IPs are mass vandalizing this article again [edit=autoconfirmed:move=autoconfirmed] (expires 00:00, 4 October 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Jim Crow laws",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Peteforsyth",
+                "timestamp": "2008-05-27T22:20:53Z",
+                "comment": "Semi-protection was long ago, rationale was RECENT vandalism."
+            },
+            {
+                "ns": 0,
+                "title": "Jim Crow laws",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Darwinek",
+                "timestamp": "2008-02-29T14:51:33Z",
+                "comment": "tireless IP vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Jim Crow laws",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "One",
+                "timestamp": "2007-10-18T07:24:28Z",
+                "comment": "mass vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 00:00, November 1, 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Jim Crow laws",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "MarkGallagher",
+                "timestamp": "2007-05-28T12:31:26Z",
+                "comment": "unprotect after 4 months"
+            },
+            {
+                "ns": 0,
+                "title": "Jim Crow laws",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Can't sleep, clown will eat me",
+                "timestamp": "2007-01-29T23:27:39Z",
+                "comment": "mass vandalism [edit=autoconfirmed:move=sysop]"
+            },
+            {
+                "ns": 0,
+                "title": "Jim Crow laws",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Renamed user ixgysjijel",
+                "timestamp": "2006-11-19T21:09:23Z",
+                "comment": "unprotect after 4 days"
+            },
+            {
+                "ns": 0,
+                "title": "Jim Crow laws",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Steel",
+                "timestamp": "2006-11-14T17:32:08Z",
+                "comment": "Anon vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": []
+    },
+    "John_Brown_(abolitionist)": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Connormah",
+                "timestamp": "2013-04-25T23:32:06Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {
+                    "description": "[Edit=Block new and unregistered users] (expires 16:53, 13 February 2013 (UTC)) [Move=Block new and unregistered users] (expires 16:53, 13 February 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "JBW",
+                "timestamp": "2013-02-06T16:53:14Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 05:20, 9 December 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Malik Shabazz",
+                "timestamp": "2011-12-06T05:20:18Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 17:09, 6 May 2011 (UTC)) [move=autoconfirmed] (expires 17:09, 6 May 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Malik Shabazz",
+                "timestamp": "2011-05-03T17:09:05Z",
+                "comment": "Semi-protection: vandalism. using [[WP:TW|TW]]"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 23:45, 21 October 2010 (UTC)) [move=autoconfirmed] (expires 23:45, 21 October 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Courcelles",
+                "timestamp": "2010-09-21T23:45:09Z",
+                "comment": "Semi-protection: vandalism. using [[WP:TW|TW]]"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 02:04, 14 June 2010 (UTC)) [move=autoconfirmed] (expires 02:04, 14 June 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Tcncv",
+                "timestamp": "2010-05-14T02:04:54Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 02:20, 10 May 2010 (UTC)) [move=autoconfirmed] (expires 02:20, 10 May 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "SlimVirgin",
+                "timestamp": "2010-04-26T02:20:38Z",
+                "comment": "vandalism per RfPP"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 22:30, 29 March 2010 (UTC)) [move=autoconfirmed] (expires 22:30, 29 March 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Cirt",
+                "timestamp": "2010-03-15T22:30:57Z",
+                "comment": "disruption, prot req fm [[WP:RFPP]]"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 14:35, 20 May 2009 (UTC)) [move=autoconfirmed] (expires 14:35, 20 May 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Kingturtle",
+                "timestamp": "2008-11-20T14:35:31Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 12:09, 4 November 2008 (UTC)) [move=autoconfirmed] (expires 12:09, 4 November 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Kingturtle",
+                "timestamp": "2008-10-28T12:09:33Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 19:06, 10 October 2008 (UTC)) [move=autoconfirmed] (expires 19:06, 10 October 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Master of Puppets",
+                "timestamp": "2008-10-03T19:06:45Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Kingturtle",
+                "timestamp": "2007-11-13T18:26:50Z",
+                "comment": "vandalism from a high school IP [edit=autoconfirmed:move=autoconfirmed] (expires 18:56, 13 November 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Singularity",
+                "timestamp": "2007-06-03T03:13:36Z",
+                "comment": "vandalism, was proted before [edit=autoconfirmed:move=autoconfirmed] (expires 03:13, 10 June 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "FayssalF",
+                "timestamp": "2007-05-23T17:31:21Z",
+                "comment": "IP vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 17:31, 24 May 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "John Brown (abolitionist)",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Trebor",
+                "timestamp": "2007-03-09T22:52:14Z",
+                "comment": "ongoing vandalism from IPs [edit=autoconfirmed:move=autoconfirmed] (expires 22:52, 16 March 2007 (UTC))"
+            }
+        ],
+        "de": []
+    },
+    "William_Lloyd_Garrison": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "William Lloyd Garrison",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 02:55, 6 August 2024 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2024-08-06T02:55:25Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Joyous!",
+                "timestamp": "2024-05-06T02:55:26Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "William Lloyd Garrison",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 05:47, 5 April 2024 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2024-04-05T05:47:58Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "EvergreenFir",
+                "timestamp": "2024-01-05T05:47:58Z",
+                "comment": "Persistent [[WP:Sock puppetry|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "William Lloyd Garrison",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 02:06, 21 September 2018 (UTC))\u200e[move=autoconfirmed] (expires 02:06, 21 September 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-09-21T02:06:10Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-09-21T02:06:10Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Graeme Bartlett",
+                "timestamp": "2018-03-21T02:06:10Z",
+                "comment": "Persistent [[WP:Disruptive editing|disruptive editing]]"
+            }
+        ],
+        "de": []
+    },
+    "Frederick_Douglass": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Courcelles",
+                "timestamp": "2012-12-12T05:51:24Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 01:16, 6 November 2012 (UTC)) \u200e[move=autoconfirmed] (expires 01:16, 6 November 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Maxim",
+                "timestamp": "2012-04-20T01:16:11Z",
+                "comment": "vandalism"
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 23:40, 29 February 2012 (UTC)) [move=autoconfirmed] (expires 23:40, 29 February 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Slakr",
+                "timestamp": "2011-11-29T23:40:37Z",
+                "comment": "Semi-protection: vandalism, vandalism."
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 20:50, 16 September 2011 (UTC)) [move=autoconfirmed] (expires 20:50, 16 September 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Acalamari",
+                "timestamp": "2011-06-16T20:50:17Z",
+                "comment": "Continuing vandalism"
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 01:34, 20 April 2011 (UTC)) [move=autoconfirmed] (expires 01:34, 20 April 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Dabomb87",
+                "timestamp": "2011-03-30T01:34:44Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 02:51, 10 March 2011 (UTC)) [move=autoconfirmed] (expires 02:51, 10 March 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Dabomb87",
+                "timestamp": "2011-02-24T02:51:03Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 18:33, 19 February 2011 (UTC)) [move=autoconfirmed] (expires 18:33, 19 February 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Malik Shabazz",
+                "timestamp": "2011-02-16T18:33:09Z",
+                "comment": "Semi-protection: vandalism, excessive vandalism. using [[WP:TW|TW]]"
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 06:04, 14 February 2011 (UTC)) [move=autoconfirmed] (expires 06:04, 14 February 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Malik Shabazz",
+                "timestamp": "2011-02-11T06:04:08Z",
+                "comment": "Semi-protection: vandalism. using [[WP:TW|TW]]"
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 16:47, 1 February 2011 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Kingturtle",
+                "timestamp": "2011-01-25T16:47:59Z",
+                "comment": "seems to be a rash today of vandalism. maybe from the same person or group of people"
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 00:09, 22 January 2011 (UTC)) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Connormah",
+                "timestamp": "2010-10-22T00:09:14Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Yamamoto Ichiro",
+                "timestamp": "2010-06-23T19:14:13Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Aude",
+                "timestamp": "2008-11-19T20:25:49Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Tiptoety",
+                "timestamp": "2008-10-14T04:53:15Z",
+                "comment": "Per the [[WP:PROT|protection policy]] - Pages should not be indef semi'd without a history of abuse/vandalism."
+            },
+            {
+                "ns": 0,
+                "title": "Frederick Douglass",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Centrx",
+                "timestamp": "2006-11-17T19:52:27Z",
+                "comment": "IP vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": []
+    },
+    "Thaddeus_Stevens": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Thaddeus Stevens",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 01:10, 5 April 2014 (UTC))\u200e[move=sysop] (expires 00:00, 5 April 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Wehwalt",
+                "timestamp": "2014-04-04T22:10:35Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Thaddeus Stevens",
+                "params": {
+                    "description": "\u200e[move=sysop] (expires 00:00, 5 April 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Bencherlite",
+                "timestamp": "2014-03-28T14:44:37Z",
+                "comment": "[[WP:MOVP|Forthcoming \"Today's Featured Article\"]]"
+            }
+        ],
+        "de": []
+    },
+    "Battle_of_the_Wilderness": {
+        "en": [],
+        "de": []
+    },
+    "Battle_of_Antietam": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Battle of Antietam",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite)\u200e[move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Acroterion",
+                "timestamp": "2014-05-09T13:43:49Z",
+                "comment": "persistent school vandalism, indefinite semi-protection warranted similar to Gettysburg protection"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Antietam",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 17:18, 16 June 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Dennis Brown",
+                "timestamp": "2012-05-16T17:18:55Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Antietam",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jmlk17",
+                "timestamp": "2008-05-07T18:25:49Z",
+                "comment": "Semi-protection. using [[WP:TWINKLE|TW]] [edit=autoconfirmed:move=autoconfirmed] (expires 18:25, 7 June 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Antietam",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jmlk17",
+                "timestamp": "2008-02-15T00:49:00Z",
+                "comment": "Semi-protection: Vandalism. using [[WP:TWINKLE|TW]] [edit=autoconfirmed:move=autoconfirmed] (expires 00:49, 20 February 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Antietam",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jmlk17",
+                "timestamp": "2007-12-19T05:49:53Z",
+                "comment": "Semi-protection: Vandalism, Allow a cooling off of vandalism.. using [[WP:TWINKLE|TW]] [edit=autoconfirmed:move=autoconfirmed] (expires 05:49, December 23, 2007 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Battle of Antietam",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jmlk17",
+                "timestamp": "2007-11-20T19:16:11Z",
+                "comment": "to allow for a cooling off period in regards to vandalism [edit=autoconfirmed:move=autoconfirmed] (expires 19:16, November 27, 2007 (UTC))"
+            }
+        ],
+        "de": []
+    },
+    "Emancipation_Proclamation": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Emancipation Proclamation",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite)\u200e[move=autoconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "infinite"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "EdJohnston",
+                "timestamp": "2019-01-19T17:03:02Z",
+                "comment": "Long term IP vandalism"
+            },
+            {
+                "ns": 0,
+                "title": "Emancipation Proclamation",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 22:20, 21 November 2014 (UTC))\u200e[move=autoconfirmed] (expires 22:20, 21 November 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "EdJohnston",
+                "timestamp": "2014-05-21T22:20:48Z",
+                "comment": "Long term vandalism by IPs. See protection log"
+            },
+            {
+                "ns": 0,
+                "title": "Emancipation Proclamation",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 14:49, 16 February 2011 (UTC)) [move=autoconfirmed] (expires 14:49, 16 February 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "CT Cooper",
+                "timestamp": "2010-02-16T14:49:30Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]: Long-term problem with vandalism by IPs. Vandalism has always dominated the edit history when unprotected, and is often not being reverted quick enough."
+            },
+            {
+                "ns": 0,
+                "title": "Emancipation Proclamation",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 21:49, 27 April 2009 (UTC)) [move=autoconfirmed] (expires 21:49, 27 April 2009 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Juliancolton",
+                "timestamp": "2009-04-20T21:49:51Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Emancipation Proclamation",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Nishkid64",
+                "timestamp": "2009-03-08T07:52:42Z",
+                "comment": ""
+            },
+            {
+                "ns": 0,
+                "title": "Emancipation Proclamation",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jmlk17",
+                "timestamp": "2008-05-07T22:45:49Z",
+                "comment": "Far too many issues when unprotected. [edit=autoconfirmed:move=autoconfirmed]"
+            },
+            {
+                "ns": 0,
+                "title": "Emancipation Proclamation",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jmlk17",
+                "timestamp": "2008-04-25T03:51:41Z",
+                "comment": "Semi-protection: Vandalism. using [[WP:TWINKLE|TW]] [edit=autoconfirmed:move=autoconfirmed] (expires 03:51, 29 April 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Emancipation Proclamation",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Jmlk17",
+                "timestamp": "2008-04-04T02:40:28Z",
+                "comment": "Semi-protection. using [[WP:TWINKLE|TW]] [edit=autoconfirmed:move=autoconfirmed] (expires 02:40, 18 April 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Emancipation Proclamation",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "CT Cooper",
+                "timestamp": "2008-03-07T20:32:12Z",
+                "comment": "Extend semi-protection due to large amounts of IP vandalism as soon as unprotected. [edit=autoconfirmed:move=autoconfirmed] (expires 20:32, 21 March 2008 (UTC))"
+            },
+            {
+                "ns": 0,
+                "title": "Emancipation Proclamation",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Malinaccier",
+                "timestamp": "2008-02-28T02:02:38Z",
+                "comment": "Repeated vandalism from anons [edit=autoconfirmed:move=autoconfirmed] (expires 02:02, 6 March 2008 (UTC))"
+            }
+        ],
+        "de": []
+    },
+    "Thirteenth_Amendment_to_the_United_States_Constitution": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Thirteenth Amendment to the United States Constitution",
+                "params": {
+                    "oldtitle_ns": 9,
+                    "oldtitle_title": "MediaWiki talk:United States Constitution/Amendment Thirteen"
+                },
+                "type": "protect",
+                "action": "move_prot",
+                "user": "Graham87",
+                "timestamp": "2010-10-02T08:02:18Z",
+                "comment": "[[MediaWiki talk:United States Constitution/Amendment Thirteen]] moved to [[Thirteenth Amendment to the United States Constitution]]: revert"
+            },
+            {
+                "ns": 0,
+                "title": "Thirteenth Amendment to the United States Constitution",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=sysop] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Courcelles",
+                "timestamp": "2010-09-24T20:35:52Z",
+                "comment": "NO, I should have hit indef"
+            },
+            {
+                "ns": 0,
+                "title": "Thirteenth Amendment to the United States Constitution",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 20:35, 24 September 2011 (UTC)) [move=autoconfirmed] (expires 20:35, 24 September 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Anachronist",
+                "timestamp": "2010-09-24T20:35:13Z",
+                "comment": "Reverting myself due to protection conflict"
+            },
+            {
+                "ns": 0,
+                "title": "Thirteenth Amendment to the United States Constitution",
+                "params": {
+                    "description": "[edit=autoconfirmed] (indefinite) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Anachronist",
+                "timestamp": "2010-09-24T20:30:02Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]: Nearly every anon edit for the past year has had to be reverted. Enough."
+            },
+            {
+                "ns": 0,
+                "title": "Thirteenth Amendment to the United States Constitution",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 20:29, 24 September 2011 (UTC)) [move=autoconfirmed] (expires 20:29, 24 September 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Courcelles",
+                "timestamp": "2010-09-24T20:29:39Z",
+                "comment": "Semi-protection: vandalism. using [[WP:TW|TW]]"
+            },
+            {
+                "ns": 0,
+                "title": "Thirteenth Amendment to the United States Constitution",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 02:58, 1 March 2010 (UTC)) [move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "AlexiusHoratius",
+                "timestamp": "2010-02-01T02:58:11Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Thirteenth Amendment to the United States Constitution",
+                "params": {
+                    "description": "[move=autoconfirmed] (indefinite)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Master of Puppets",
+                "timestamp": "2009-09-06T05:44:34Z",
+                "comment": "no reason to move"
+            },
+            {
+                "ns": 0,
+                "title": "Thirteenth Amendment to the United States Constitution",
+                "params": {},
+                "type": "protect",
+                "action": "unprotect",
+                "user": "Master of Puppets",
+                "timestamp": "2009-09-06T05:32:44Z",
+                "comment": "Let's try this again"
+            },
+            {
+                "ns": 0,
+                "title": "Thirteenth Amendment to the United States Constitution",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Swatjester",
+                "timestamp": "2007-09-15T16:15:53Z",
+                "comment": "vandalism [edit=autoconfirmed:move=autoconfirmed]"
+            }
+        ],
+        "de": []
+    },
+    "Slavery_in_the_United_States": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (indefinite)",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "infinite"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "MelanieN",
+                "timestamp": "2020-09-09T22:46:18Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 22:53, 9 January 2020 (UTC))\u200e[move=autoconfirmed] (expires 22:53, 9 January 2020 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-01-09T22:53:41Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2020-01-09T22:53:41Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "El C",
+                "timestamp": "2020-01-02T22:53:41Z",
+                "comment": "Addition of [[WP:Verifiability|unsourced or poorly sourced content]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 16:43, 12 November 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-11-12T16:43:51Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Deepfriedokra",
+                "timestamp": "2018-11-05T16:43:51Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 18:55, 13 September 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-09-13T18:55:44Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Oshwah",
+                "timestamp": "2018-09-11T18:55:45Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 04:38, 31 January 2018 (UTC))\u200e[move=autoconfirmed] (expires 04:38, 31 January 2018 (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-01-31T04:38:17Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2018-01-31T04:38:17Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "El C",
+                "timestamp": "2018-01-27T04:38:17Z",
+                "comment": "Addition of [[WP:Verifiability|unsourced or poorly sourced content]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 11:37, 27 May 2015 (UTC))\u200e[move=autoconfirmed] (expires 11:37, 27 May 2015 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Ged UK",
+                "timestamp": "2014-05-27T11:37:41Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 20:33, 8 February 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Mark Arsten",
+                "timestamp": "2013-11-08T20:33:04Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 07:00, 18 March 2013 (UTC)) \u200e[move=autoconfirmed] (expires 07:00, 18 March 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Materialscientist",
+                "timestamp": "2013-02-18T07:00:03Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 02:21, 24 January 2013 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Malik Shabazz",
+                "timestamp": "2013-01-17T02:21:10Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 20:47, 19 January 2012 (UTC)) [move=autoconfirmed] (expires 20:47, 19 January 2012 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "AlexiusHoratius",
+                "timestamp": "2012-01-12T20:47:23Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 20:12, 18 February 2011 (UTC)) [move=autoconfirmed] (expires 20:12, 18 February 2011 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "AlexiusHoratius",
+                "timestamp": "2010-11-18T20:12:08Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 00:51, 30 July 2010 (UTC)) [move=autoconfirmed] (expires 00:51, 30 July 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "MuZemike",
+                "timestamp": "2010-07-16T00:51:36Z",
+                "comment": "Excessive [[WP:VAN|vandalism]]: and [[WP:SOCK|sock puppetry]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 16:06, 7 February 2010 (UTC)) [move=autoconfirmed] (expires 16:06, 7 February 2010 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Rjd0060",
+                "timestamp": "2010-01-24T16:06:28Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {
+                    "description": "[edit=autoconfirmed] (expires 06:17, 17 October 2008 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Master of Puppets",
+                "timestamp": "2008-10-07T06:17:51Z",
+                "comment": "Excessive [[WP:VANDALISM|vandalism]]"
+            },
+            {
+                "ns": 0,
+                "title": "Slavery in the United States",
+                "params": {},
+                "type": "protect",
+                "action": "protect",
+                "user": "Slakr",
+                "timestamp": "2008-09-17T00:43:34Z",
+                "comment": "Semi-protection: Vandalism. [edit=autoconfirmed:move=autoconfirmed] (expires 00:43, 20 September 2008 (UTC))"
+            }
+        ],
+        "de": [
+            {
+                "ns": 0,
+                "title": "Sklaverei in den Vereinigten Staaten",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 30. November 2019, 10:05 Uhr (UTC))\u200e[move=autoconfirmed] (bis 30. November 2019, 10:05 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-11-30T10:05:17Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2019-11-30T10:05:17Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Zollernalb",
+                "timestamp": "2018-11-30T10:05:18Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Sklaverei in den Vereinigten Staaten",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 16. Oktober 2016, 10:36 Uhr (UTC))\u200e[move=autoconfirmed] (bis 16. Oktober 2016, 10:36 Uhr (UTC))",
+                    "details": [
+                        {
+                            "type": "edit",
+                            "level": "autoconfirmed",
+                            "expiry": "2016-10-16T10:36:11Z"
+                        },
+                        {
+                            "type": "move",
+                            "level": "autoconfirmed",
+                            "expiry": "2016-10-16T10:36:11Z"
+                        }
+                    ]
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Hephaion",
+                "timestamp": "2016-07-16T10:36:12Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Sklaverei in den Vereinigten Staaten",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (bis 27. Juni 2014, 10:56 Uhr (UTC))\u200e[move=autoconfirmed] (bis 27. Juni 2014, 10:56 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "modify",
+                "user": "Pittimann",
+                "timestamp": "2014-03-27T11:56:09Z",
+                "comment": "3 Monate reichen"
+            },
+            {
+                "ns": 0,
+                "title": "Sklaverei in den Vereinigten Staaten",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (unbeschr\u00e4nkt)\u200e[move=autoconfirmed] (unbeschr\u00e4nkt)"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Pittimann",
+                "timestamp": "2014-03-27T11:55:31Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Sklaverei in den Vereinigten Staaten",
+                "params": {
+                    "description": "[edit=autoconfirmed] (bis 30. Dezember 2011, 10:03 Uhr (UTC)) [move=autoconfirmed] (bis 30. Dezember 2011, 10:03 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "Logograph",
+                "timestamp": "2011-11-18T10:03:36Z",
+                "comment": "Wiederkehrender [[WP:Vd|Vandalismus]]"
+            },
+            {
+                "ns": 0,
+                "title": "Sklaverei in den Vereinigten Staaten",
+                "params": {
+                    "description": "[edit=autoconfirmed] (bis 17. Juli 2010, 17:49 Uhr (UTC)) [move=autoconfirmed] (bis 17. Juli 2010, 17:49 Uhr (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "NebMaatRe",
+                "timestamp": "2010-06-17T17:49:46Z",
+                "comment": "Wiederkehrender [[Wikipedia:Vandalismus|Vandalismus]]"
+            }
+        ]
+    },
+    "States'_rights": {
+        "en": [
+            {
+                "ns": 0,
+                "title": "States' rights",
+                "params": {
+                    "description": "\u200e[edit=autoconfirmed] (expires 06:58, 15 May 2014 (UTC)) \u200e[move=autoconfirmed] (expires 06:58, 15 May 2014 (UTC))"
+                },
+                "type": "protect",
+                "action": "protect",
+                "user": "OlEnglish",
+                "timestamp": "2013-05-15T06:58:35Z",
+                "comment": "Persistent [[WP:Vandalism|vandalism]]: Long history of unconstructive edits"
+            }
+        ],
+        "de": null
+    },
+    "Historiographic_issues_about_the_American_Civil_War": {
+        "en": [],
+        "de": null
+    },
+    "Reconstruction_era": {
+        "en": [],
+        "de": []
+    }
+}
