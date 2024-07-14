@@ -46,6 +46,15 @@ Following files are located in folder `code` :
 - `protection_analysis.ipynb` : in this notebook, we analyse protection logs, compare topics and language versions and look for trends in time
 - `correlation_burstiness_analysis.ipynb` : in this notebook, we calculate and visualise correlations of edit activities between pairs of articles as well as burstiness metric
 
+## How to run
+
+There are several options for replicating or expanding our work. 
+
+- using `ETL()` function from ETL.py file, you can download data for further articles on Wikipedia. The function takes following arguments: `articles` (list of article names in English), `langs` (list of short language codes) and `topic` (used for naming the extracted and transformed articles. For example: `ETL(articles = ["Vienna", "Prater", "Danube", "St._Stephen's_Cathedral,_Vienna", "Belvedere,_Vienna", "Schönbrunn_Palace", "Hofburg", "Wiener_schnitzel"], langs = ["en", "de", "sk", "he", "uk", "lv"], topic = "Vienna")`
+- having downloaded new data, you can perform same analyses we did using the three notebooks in `code` folder. Necessary is to change names of the imported files in the beginning of each notebook.
+- you can also run or implement new analyses using the data we have already downloaded and transformed (131/371 articles) using the notebooks. Data is stored in `data` folder
+- important: due to specificities of some languages, `ETL()` might throw error or not work as expected. Currently supported languages are English(en), German(de), Arabic(ar), Ukrainian(uk), Russian(ru), Slovak(sk), Czech(cs), Polish(pl), Italian(it). To expand this list, changes in `api_functions.py` are required, especially the functions that transform timestamps from protection logs.
+
 ## Some interesting examples
 
 **Foibe massacres** refer to mass killings and ethnic cleansing in the current territory along the borders of Italy, Slovenia and Croatia. Perpetrators were mostly aligned with Yugoslav Partisan movement and victims were mostly ethnic Italians. The topic is controversial due to questions of responsibility, collective guilt, reparations, etc. The Italian government designated February 10th as the day of rememberance and it is also around this date when edits (blue) and reverts (green) spike.
