@@ -26,7 +26,7 @@ Wikipedia also provides multiple API services. In this project we used endpoints
 
 We selected articles related to three topics: **War in Ukraine**, **War in Gaza**, **US Civil War**, since there is a high chance of *edit wars* or increased attention due to real-world events. As the first two wars are still ongoing, we limited the selection to articles that do not cover current topics, and the edit activity is not expected to be correlated with real-world events for a legitimate reason. Articles related to those topics in our sample are rather related to culture or history.
 
-You can read more in our project report, where we explain the metrics in more detail and present results of our case study.
+You can read more in our [project report](https://github.com/Rrisko/WikiEdits/blob/main/final_report.pdf), where we explain the metrics in more detail and present results of our case study.
 
 ## Data
 
@@ -54,18 +54,3 @@ There are several options for replicating or expanding our work.
 - having downloaded new data, you can perform same analyses we did using the three notebooks in `code` folder. Necessary is to change names of the imported files in the beginning of each notebook.
 - you can also run or implement new analyses using the data we have already downloaded and transformed (131/371 articles) using the notebooks. Data is stored in `data` folder
 - important: due to specificities of some languages, `ETL()` might throw error or not work as expected. Currently supported languages are English(en), German(de), Arabic(ar), Ukrainian(uk), Russian(ru), Slovak(sk), Czech(cs), Polish(pl), Italian(it). To expand this list, changes in `api_functions.py` are required, especially the functions that transform timestamps from protection logs.
-
-## Some interesting examples
-
-**Foibe massacres** refer to mass killings and ethnic cleansing in the current territory along the borders of Italy, Slovenia and Croatia. Perpetrators were mostly aligned with Yugoslav Partisan movement and victims were mostly ethnic Italians. The topic is controversial due to questions of responsibility, collective guilt, reparations, etc. The Italian government designated February 10th as the day of rememberance and it is also around this date when edits (blue) and reverts (green) spike.
-
-![image](https://github.com/Rrisko/WikiEdits/assets/115427248/01bd266d-4a0d-4382-8e9d-6afb07afd48a)
-
-**Stepan Bandera** was leader of Ukrainian nationalists during 1930s and 1940s. His legacy is controversial, while some highlight the struggles against foreign powers on Ukrainian territory - Soviet Union, Poland and Germany, others see him as a war criminal due to ethnic cleansing targeting mostly ethnic Jews and Poles or collaboration with Nazi Germany. The spike of edits right after Russian full-scale invasion of Ukraine in 2022 is clearly noticeable
-
-![image](https://github.com/Rrisko/WikiEdits/assets/115427248/0a907658-84b8-4864-b48e-8806a4d1a5e5)
-
-Not even **borscht** was able to escape the consequences of 2022 invasion. The arguments about the origins of the dish (Ukrainian/Russian/general Eastern European) resulted in large increase of edits and reverts.
-
-![image](https://github.com/Rrisko/WikiEdits/assets/115427248/66a7d260-732c-48d4-bc09-5081f100851f)
-
